@@ -1107,7 +1107,7 @@ g +
 ```{r}
 #| label: geom-linerange
 #| output-location: column
-#| code-line-numbers: "4"
+#| code-line-numbers: "6,7,8"
 g +
   geom_rug(
     alpha = .2,
