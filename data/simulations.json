@@ -1,0 +1,6434 @@
+[
+    {
+        "winner": "Trump",
+        "evs": {
+            "Biden": 210,
+            "Trump": 328
+        },
+        "states": {
+            "Alaska": {
+                "abbr": "AK",
+                "winner": "Trump",
+                "state": "Alaska"
+            },
+            "Alabama": {
+                "abbr": "AL",
+                "winner": "Trump",
+                "state": "Alabama"
+            },
+            "Arkansas": {
+                "abbr": "AR",
+                "winner": "Trump",
+                "state": "Arkansas"
+            },
+            "Arizona": {
+                "abbr": "AZ",
+                "winner": "Trump",
+                "state": "Arizona"
+            },
+            "California": {
+                "abbr": "CA",
+                "winner": "Biden",
+                "state": "California"
+            },
+            "Colorado": {
+                "abbr": "CO",
+                "winner": "Biden",
+                "state": "Colorado"
+            },
+            "Connecticut": {
+                "abbr": "CT",
+                "winner": "Biden",
+                "state": "Connecticut"
+            },
+            "District of Columbia": {
+                "abbr": "DC",
+                "winner": "Biden",
+                "state": "District of Columbia"
+            },
+            "Delaware": {
+                "abbr": "DE",
+                "winner": "Biden",
+                "state": "Delaware"
+            },
+            "Florida": {
+                "abbr": "FL",
+                "winner": "Trump",
+                "state": "Florida"
+            },
+            "Georgia": {
+                "abbr": "GA",
+                "winner": "Trump",
+                "state": "Georgia"
+            },
+            "Hawaii": {
+                "abbr": "HI",
+                "winner": "Biden",
+                "state": "Hawaii"
+            },
+            "Iowa": {
+                "abbr": "IA",
+                "winner": "Trump",
+                "state": "Iowa"
+            },
+            "Idaho": {
+                "abbr": "ID",
+                "winner": "Trump",
+                "state": "Idaho"
+            },
+            "Illinois": {
+                "abbr": "IL",
+                "winner": "Biden",
+                "state": "Illinois"
+            },
+            "Indiana": {
+                "abbr": "IN",
+                "winner": "Trump",
+                "state": "Indiana"
+            },
+            "Kansas": {
+                "abbr": "KS",
+                "winner": "Trump",
+                "state": "Kansas"
+            },
+            "Kentucky": {
+                "abbr": "KY",
+                "winner": "Trump",
+                "state": "Kentucky"
+            },
+            "Louisiana": {
+                "abbr": "LA",
+                "winner": "Trump",
+                "state": "Louisiana"
+            },
+            "Massachusetts": {
+                "abbr": "MA",
+                "winner": "Biden",
+                "state": "Massachusetts"
+            },
+            "Maryland": {
+                "abbr": "MD",
+                "winner": "Biden",
+                "state": "Maryland"
+            },
+            "Maine": {
+                "abbr": "ME",
+                "winner": "Trump",
+                "state": "Maine"
+            },
+            "undefined": {
+                "abbr": "NE3",
+                "winner": "Trump"
+            },
+            "Michigan": {
+                "abbr": "MI",
+                "winner": "Trump",
+                "state": "Michigan"
+            },
+            "Minnesota": {
+                "abbr": "MN",
+                "winner": "Trump",
+                "state": "Minnesota"
+            },
+            "Missouri": {
+                "abbr": "MO",
+                "winner": "Trump",
+                "state": "Missouri"
+            },
+            "Mississippi": {
+                "abbr": "MS",
+                "winner": "Trump",
+                "state": "Mississippi"
+            },
+            "Montana": {
+                "abbr": "MT",
+                "winner": "Trump",
+                "state": "Montana"
+            },
+            "North Carolina": {
+                "abbr": "NC",
+                "winner": "Trump",
+                "state": "North Carolina"
+            },
+            "North Dakota": {
+                "abbr": "ND",
+                "winner": "Trump",
+                "state": "North Dakota"
+            },
+            "Nebraska": {
+                "abbr": "NE",
+                "winner": "Trump",
+                "state": "Nebraska"
+            },
+            "New Hampshire": {
+                "abbr": "NH",
+                "winner": "Trump",
+                "state": "New Hampshire"
+            },
+            "New Jersey": {
+                "abbr": "NJ",
+                "winner": "Biden",
+                "state": "New Jersey"
+            },
+            "New Mexico": {
+                "abbr": "NM",
+                "winner": "Biden",
+                "state": "New Mexico"
+            },
+            "Nevada": {
+                "abbr": "NV",
+                "winner": "Trump",
+                "state": "Nevada"
+            },
+            "New York": {
+                "abbr": "NY",
+                "winner": "Biden",
+                "state": "New York"
+            },
+            "Ohio": {
+                "abbr": "OH",
+                "winner": "Trump",
+                "state": "Ohio"
+            },
+            "Oklahoma": {
+                "abbr": "OK",
+                "winner": "Trump",
+                "state": "Oklahoma"
+            },
+            "Oregon": {
+                "abbr": "OR",
+                "winner": "Biden",
+                "state": "Oregon"
+            },
+            "Pennsylvania": {
+                "abbr": "PA",
+                "winner": "Trump",
+                "state": "Pennsylvania"
+            },
+            "Rhode Island": {
+                "abbr": "RI",
+                "winner": "Biden",
+                "state": "Rhode Island"
+            },
+            "South Carolina": {
+                "abbr": "SC",
+                "winner": "Trump",
+                "state": "South Carolina"
+            },
+            "South Dakota": {
+                "abbr": "SD",
+                "winner": "Trump",
+                "state": "South Dakota"
+            },
+            "Tennessee": {
+                "abbr": "TN",
+                "winner": "Trump",
+                "state": "Tennessee"
+            },
+            "Texas": {
+                "abbr": "TX",
+                "winner": "Trump",
+                "state": "Texas"
+            },
+            "Utah": {
+                "abbr": "UT",
+                "winner": "Trump",
+                "state": "Utah"
+            },
+            "Virginia": {
+                "abbr": "VA",
+                "winner": "Biden",
+                "state": "Virginia"
+            },
+            "Vermont": {
+                "abbr": "VT",
+                "winner": "Biden",
+                "state": "Vermont"
+            },
+            "Washington": {
+                "abbr": "WA",
+                "winner": "Biden",
+                "state": "Washington"
+            },
+            "Wisconsin": {
+                "abbr": "WI",
+                "winner": "Trump",
+                "state": "Wisconsin"
+            },
+            "West Virginia": {
+                "abbr": "WV",
+                "winner": "Trump",
+                "state": "West Virginia"
+            },
+            "Wyoming": {
+                "abbr": "WY",
+                "winner": "Trump",
+                "state": "Wyoming"
+            }
+        }
+    },
+    {
+        "winner": "Trump",
+        "evs": {
+            "Biden": 258,
+            "Trump": 280
+        },
+        "states": {
+            "Alaska": {
+                "abbr": "AK",
+                "winner": "Trump",
+                "state": "Alaska"
+            },
+            "Alabama": {
+                "abbr": "AL",
+                "winner": "Trump",
+                "state": "Alabama"
+            },
+            "Arkansas": {
+                "abbr": "AR",
+                "winner": "Trump",
+                "state": "Arkansas"
+            },
+            "Arizona": {
+                "abbr": "AZ",
+                "winner": "Trump",
+                "state": "Arizona"
+            },
+            "California": {
+                "abbr": "CA",
+                "winner": "Biden",
+                "state": "California"
+            },
+            "Colorado": {
+                "abbr": "CO",
+                "winner": "Biden",
+                "state": "Colorado"
+            },
+            "Connecticut": {
+                "abbr": "CT",
+                "winner": "Biden",
+                "state": "Connecticut"
+            },
+            "District of Columbia": {
+                "abbr": "DC",
+                "winner": "Biden",
+                "state": "District of Columbia"
+            },
+            "Delaware": {
+                "abbr": "DE",
+                "winner": "Biden",
+                "state": "Delaware"
+            },
+            "Florida": {
+                "abbr": "FL",
+                "winner": "Trump",
+                "state": "Florida"
+            },
+            "Georgia": {
+                "abbr": "GA",
+                "winner": "Trump",
+                "state": "Georgia"
+            },
+            "Hawaii": {
+                "abbr": "HI",
+                "winner": "Biden",
+                "state": "Hawaii"
+            },
+            "Iowa": {
+                "abbr": "IA",
+                "winner": "Trump",
+                "state": "Iowa"
+            },
+            "Idaho": {
+                "abbr": "ID",
+                "winner": "Trump",
+                "state": "Idaho"
+            },
+            "Illinois": {
+                "abbr": "IL",
+                "winner": "Biden",
+                "state": "Illinois"
+            },
+            "Indiana": {
+                "abbr": "IN",
+                "winner": "Trump",
+                "state": "Indiana"
+            },
+            "Kansas": {
+                "abbr": "KS",
+                "winner": "Trump",
+                "state": "Kansas"
+            },
+            "Kentucky": {
+                "abbr": "KY",
+                "winner": "Trump",
+                "state": "Kentucky"
+            },
+            "Louisiana": {
+                "abbr": "LA",
+                "winner": "Trump",
+                "state": "Louisiana"
+            },
+            "Massachusetts": {
+                "abbr": "MA",
+                "winner": "Biden",
+                "state": "Massachusetts"
+            },
+            "Maryland": {
+                "abbr": "MD",
+                "winner": "Biden",
+                "state": "Maryland"
+            },
+            "Maine": {
+                "abbr": "ME",
+                "winner": "Biden",
+                "state": "Maine"
+            },
+            "undefined": {
+                "abbr": "NE3",
+                "winner": "Trump"
+            },
+            "Michigan": {
+                "abbr": "MI",
+                "winner": "Biden",
+                "state": "Michigan"
+            },
+            "Minnesota": {
+                "abbr": "MN",
+                "winner": "Biden",
+                "state": "Minnesota"
+            },
+            "Missouri": {
+                "abbr": "MO",
+                "winner": "Trump",
+                "state": "Missouri"
+            },
+            "Mississippi": {
+                "abbr": "MS",
+                "winner": "Trump",
+                "state": "Mississippi"
+            },
+            "Montana": {
+                "abbr": "MT",
+                "winner": "Trump",
+                "state": "Montana"
+            },
+            "North Carolina": {
+                "abbr": "NC",
+                "winner": "Trump",
+                "state": "North Carolina"
+            },
+            "North Dakota": {
+                "abbr": "ND",
+                "winner": "Trump",
+                "state": "North Dakota"
+            },
+            "Nebraska": {
+                "abbr": "NE",
+                "winner": "Trump",
+                "state": "Nebraska"
+            },
+            "New Hampshire": {
+                "abbr": "NH",
+                "winner": "Biden",
+                "state": "New Hampshire"
+            },
+            "New Jersey": {
+                "abbr": "NJ",
+                "winner": "Biden",
+                "state": "New Jersey"
+            },
+            "New Mexico": {
+                "abbr": "NM",
+                "winner": "Biden",
+                "state": "New Mexico"
+            },
+            "Nevada": {
+                "abbr": "NV",
+                "winner": "Biden",
+                "state": "Nevada"
+            },
+            "New York": {
+                "abbr": "NY",
+                "winner": "Biden",
+                "state": "New York"
+            },
+            "Ohio": {
+                "abbr": "OH",
+                "winner": "Trump",
+                "state": "Ohio"
+            },
+            "Oklahoma": {
+                "abbr": "OK",
+                "winner": "Trump",
+                "state": "Oklahoma"
+            },
+            "Oregon": {
+                "abbr": "OR",
+                "winner": "Biden",
+                "state": "Oregon"
+            },
+            "Pennsylvania": {
+                "abbr": "PA",
+                "winner": "Trump",
+                "state": "Pennsylvania"
+            },
+            "Rhode Island": {
+                "abbr": "RI",
+                "winner": "Biden",
+                "state": "Rhode Island"
+            },
+            "South Carolina": {
+                "abbr": "SC",
+                "winner": "Trump",
+                "state": "South Carolina"
+            },
+            "South Dakota": {
+                "abbr": "SD",
+                "winner": "Trump",
+                "state": "South Dakota"
+            },
+            "Tennessee": {
+                "abbr": "TN",
+                "winner": "Trump",
+                "state": "Tennessee"
+            },
+            "Texas": {
+                "abbr": "TX",
+                "winner": "Trump",
+                "state": "Texas"
+            },
+            "Utah": {
+                "abbr": "UT",
+                "winner": "Trump",
+                "state": "Utah"
+            },
+            "Virginia": {
+                "abbr": "VA",
+                "winner": "Biden",
+                "state": "Virginia"
+            },
+            "Vermont": {
+                "abbr": "VT",
+                "winner": "Biden",
+                "state": "Vermont"
+            },
+            "Washington": {
+                "abbr": "WA",
+                "winner": "Biden",
+                "state": "Washington"
+            },
+            "Wisconsin": {
+                "abbr": "WI",
+                "winner": "Biden",
+                "state": "Wisconsin"
+            },
+            "West Virginia": {
+                "abbr": "WV",
+                "winner": "Trump",
+                "state": "West Virginia"
+            },
+            "Wyoming": {
+                "abbr": "WY",
+                "winner": "Trump",
+                "state": "Wyoming"
+            }
+        }
+    },
+    {
+        "winner": "Biden",
+        "evs": {
+            "Biden": 353,
+            "Trump": 185
+        },
+        "states": {
+            "Alaska": {
+                "abbr": "AK",
+                "winner": "Trump",
+                "state": "Alaska"
+            },
+            "Alabama": {
+                "abbr": "AL",
+                "winner": "Trump",
+                "state": "Alabama"
+            },
+            "Arkansas": {
+                "abbr": "AR",
+                "winner": "Trump",
+                "state": "Arkansas"
+            },
+            "Arizona": {
+                "abbr": "AZ",
+                "winner": "Biden",
+                "state": "Arizona"
+            },
+            "California": {
+                "abbr": "CA",
+                "winner": "Biden",
+                "state": "California"
+            },
+            "Colorado": {
+                "abbr": "CO",
+                "winner": "Biden",
+                "state": "Colorado"
+            },
+            "Connecticut": {
+                "abbr": "CT",
+                "winner": "Biden",
+                "state": "Connecticut"
+            },
+            "District of Columbia": {
+                "abbr": "DC",
+                "winner": "Biden",
+                "state": "District of Columbia"
+            },
+            "Delaware": {
+                "abbr": "DE",
+                "winner": "Biden",
+                "state": "Delaware"
+            },
+            "Florida": {
+                "abbr": "FL",
+                "winner": "Biden",
+                "state": "Florida"
+            },
+            "Georgia": {
+                "abbr": "GA",
+                "winner": "Trump",
+                "state": "Georgia"
+            },
+            "Hawaii": {
+                "abbr": "HI",
+                "winner": "Biden",
+                "state": "Hawaii"
+            },
+            "Iowa": {
+                "abbr": "IA",
+                "winner": "Trump",
+                "state": "Iowa"
+            },
+            "Idaho": {
+                "abbr": "ID",
+                "winner": "Trump",
+                "state": "Idaho"
+            },
+            "Illinois": {
+                "abbr": "IL",
+                "winner": "Biden",
+                "state": "Illinois"
+            },
+            "Indiana": {
+                "abbr": "IN",
+                "winner": "Trump",
+                "state": "Indiana"
+            },
+            "Kansas": {
+                "abbr": "KS",
+                "winner": "Trump",
+                "state": "Kansas"
+            },
+            "Kentucky": {
+                "abbr": "KY",
+                "winner": "Trump",
+                "state": "Kentucky"
+            },
+            "Louisiana": {
+                "abbr": "LA",
+                "winner": "Trump",
+                "state": "Louisiana"
+            },
+            "Massachusetts": {
+                "abbr": "MA",
+                "winner": "Biden",
+                "state": "Massachusetts"
+            },
+            "Maryland": {
+                "abbr": "MD",
+                "winner": "Biden",
+                "state": "Maryland"
+            },
+            "Maine": {
+                "abbr": "ME",
+                "winner": "Biden",
+                "state": "Maine"
+            },
+            "undefined": {
+                "abbr": "NE3",
+                "winner": "Trump"
+            },
+            "Michigan": {
+                "abbr": "MI",
+                "winner": "Biden",
+                "state": "Michigan"
+            },
+            "Minnesota": {
+                "abbr": "MN",
+                "winner": "Biden",
+                "state": "Minnesota"
+            },
+            "Missouri": {
+                "abbr": "MO",
+                "winner": "Trump",
+                "state": "Missouri"
+            },
+            "Mississippi": {
+                "abbr": "MS",
+                "winner": "Trump",
+                "state": "Mississippi"
+            },
+            "Montana": {
+                "abbr": "MT",
+                "winner": "Trump",
+                "state": "Montana"
+            },
+            "North Carolina": {
+                "abbr": "NC",
+                "winner": "Biden",
+                "state": "North Carolina"
+            },
+            "North Dakota": {
+                "abbr": "ND",
+                "winner": "Trump",
+                "state": "North Dakota"
+            },
+            "Nebraska": {
+                "abbr": "NE",
+                "winner": "Trump",
+                "state": "Nebraska"
+            },
+            "New Hampshire": {
+                "abbr": "NH",
+                "winner": "Biden",
+                "state": "New Hampshire"
+            },
+            "New Jersey": {
+                "abbr": "NJ",
+                "winner": "Biden",
+                "state": "New Jersey"
+            },
+            "New Mexico": {
+                "abbr": "NM",
+                "winner": "Biden",
+                "state": "New Mexico"
+            },
+            "Nevada": {
+                "abbr": "NV",
+                "winner": "Biden",
+                "state": "Nevada"
+            },
+            "New York": {
+                "abbr": "NY",
+                "winner": "Biden",
+                "state": "New York"
+            },
+            "Ohio": {
+                "abbr": "OH",
+                "winner": "Biden",
+                "state": "Ohio"
+            },
+            "Oklahoma": {
+                "abbr": "OK",
+                "winner": "Trump",
+                "state": "Oklahoma"
+            },
+            "Oregon": {
+                "abbr": "OR",
+                "winner": "Biden",
+                "state": "Oregon"
+            },
+            "Pennsylvania": {
+                "abbr": "PA",
+                "winner": "Biden",
+                "state": "Pennsylvania"
+            },
+            "Rhode Island": {
+                "abbr": "RI",
+                "winner": "Biden",
+                "state": "Rhode Island"
+            },
+            "South Carolina": {
+                "abbr": "SC",
+                "winner": "Trump",
+                "state": "South Carolina"
+            },
+            "South Dakota": {
+                "abbr": "SD",
+                "winner": "Trump",
+                "state": "South Dakota"
+            },
+            "Tennessee": {
+                "abbr": "TN",
+                "winner": "Trump",
+                "state": "Tennessee"
+            },
+            "Texas": {
+                "abbr": "TX",
+                "winner": "Trump",
+                "state": "Texas"
+            },
+            "Utah": {
+                "abbr": "UT",
+                "winner": "Trump",
+                "state": "Utah"
+            },
+            "Virginia": {
+                "abbr": "VA",
+                "winner": "Biden",
+                "state": "Virginia"
+            },
+            "Vermont": {
+                "abbr": "VT",
+                "winner": "Biden",
+                "state": "Vermont"
+            },
+            "Washington": {
+                "abbr": "WA",
+                "winner": "Biden",
+                "state": "Washington"
+            },
+            "Wisconsin": {
+                "abbr": "WI",
+                "winner": "Biden",
+                "state": "Wisconsin"
+            },
+            "West Virginia": {
+                "abbr": "WV",
+                "winner": "Trump",
+                "state": "West Virginia"
+            },
+            "Wyoming": {
+                "abbr": "WY",
+                "winner": "Trump",
+                "state": "Wyoming"
+            }
+        }
+    },
+    {
+        "winner": "Biden",
+        "evs": {
+            "Biden": 425,
+            "Trump": 113
+        },
+        "states": {
+            "Alaska": {
+                "abbr": "AK",
+                "winner": "Trump",
+                "state": "Alaska"
+            },
+            "Alabama": {
+                "abbr": "AL",
+                "winner": "Trump",
+                "state": "Alabama"
+            },
+            "Arkansas": {
+                "abbr": "AR",
+                "winner": "Trump",
+                "state": "Arkansas"
+            },
+            "Arizona": {
+                "abbr": "AZ",
+                "winner": "Biden",
+                "state": "Arizona"
+            },
+            "California": {
+                "abbr": "CA",
+                "winner": "Biden",
+                "state": "California"
+            },
+            "Colorado": {
+                "abbr": "CO",
+                "winner": "Biden",
+                "state": "Colorado"
+            },
+            "Connecticut": {
+                "abbr": "CT",
+                "winner": "Biden",
+                "state": "Connecticut"
+            },
+            "District of Columbia": {
+                "abbr": "DC",
+                "winner": "Biden",
+                "state": "District of Columbia"
+            },
+            "Delaware": {
+                "abbr": "DE",
+                "winner": "Biden",
+                "state": "Delaware"
+            },
+            "Florida": {
+                "abbr": "FL",
+                "winner": "Biden",
+                "state": "Florida"
+            },
+            "Georgia": {
+                "abbr": "GA",
+                "winner": "Biden",
+                "state": "Georgia"
+            },
+            "Hawaii": {
+                "abbr": "HI",
+                "winner": "Biden",
+                "state": "Hawaii"
+            },
+            "Iowa": {
+                "abbr": "IA",
+                "winner": "Biden",
+                "state": "Iowa"
+            },
+            "Idaho": {
+                "abbr": "ID",
+                "winner": "Trump",
+                "state": "Idaho"
+            },
+            "Illinois": {
+                "abbr": "IL",
+                "winner": "Biden",
+                "state": "Illinois"
+            },
+            "Indiana": {
+                "abbr": "IN",
+                "winner": "Trump",
+                "state": "Indiana"
+            },
+            "Kansas": {
+                "abbr": "KS",
+                "winner": "Trump",
+                "state": "Kansas"
+            },
+            "Kentucky": {
+                "abbr": "KY",
+                "winner": "Trump",
+                "state": "Kentucky"
+            },
+            "Louisiana": {
+                "abbr": "LA",
+                "winner": "Trump",
+                "state": "Louisiana"
+            },
+            "Massachusetts": {
+                "abbr": "MA",
+                "winner": "Biden",
+                "state": "Massachusetts"
+            },
+            "Maryland": {
+                "abbr": "MD",
+                "winner": "Biden",
+                "state": "Maryland"
+            },
+            "Maine": {
+                "abbr": "ME",
+                "winner": "Biden",
+                "state": "Maine"
+            },
+            "undefined": {
+                "abbr": "NE3",
+                "winner": "Trump"
+            },
+            "Michigan": {
+                "abbr": "MI",
+                "winner": "Biden",
+                "state": "Michigan"
+            },
+            "Minnesota": {
+                "abbr": "MN",
+                "winner": "Biden",
+                "state": "Minnesota"
+            },
+            "Missouri": {
+                "abbr": "MO",
+                "winner": "Trump",
+                "state": "Missouri"
+            },
+            "Mississippi": {
+                "abbr": "MS",
+                "winner": "Trump",
+                "state": "Mississippi"
+            },
+            "Montana": {
+                "abbr": "MT",
+                "winner": "Biden",
+                "state": "Montana"
+            },
+            "North Carolina": {
+                "abbr": "NC",
+                "winner": "Biden",
+                "state": "North Carolina"
+            },
+            "North Dakota": {
+                "abbr": "ND",
+                "winner": "Trump",
+                "state": "North Dakota"
+            },
+            "Nebraska": {
+                "abbr": "NE",
+                "winner": "Trump",
+                "state": "Nebraska"
+            },
+            "New Hampshire": {
+                "abbr": "NH",
+                "winner": "Biden",
+                "state": "New Hampshire"
+            },
+            "New Jersey": {
+                "abbr": "NJ",
+                "winner": "Biden",
+                "state": "New Jersey"
+            },
+            "New Mexico": {
+                "abbr": "NM",
+                "winner": "Biden",
+                "state": "New Mexico"
+            },
+            "Nevada": {
+                "abbr": "NV",
+                "winner": "Biden",
+                "state": "Nevada"
+            },
+            "New York": {
+                "abbr": "NY",
+                "winner": "Biden",
+                "state": "New York"
+            },
+            "Ohio": {
+                "abbr": "OH",
+                "winner": "Biden",
+                "state": "Ohio"
+            },
+            "Oklahoma": {
+                "abbr": "OK",
+                "winner": "Trump",
+                "state": "Oklahoma"
+            },
+            "Oregon": {
+                "abbr": "OR",
+                "winner": "Biden",
+                "state": "Oregon"
+            },
+            "Pennsylvania": {
+                "abbr": "PA",
+                "winner": "Biden",
+                "state": "Pennsylvania"
+            },
+            "Rhode Island": {
+                "abbr": "RI",
+                "winner": "Biden",
+                "state": "Rhode Island"
+            },
+            "South Carolina": {
+                "abbr": "SC",
+                "winner": "Biden",
+                "state": "South Carolina"
+            },
+            "South Dakota": {
+                "abbr": "SD",
+                "winner": "Trump",
+                "state": "South Dakota"
+            },
+            "Tennessee": {
+                "abbr": "TN",
+                "winner": "Trump",
+                "state": "Tennessee"
+            },
+            "Texas": {
+                "abbr": "TX",
+                "winner": "Biden",
+                "state": "Texas"
+            },
+            "Utah": {
+                "abbr": "UT",
+                "winner": "Trump",
+                "state": "Utah"
+            },
+            "Virginia": {
+                "abbr": "VA",
+                "winner": "Biden",
+                "state": "Virginia"
+            },
+            "Vermont": {
+                "abbr": "VT",
+                "winner": "Biden",
+                "state": "Vermont"
+            },
+            "Washington": {
+                "abbr": "WA",
+                "winner": "Biden",
+                "state": "Washington"
+            },
+            "Wisconsin": {
+                "abbr": "WI",
+                "winner": "Biden",
+                "state": "Wisconsin"
+            },
+            "West Virginia": {
+                "abbr": "WV",
+                "winner": "Trump",
+                "state": "West Virginia"
+            },
+            "Wyoming": {
+                "abbr": "WY",
+                "winner": "Trump",
+                "state": "Wyoming"
+            }
+        }
+    },
+    {
+        "winner": "Biden",
+        "evs": {
+            "Biden": 284,
+            "Trump": 254
+        },
+        "states": {
+            "Alaska": {
+                "abbr": "AK",
+                "winner": "Trump",
+                "state": "Alaska"
+            },
+            "Alabama": {
+                "abbr": "AL",
+                "winner": "Trump",
+                "state": "Alabama"
+            },
+            "Arkansas": {
+                "abbr": "AR",
+                "winner": "Trump",
+                "state": "Arkansas"
+            },
+            "Arizona": {
+                "abbr": "AZ",
+                "winner": "Biden",
+                "state": "Arizona"
+            },
+            "California": {
+                "abbr": "CA",
+                "winner": "Biden",
+                "state": "California"
+            },
+            "Colorado": {
+                "abbr": "CO",
+                "winner": "Biden",
+                "state": "Colorado"
+            },
+            "Connecticut": {
+                "abbr": "CT",
+                "winner": "Biden",
+                "state": "Connecticut"
+            },
+            "District of Columbia": {
+                "abbr": "DC",
+                "winner": "Biden",
+                "state": "District of Columbia"
+            },
+            "Delaware": {
+                "abbr": "DE",
+                "winner": "Biden",
+                "state": "Delaware"
+            },
+            "Florida": {
+                "abbr": "FL",
+                "winner": "Trump",
+                "state": "Florida"
+            },
+            "Georgia": {
+                "abbr": "GA",
+                "winner": "Trump",
+                "state": "Georgia"
+            },
+            "Hawaii": {
+                "abbr": "HI",
+                "winner": "Biden",
+                "state": "Hawaii"
+            },
+            "Iowa": {
+                "abbr": "IA",
+                "winner": "Trump",
+                "state": "Iowa"
+            },
+            "Idaho": {
+                "abbr": "ID",
+                "winner": "Trump",
+                "state": "Idaho"
+            },
+            "Illinois": {
+                "abbr": "IL",
+                "winner": "Biden",
+                "state": "Illinois"
+            },
+            "Indiana": {
+                "abbr": "IN",
+                "winner": "Trump",
+                "state": "Indiana"
+            },
+            "Kansas": {
+                "abbr": "KS",
+                "winner": "Trump",
+                "state": "Kansas"
+            },
+            "Kentucky": {
+                "abbr": "KY",
+                "winner": "Trump",
+                "state": "Kentucky"
+            },
+            "Louisiana": {
+                "abbr": "LA",
+                "winner": "Trump",
+                "state": "Louisiana"
+            },
+            "Massachusetts": {
+                "abbr": "MA",
+                "winner": "Biden",
+                "state": "Massachusetts"
+            },
+            "Maryland": {
+                "abbr": "MD",
+                "winner": "Biden",
+                "state": "Maryland"
+            },
+            "Maine": {
+                "abbr": "ME",
+                "winner": "Biden",
+                "state": "Maine"
+            },
+            "undefined": {
+                "abbr": "NE3",
+                "winner": "Trump"
+            },
+            "Michigan": {
+                "abbr": "MI",
+                "winner": "Biden",
+                "state": "Michigan"
+            },
+            "Minnesota": {
+                "abbr": "MN",
+                "winner": "Biden",
+                "state": "Minnesota"
+            },
+            "Missouri": {
+                "abbr": "MO",
+                "winner": "Trump",
+                "state": "Missouri"
+            },
+            "Mississippi": {
+                "abbr": "MS",
+                "winner": "Trump",
+                "state": "Mississippi"
+            },
+            "Montana": {
+                "abbr": "MT",
+                "winner": "Trump",
+                "state": "Montana"
+            },
+            "North Carolina": {
+                "abbr": "NC",
+                "winner": "Trump",
+                "state": "North Carolina"
+            },
+            "North Dakota": {
+                "abbr": "ND",
+                "winner": "Trump",
+                "state": "North Dakota"
+            },
+            "Nebraska": {
+                "abbr": "NE",
+                "winner": "Trump",
+                "state": "Nebraska"
+            },
+            "New Hampshire": {
+                "abbr": "NH",
+                "winner": "Biden",
+                "state": "New Hampshire"
+            },
+            "New Jersey": {
+                "abbr": "NJ",
+                "winner": "Biden",
+                "state": "New Jersey"
+            },
+            "New Mexico": {
+                "abbr": "NM",
+                "winner": "Biden",
+                "state": "New Mexico"
+            },
+            "Nevada": {
+                "abbr": "NV",
+                "winner": "Trump",
+                "state": "Nevada"
+            },
+            "New York": {
+                "abbr": "NY",
+                "winner": "Biden",
+                "state": "New York"
+            },
+            "Ohio": {
+                "abbr": "OH",
+                "winner": "Trump",
+                "state": "Ohio"
+            },
+            "Oklahoma": {
+                "abbr": "OK",
+                "winner": "Trump",
+                "state": "Oklahoma"
+            },
+            "Oregon": {
+                "abbr": "OR",
+                "winner": "Biden",
+                "state": "Oregon"
+            },
+            "Pennsylvania": {
+                "abbr": "PA",
+                "winner": "Biden",
+                "state": "Pennsylvania"
+            },
+            "Rhode Island": {
+                "abbr": "RI",
+                "winner": "Biden",
+                "state": "Rhode Island"
+            },
+            "South Carolina": {
+                "abbr": "SC",
+                "winner": "Trump",
+                "state": "South Carolina"
+            },
+            "South Dakota": {
+                "abbr": "SD",
+                "winner": "Trump",
+                "state": "South Dakota"
+            },
+            "Tennessee": {
+                "abbr": "TN",
+                "winner": "Trump",
+                "state": "Tennessee"
+            },
+            "Texas": {
+                "abbr": "TX",
+                "winner": "Trump",
+                "state": "Texas"
+            },
+            "Utah": {
+                "abbr": "UT",
+                "winner": "Trump",
+                "state": "Utah"
+            },
+            "Virginia": {
+                "abbr": "VA",
+                "winner": "Biden",
+                "state": "Virginia"
+            },
+            "Vermont": {
+                "abbr": "VT",
+                "winner": "Biden",
+                "state": "Vermont"
+            },
+            "Washington": {
+                "abbr": "WA",
+                "winner": "Biden",
+                "state": "Washington"
+            },
+            "Wisconsin": {
+                "abbr": "WI",
+                "winner": "Biden",
+                "state": "Wisconsin"
+            },
+            "West Virginia": {
+                "abbr": "WV",
+                "winner": "Trump",
+                "state": "West Virginia"
+            },
+            "Wyoming": {
+                "abbr": "WY",
+                "winner": "Trump",
+                "state": "Wyoming"
+            }
+        }
+    },
+    {
+        "winner": "Biden",
+        "evs": {
+            "Biden": 314,
+            "Trump": 224
+        },
+        "states": {
+            "Alaska": {
+                "abbr": "AK",
+                "winner": "Trump",
+                "state": "Alaska"
+            },
+            "Alabama": {
+                "abbr": "AL",
+                "winner": "Trump",
+                "state": "Alabama"
+            },
+            "Arkansas": {
+                "abbr": "AR",
+                "winner": "Trump",
+                "state": "Arkansas"
+            },
+            "Arizona": {
+                "abbr": "AZ",
+                "winner": "Biden",
+                "state": "Arizona"
+            },
+            "California": {
+                "abbr": "CA",
+                "winner": "Biden",
+                "state": "California"
+            },
+            "Colorado": {
+                "abbr": "CO",
+                "winner": "Biden",
+                "state": "Colorado"
+            },
+            "Connecticut": {
+                "abbr": "CT",
+                "winner": "Biden",
+                "state": "Connecticut"
+            },
+            "District of Columbia": {
+                "abbr": "DC",
+                "winner": "Biden",
+                "state": "District of Columbia"
+            },
+            "Delaware": {
+                "abbr": "DE",
+                "winner": "Biden",
+                "state": "Delaware"
+            },
+            "Florida": {
+                "abbr": "FL",
+                "winner": "Trump",
+                "state": "Florida"
+            },
+            "Georgia": {
+                "abbr": "GA",
+                "winner": "Trump",
+                "state": "Georgia"
+            },
+            "Hawaii": {
+                "abbr": "HI",
+                "winner": "Biden",
+                "state": "Hawaii"
+            },
+            "Iowa": {
+                "abbr": "IA",
+                "winner": "Trump",
+                "state": "Iowa"
+            },
+            "Idaho": {
+                "abbr": "ID",
+                "winner": "Trump",
+                "state": "Idaho"
+            },
+            "Illinois": {
+                "abbr": "IL",
+                "winner": "Biden",
+                "state": "Illinois"
+            },
+            "Indiana": {
+                "abbr": "IN",
+                "winner": "Trump",
+                "state": "Indiana"
+            },
+            "Kansas": {
+                "abbr": "KS",
+                "winner": "Trump",
+                "state": "Kansas"
+            },
+            "Kentucky": {
+                "abbr": "KY",
+                "winner": "Trump",
+                "state": "Kentucky"
+            },
+            "Louisiana": {
+                "abbr": "LA",
+                "winner": "Trump",
+                "state": "Louisiana"
+            },
+            "Massachusetts": {
+                "abbr": "MA",
+                "winner": "Biden",
+                "state": "Massachusetts"
+            },
+            "Maryland": {
+                "abbr": "MD",
+                "winner": "Biden",
+                "state": "Maryland"
+            },
+            "Maine": {
+                "abbr": "ME",
+                "winner": "Biden",
+                "state": "Maine"
+            },
+            "undefined": {
+                "abbr": "NE3",
+                "winner": "Trump"
+            },
+            "Michigan": {
+                "abbr": "MI",
+                "winner": "Biden",
+                "state": "Michigan"
+            },
+            "Minnesota": {
+                "abbr": "MN",
+                "winner": "Biden",
+                "state": "Minnesota"
+            },
+            "Missouri": {
+                "abbr": "MO",
+                "winner": "Trump",
+                "state": "Missouri"
+            },
+            "Mississippi": {
+                "abbr": "MS",
+                "winner": "Trump",
+                "state": "Mississippi"
+            },
+            "Montana": {
+                "abbr": "MT",
+                "winner": "Trump",
+                "state": "Montana"
+            },
+            "North Carolina": {
+                "abbr": "NC",
+                "winner": "Trump",
+                "state": "North Carolina"
+            },
+            "North Dakota": {
+                "abbr": "ND",
+                "winner": "Trump",
+                "state": "North Dakota"
+            },
+            "Nebraska": {
+                "abbr": "NE",
+                "winner": "Trump",
+                "state": "Nebraska"
+            },
+            "New Hampshire": {
+                "abbr": "NH",
+                "winner": "Biden",
+                "state": "New Hampshire"
+            },
+            "New Jersey": {
+                "abbr": "NJ",
+                "winner": "Biden",
+                "state": "New Jersey"
+            },
+            "New Mexico": {
+                "abbr": "NM",
+                "winner": "Biden",
+                "state": "New Mexico"
+            },
+            "Nevada": {
+                "abbr": "NV",
+                "winner": "Biden",
+                "state": "Nevada"
+            },
+            "New York": {
+                "abbr": "NY",
+                "winner": "Biden",
+                "state": "New York"
+            },
+            "Ohio": {
+                "abbr": "OH",
+                "winner": "Biden",
+                "state": "Ohio"
+            },
+            "Oklahoma": {
+                "abbr": "OK",
+                "winner": "Trump",
+                "state": "Oklahoma"
+            },
+            "Oregon": {
+                "abbr": "OR",
+                "winner": "Biden",
+                "state": "Oregon"
+            },
+            "Pennsylvania": {
+                "abbr": "PA",
+                "winner": "Biden",
+                "state": "Pennsylvania"
+            },
+            "Rhode Island": {
+                "abbr": "RI",
+                "winner": "Biden",
+                "state": "Rhode Island"
+            },
+            "South Carolina": {
+                "abbr": "SC",
+                "winner": "Trump",
+                "state": "South Carolina"
+            },
+            "South Dakota": {
+                "abbr": "SD",
+                "winner": "Trump",
+                "state": "South Dakota"
+            },
+            "Tennessee": {
+                "abbr": "TN",
+                "winner": "Trump",
+                "state": "Tennessee"
+            },
+            "Texas": {
+                "abbr": "TX",
+                "winner": "Trump",
+                "state": "Texas"
+            },
+            "Utah": {
+                "abbr": "UT",
+                "winner": "Biden",
+                "state": "Utah"
+            },
+            "Virginia": {
+                "abbr": "VA",
+                "winner": "Biden",
+                "state": "Virginia"
+            },
+            "Vermont": {
+                "abbr": "VT",
+                "winner": "Biden",
+                "state": "Vermont"
+            },
+            "Washington": {
+                "abbr": "WA",
+                "winner": "Biden",
+                "state": "Washington"
+            },
+            "Wisconsin": {
+                "abbr": "WI",
+                "winner": "Biden",
+                "state": "Wisconsin"
+            },
+            "West Virginia": {
+                "abbr": "WV",
+                "winner": "Trump",
+                "state": "West Virginia"
+            },
+            "Wyoming": {
+                "abbr": "WY",
+                "winner": "Trump",
+                "state": "Wyoming"
+            }
+        }
+    },
+    {
+        "winner": "Biden",
+        "evs": {
+            "Biden": 321,
+            "Trump": 217
+        },
+        "states": {
+            "Alaska": {
+                "abbr": "AK",
+                "winner": "Biden",
+                "state": "Alaska"
+            },
+            "Alabama": {
+                "abbr": "AL",
+                "winner": "Trump",
+                "state": "Alabama"
+            },
+            "Arkansas": {
+                "abbr": "AR",
+                "winner": "Trump",
+                "state": "Arkansas"
+            },
+            "Arizona": {
+                "abbr": "AZ",
+                "winner": "Trump",
+                "state": "Arizona"
+            },
+            "California": {
+                "abbr": "CA",
+                "winner": "Biden",
+                "state": "California"
+            },
+            "Colorado": {
+                "abbr": "CO",
+                "winner": "Biden",
+                "state": "Colorado"
+            },
+            "Connecticut": {
+                "abbr": "CT",
+                "winner": "Biden",
+                "state": "Connecticut"
+            },
+            "District of Columbia": {
+                "abbr": "DC",
+                "winner": "Biden",
+                "state": "District of Columbia"
+            },
+            "Delaware": {
+                "abbr": "DE",
+                "winner": "Biden",
+                "state": "Delaware"
+            },
+            "Florida": {
+                "abbr": "FL",
+                "winner": "Trump",
+                "state": "Florida"
+            },
+            "Georgia": {
+                "abbr": "GA",
+                "winner": "Biden",
+                "state": "Georgia"
+            },
+            "Hawaii": {
+                "abbr": "HI",
+                "winner": "Biden",
+                "state": "Hawaii"
+            },
+            "Iowa": {
+                "abbr": "IA",
+                "winner": "Trump",
+                "state": "Iowa"
+            },
+            "Idaho": {
+                "abbr": "ID",
+                "winner": "Trump",
+                "state": "Idaho"
+            },
+            "Illinois": {
+                "abbr": "IL",
+                "winner": "Biden",
+                "state": "Illinois"
+            },
+            "Indiana": {
+                "abbr": "IN",
+                "winner": "Trump",
+                "state": "Indiana"
+            },
+            "Kansas": {
+                "abbr": "KS",
+                "winner": "Trump",
+                "state": "Kansas"
+            },
+            "Kentucky": {
+                "abbr": "KY",
+                "winner": "Trump",
+                "state": "Kentucky"
+            },
+            "Louisiana": {
+                "abbr": "LA",
+                "winner": "Trump",
+                "state": "Louisiana"
+            },
+            "Massachusetts": {
+                "abbr": "MA",
+                "winner": "Biden",
+                "state": "Massachusetts"
+            },
+            "Maryland": {
+                "abbr": "MD",
+                "winner": "Biden",
+                "state": "Maryland"
+            },
+            "Maine": {
+                "abbr": "ME",
+                "winner": "Biden",
+                "state": "Maine"
+            },
+            "undefined": {
+                "abbr": "NE3",
+                "winner": "Trump"
+            },
+            "Michigan": {
+                "abbr": "MI",
+                "winner": "Biden",
+                "state": "Michigan"
+            },
+            "Minnesota": {
+                "abbr": "MN",
+                "winner": "Biden",
+                "state": "Minnesota"
+            },
+            "Missouri": {
+                "abbr": "MO",
+                "winner": "Trump",
+                "state": "Missouri"
+            },
+            "Mississippi": {
+                "abbr": "MS",
+                "winner": "Trump",
+                "state": "Mississippi"
+            },
+            "Montana": {
+                "abbr": "MT",
+                "winner": "Trump",
+                "state": "Montana"
+            },
+            "North Carolina": {
+                "abbr": "NC",
+                "winner": "Biden",
+                "state": "North Carolina"
+            },
+            "North Dakota": {
+                "abbr": "ND",
+                "winner": "Trump",
+                "state": "North Dakota"
+            },
+            "Nebraska": {
+                "abbr": "NE",
+                "winner": "Trump",
+                "state": "Nebraska"
+            },
+            "New Hampshire": {
+                "abbr": "NH",
+                "winner": "Biden",
+                "state": "New Hampshire"
+            },
+            "New Jersey": {
+                "abbr": "NJ",
+                "winner": "Biden",
+                "state": "New Jersey"
+            },
+            "New Mexico": {
+                "abbr": "NM",
+                "winner": "Biden",
+                "state": "New Mexico"
+            },
+            "Nevada": {
+                "abbr": "NV",
+                "winner": "Biden",
+                "state": "Nevada"
+            },
+            "New York": {
+                "abbr": "NY",
+                "winner": "Biden",
+                "state": "New York"
+            },
+            "Ohio": {
+                "abbr": "OH",
+                "winner": "Biden",
+                "state": "Ohio"
+            },
+            "Oklahoma": {
+                "abbr": "OK",
+                "winner": "Trump",
+                "state": "Oklahoma"
+            },
+            "Oregon": {
+                "abbr": "OR",
+                "winner": "Biden",
+                "state": "Oregon"
+            },
+            "Pennsylvania": {
+                "abbr": "PA",
+                "winner": "Biden",
+                "state": "Pennsylvania"
+            },
+            "Rhode Island": {
+                "abbr": "RI",
+                "winner": "Biden",
+                "state": "Rhode Island"
+            },
+            "South Carolina": {
+                "abbr": "SC",
+                "winner": "Trump",
+                "state": "South Carolina"
+            },
+            "South Dakota": {
+                "abbr": "SD",
+                "winner": "Trump",
+                "state": "South Dakota"
+            },
+            "Tennessee": {
+                "abbr": "TN",
+                "winner": "Trump",
+                "state": "Tennessee"
+            },
+            "Texas": {
+                "abbr": "TX",
+                "winner": "Trump",
+                "state": "Texas"
+            },
+            "Utah": {
+                "abbr": "UT",
+                "winner": "Trump",
+                "state": "Utah"
+            },
+            "Virginia": {
+                "abbr": "VA",
+                "winner": "Biden",
+                "state": "Virginia"
+            },
+            "Vermont": {
+                "abbr": "VT",
+                "winner": "Biden",
+                "state": "Vermont"
+            },
+            "Washington": {
+                "abbr": "WA",
+                "winner": "Biden",
+                "state": "Washington"
+            },
+            "Wisconsin": {
+                "abbr": "WI",
+                "winner": "Trump",
+                "state": "Wisconsin"
+            },
+            "West Virginia": {
+                "abbr": "WV",
+                "winner": "Trump",
+                "state": "West Virginia"
+            },
+            "Wyoming": {
+                "abbr": "WY",
+                "winner": "Trump",
+                "state": "Wyoming"
+            }
+        }
+    },
+    {
+        "winner": "Biden",
+        "evs": {
+            "Biden": 325,
+            "Trump": 213
+        },
+        "states": {
+            "Alaska": {
+                "abbr": "AK",
+                "winner": "Trump",
+                "state": "Alaska"
+            },
+            "Alabama": {
+                "abbr": "AL",
+                "winner": "Trump",
+                "state": "Alabama"
+            },
+            "Arkansas": {
+                "abbr": "AR",
+                "winner": "Trump",
+                "state": "Arkansas"
+            },
+            "Arizona": {
+                "abbr": "AZ",
+                "winner": "Biden",
+                "state": "Arizona"
+            },
+            "California": {
+                "abbr": "CA",
+                "winner": "Biden",
+                "state": "California"
+            },
+            "Colorado": {
+                "abbr": "CO",
+                "winner": "Biden",
+                "state": "Colorado"
+            },
+            "Connecticut": {
+                "abbr": "CT",
+                "winner": "Biden",
+                "state": "Connecticut"
+            },
+            "District of Columbia": {
+                "abbr": "DC",
+                "winner": "Biden",
+                "state": "District of Columbia"
+            },
+            "Delaware": {
+                "abbr": "DE",
+                "winner": "Biden",
+                "state": "Delaware"
+            },
+            "Florida": {
+                "abbr": "FL",
+                "winner": "Biden",
+                "state": "Florida"
+            },
+            "Georgia": {
+                "abbr": "GA",
+                "winner": "Trump",
+                "state": "Georgia"
+            },
+            "Hawaii": {
+                "abbr": "HI",
+                "winner": "Biden",
+                "state": "Hawaii"
+            },
+            "Iowa": {
+                "abbr": "IA",
+                "winner": "Biden",
+                "state": "Iowa"
+            },
+            "Idaho": {
+                "abbr": "ID",
+                "winner": "Trump",
+                "state": "Idaho"
+            },
+            "Illinois": {
+                "abbr": "IL",
+                "winner": "Biden",
+                "state": "Illinois"
+            },
+            "Indiana": {
+                "abbr": "IN",
+                "winner": "Trump",
+                "state": "Indiana"
+            },
+            "Kansas": {
+                "abbr": "KS",
+                "winner": "Trump",
+                "state": "Kansas"
+            },
+            "Kentucky": {
+                "abbr": "KY",
+                "winner": "Trump",
+                "state": "Kentucky"
+            },
+            "Louisiana": {
+                "abbr": "LA",
+                "winner": "Trump",
+                "state": "Louisiana"
+            },
+            "Massachusetts": {
+                "abbr": "MA",
+                "winner": "Biden",
+                "state": "Massachusetts"
+            },
+            "Maryland": {
+                "abbr": "MD",
+                "winner": "Biden",
+                "state": "Maryland"
+            },
+            "Maine": {
+                "abbr": "ME",
+                "winner": "Biden",
+                "state": "Maine"
+            },
+            "undefined": {
+                "abbr": "NE3",
+                "winner": "Trump"
+            },
+            "Michigan": {
+                "abbr": "MI",
+                "winner": "Biden",
+                "state": "Michigan"
+            },
+            "Minnesota": {
+                "abbr": "MN",
+                "winner": "Biden",
+                "state": "Minnesota"
+            },
+            "Missouri": {
+                "abbr": "MO",
+                "winner": "Trump",
+                "state": "Missouri"
+            },
+            "Mississippi": {
+                "abbr": "MS",
+                "winner": "Trump",
+                "state": "Mississippi"
+            },
+            "Montana": {
+                "abbr": "MT",
+                "winner": "Trump",
+                "state": "Montana"
+            },
+            "North Carolina": {
+                "abbr": "NC",
+                "winner": "Trump",
+                "state": "North Carolina"
+            },
+            "North Dakota": {
+                "abbr": "ND",
+                "winner": "Trump",
+                "state": "North Dakota"
+            },
+            "Nebraska": {
+                "abbr": "NE",
+                "winner": "Trump",
+                "state": "Nebraska"
+            },
+            "New Hampshire": {
+                "abbr": "NH",
+                "winner": "Biden",
+                "state": "New Hampshire"
+            },
+            "New Jersey": {
+                "abbr": "NJ",
+                "winner": "Biden",
+                "state": "New Jersey"
+            },
+            "New Mexico": {
+                "abbr": "NM",
+                "winner": "Biden",
+                "state": "New Mexico"
+            },
+            "Nevada": {
+                "abbr": "NV",
+                "winner": "Biden",
+                "state": "Nevada"
+            },
+            "New York": {
+                "abbr": "NY",
+                "winner": "Biden",
+                "state": "New York"
+            },
+            "Ohio": {
+                "abbr": "OH",
+                "winner": "Trump",
+                "state": "Ohio"
+            },
+            "Oklahoma": {
+                "abbr": "OK",
+                "winner": "Trump",
+                "state": "Oklahoma"
+            },
+            "Oregon": {
+                "abbr": "OR",
+                "winner": "Biden",
+                "state": "Oregon"
+            },
+            "Pennsylvania": {
+                "abbr": "PA",
+                "winner": "Biden",
+                "state": "Pennsylvania"
+            },
+            "Rhode Island": {
+                "abbr": "RI",
+                "winner": "Biden",
+                "state": "Rhode Island"
+            },
+            "South Carolina": {
+                "abbr": "SC",
+                "winner": "Trump",
+                "state": "South Carolina"
+            },
+            "South Dakota": {
+                "abbr": "SD",
+                "winner": "Trump",
+                "state": "South Dakota"
+            },
+            "Tennessee": {
+                "abbr": "TN",
+                "winner": "Trump",
+                "state": "Tennessee"
+            },
+            "Texas": {
+                "abbr": "TX",
+                "winner": "Trump",
+                "state": "Texas"
+            },
+            "Utah": {
+                "abbr": "UT",
+                "winner": "Trump",
+                "state": "Utah"
+            },
+            "Virginia": {
+                "abbr": "VA",
+                "winner": "Biden",
+                "state": "Virginia"
+            },
+            "Vermont": {
+                "abbr": "VT",
+                "winner": "Biden",
+                "state": "Vermont"
+            },
+            "Washington": {
+                "abbr": "WA",
+                "winner": "Biden",
+                "state": "Washington"
+            },
+            "Wisconsin": {
+                "abbr": "WI",
+                "winner": "Biden",
+                "state": "Wisconsin"
+            },
+            "West Virginia": {
+                "abbr": "WV",
+                "winner": "Trump",
+                "state": "West Virginia"
+            },
+            "Wyoming": {
+                "abbr": "WY",
+                "winner": "Trump",
+                "state": "Wyoming"
+            }
+        }
+    },
+    {
+        "winner": "Biden",
+        "evs": {
+            "Biden": 305,
+            "Trump": 233
+        },
+        "states": {
+            "Alaska": {
+                "abbr": "AK",
+                "winner": "Trump",
+                "state": "Alaska"
+            },
+            "Alabama": {
+                "abbr": "AL",
+                "winner": "Trump",
+                "state": "Alabama"
+            },
+            "Arkansas": {
+                "abbr": "AR",
+                "winner": "Trump",
+                "state": "Arkansas"
+            },
+            "Arizona": {
+                "abbr": "AZ",
+                "winner": "Trump",
+                "state": "Arizona"
+            },
+            "California": {
+                "abbr": "CA",
+                "winner": "Biden",
+                "state": "California"
+            },
+            "Colorado": {
+                "abbr": "CO",
+                "winner": "Biden",
+                "state": "Colorado"
+            },
+            "Connecticut": {
+                "abbr": "CT",
+                "winner": "Biden",
+                "state": "Connecticut"
+            },
+            "District of Columbia": {
+                "abbr": "DC",
+                "winner": "Biden",
+                "state": "District of Columbia"
+            },
+            "Delaware": {
+                "abbr": "DE",
+                "winner": "Biden",
+                "state": "Delaware"
+            },
+            "Florida": {
+                "abbr": "FL",
+                "winner": "Trump",
+                "state": "Florida"
+            },
+            "Georgia": {
+                "abbr": "GA",
+                "winner": "Biden",
+                "state": "Georgia"
+            },
+            "Hawaii": {
+                "abbr": "HI",
+                "winner": "Biden",
+                "state": "Hawaii"
+            },
+            "Iowa": {
+                "abbr": "IA",
+                "winner": "Trump",
+                "state": "Iowa"
+            },
+            "Idaho": {
+                "abbr": "ID",
+                "winner": "Trump",
+                "state": "Idaho"
+            },
+            "Illinois": {
+                "abbr": "IL",
+                "winner": "Biden",
+                "state": "Illinois"
+            },
+            "Indiana": {
+                "abbr": "IN",
+                "winner": "Trump",
+                "state": "Indiana"
+            },
+            "Kansas": {
+                "abbr": "KS",
+                "winner": "Trump",
+                "state": "Kansas"
+            },
+            "Kentucky": {
+                "abbr": "KY",
+                "winner": "Trump",
+                "state": "Kentucky"
+            },
+            "Louisiana": {
+                "abbr": "LA",
+                "winner": "Trump",
+                "state": "Louisiana"
+            },
+            "Massachusetts": {
+                "abbr": "MA",
+                "winner": "Biden",
+                "state": "Massachusetts"
+            },
+            "Maryland": {
+                "abbr": "MD",
+                "winner": "Biden",
+                "state": "Maryland"
+            },
+            "Maine": {
+                "abbr": "ME",
+                "winner": "Biden",
+                "state": "Maine"
+            },
+            "undefined": {
+                "abbr": "NE3",
+                "winner": "Trump"
+            },
+            "Michigan": {
+                "abbr": "MI",
+                "winner": "Biden",
+                "state": "Michigan"
+            },
+            "Minnesota": {
+                "abbr": "MN",
+                "winner": "Biden",
+                "state": "Minnesota"
+            },
+            "Missouri": {
+                "abbr": "MO",
+                "winner": "Trump",
+                "state": "Missouri"
+            },
+            "Mississippi": {
+                "abbr": "MS",
+                "winner": "Trump",
+                "state": "Mississippi"
+            },
+            "Montana": {
+                "abbr": "MT",
+                "winner": "Trump",
+                "state": "Montana"
+            },
+            "North Carolina": {
+                "abbr": "NC",
+                "winner": "Biden",
+                "state": "North Carolina"
+            },
+            "North Dakota": {
+                "abbr": "ND",
+                "winner": "Trump",
+                "state": "North Dakota"
+            },
+            "Nebraska": {
+                "abbr": "NE",
+                "winner": "Trump",
+                "state": "Nebraska"
+            },
+            "New Hampshire": {
+                "abbr": "NH",
+                "winner": "Trump",
+                "state": "New Hampshire"
+            },
+            "New Jersey": {
+                "abbr": "NJ",
+                "winner": "Biden",
+                "state": "New Jersey"
+            },
+            "New Mexico": {
+                "abbr": "NM",
+                "winner": "Biden",
+                "state": "New Mexico"
+            },
+            "Nevada": {
+                "abbr": "NV",
+                "winner": "Biden",
+                "state": "Nevada"
+            },
+            "New York": {
+                "abbr": "NY",
+                "winner": "Biden",
+                "state": "New York"
+            },
+            "Ohio": {
+                "abbr": "OH",
+                "winner": "Trump",
+                "state": "Ohio"
+            },
+            "Oklahoma": {
+                "abbr": "OK",
+                "winner": "Trump",
+                "state": "Oklahoma"
+            },
+            "Oregon": {
+                "abbr": "OR",
+                "winner": "Biden",
+                "state": "Oregon"
+            },
+            "Pennsylvania": {
+                "abbr": "PA",
+                "winner": "Biden",
+                "state": "Pennsylvania"
+            },
+            "Rhode Island": {
+                "abbr": "RI",
+                "winner": "Biden",
+                "state": "Rhode Island"
+            },
+            "South Carolina": {
+                "abbr": "SC",
+                "winner": "Trump",
+                "state": "South Carolina"
+            },
+            "South Dakota": {
+                "abbr": "SD",
+                "winner": "Trump",
+                "state": "South Dakota"
+            },
+            "Tennessee": {
+                "abbr": "TN",
+                "winner": "Trump",
+                "state": "Tennessee"
+            },
+            "Texas": {
+                "abbr": "TX",
+                "winner": "Trump",
+                "state": "Texas"
+            },
+            "Utah": {
+                "abbr": "UT",
+                "winner": "Trump",
+                "state": "Utah"
+            },
+            "Virginia": {
+                "abbr": "VA",
+                "winner": "Biden",
+                "state": "Virginia"
+            },
+            "Vermont": {
+                "abbr": "VT",
+                "winner": "Biden",
+                "state": "Vermont"
+            },
+            "Washington": {
+                "abbr": "WA",
+                "winner": "Biden",
+                "state": "Washington"
+            },
+            "Wisconsin": {
+                "abbr": "WI",
+                "winner": "Biden",
+                "state": "Wisconsin"
+            },
+            "West Virginia": {
+                "abbr": "WV",
+                "winner": "Trump",
+                "state": "West Virginia"
+            },
+            "Wyoming": {
+                "abbr": "WY",
+                "winner": "Trump",
+                "state": "Wyoming"
+            }
+        }
+    },
+    {
+        "winner": "Biden",
+        "evs": {
+            "Biden": 415,
+            "Trump": 123
+        },
+        "states": {
+            "Alaska": {
+                "abbr": "AK",
+                "winner": "Trump",
+                "state": "Alaska"
+            },
+            "Alabama": {
+                "abbr": "AL",
+                "winner": "Trump",
+                "state": "Alabama"
+            },
+            "Arkansas": {
+                "abbr": "AR",
+                "winner": "Trump",
+                "state": "Arkansas"
+            },
+            "Arizona": {
+                "abbr": "AZ",
+                "winner": "Biden",
+                "state": "Arizona"
+            },
+            "California": {
+                "abbr": "CA",
+                "winner": "Biden",
+                "state": "California"
+            },
+            "Colorado": {
+                "abbr": "CO",
+                "winner": "Biden",
+                "state": "Colorado"
+            },
+            "Connecticut": {
+                "abbr": "CT",
+                "winner": "Biden",
+                "state": "Connecticut"
+            },
+            "District of Columbia": {
+                "abbr": "DC",
+                "winner": "Biden",
+                "state": "District of Columbia"
+            },
+            "Delaware": {
+                "abbr": "DE",
+                "winner": "Biden",
+                "state": "Delaware"
+            },
+            "Florida": {
+                "abbr": "FL",
+                "winner": "Biden",
+                "state": "Florida"
+            },
+            "Georgia": {
+                "abbr": "GA",
+                "winner": "Biden",
+                "state": "Georgia"
+            },
+            "Hawaii": {
+                "abbr": "HI",
+                "winner": "Biden",
+                "state": "Hawaii"
+            },
+            "Iowa": {
+                "abbr": "IA",
+                "winner": "Trump",
+                "state": "Iowa"
+            },
+            "Idaho": {
+                "abbr": "ID",
+                "winner": "Trump",
+                "state": "Idaho"
+            },
+            "Illinois": {
+                "abbr": "IL",
+                "winner": "Biden",
+                "state": "Illinois"
+            },
+            "Indiana": {
+                "abbr": "IN",
+                "winner": "Trump",
+                "state": "Indiana"
+            },
+            "Kansas": {
+                "abbr": "KS",
+                "winner": "Trump",
+                "state": "Kansas"
+            },
+            "Kentucky": {
+                "abbr": "KY",
+                "winner": "Trump",
+                "state": "Kentucky"
+            },
+            "Louisiana": {
+                "abbr": "LA",
+                "winner": "Trump",
+                "state": "Louisiana"
+            },
+            "Massachusetts": {
+                "abbr": "MA",
+                "winner": "Biden",
+                "state": "Massachusetts"
+            },
+            "Maryland": {
+                "abbr": "MD",
+                "winner": "Biden",
+                "state": "Maryland"
+            },
+            "Maine": {
+                "abbr": "ME",
+                "winner": "Biden",
+                "state": "Maine"
+            },
+            "undefined": {
+                "abbr": "NE3",
+                "winner": "Trump"
+            },
+            "Michigan": {
+                "abbr": "MI",
+                "winner": "Biden",
+                "state": "Michigan"
+            },
+            "Minnesota": {
+                "abbr": "MN",
+                "winner": "Biden",
+                "state": "Minnesota"
+            },
+            "Missouri": {
+                "abbr": "MO",
+                "winner": "Trump",
+                "state": "Missouri"
+            },
+            "Mississippi": {
+                "abbr": "MS",
+                "winner": "Trump",
+                "state": "Mississippi"
+            },
+            "Montana": {
+                "abbr": "MT",
+                "winner": "Trump",
+                "state": "Montana"
+            },
+            "North Carolina": {
+                "abbr": "NC",
+                "winner": "Biden",
+                "state": "North Carolina"
+            },
+            "North Dakota": {
+                "abbr": "ND",
+                "winner": "Trump",
+                "state": "North Dakota"
+            },
+            "Nebraska": {
+                "abbr": "NE",
+                "winner": "Trump",
+                "state": "Nebraska"
+            },
+            "New Hampshire": {
+                "abbr": "NH",
+                "winner": "Biden",
+                "state": "New Hampshire"
+            },
+            "New Jersey": {
+                "abbr": "NJ",
+                "winner": "Biden",
+                "state": "New Jersey"
+            },
+            "New Mexico": {
+                "abbr": "NM",
+                "winner": "Biden",
+                "state": "New Mexico"
+            },
+            "Nevada": {
+                "abbr": "NV",
+                "winner": "Biden",
+                "state": "Nevada"
+            },
+            "New York": {
+                "abbr": "NY",
+                "winner": "Biden",
+                "state": "New York"
+            },
+            "Ohio": {
+                "abbr": "OH",
+                "winner": "Biden",
+                "state": "Ohio"
+            },
+            "Oklahoma": {
+                "abbr": "OK",
+                "winner": "Trump",
+                "state": "Oklahoma"
+            },
+            "Oregon": {
+                "abbr": "OR",
+                "winner": "Biden",
+                "state": "Oregon"
+            },
+            "Pennsylvania": {
+                "abbr": "PA",
+                "winner": "Biden",
+                "state": "Pennsylvania"
+            },
+            "Rhode Island": {
+                "abbr": "RI",
+                "winner": "Biden",
+                "state": "Rhode Island"
+            },
+            "South Carolina": {
+                "abbr": "SC",
+                "winner": "Biden",
+                "state": "South Carolina"
+            },
+            "South Dakota": {
+                "abbr": "SD",
+                "winner": "Trump",
+                "state": "South Dakota"
+            },
+            "Tennessee": {
+                "abbr": "TN",
+                "winner": "Trump",
+                "state": "Tennessee"
+            },
+            "Texas": {
+                "abbr": "TX",
+                "winner": "Biden",
+                "state": "Texas"
+            },
+            "Utah": {
+                "abbr": "UT",
+                "winner": "Trump",
+                "state": "Utah"
+            },
+            "Virginia": {
+                "abbr": "VA",
+                "winner": "Biden",
+                "state": "Virginia"
+            },
+            "Vermont": {
+                "abbr": "VT",
+                "winner": "Biden",
+                "state": "Vermont"
+            },
+            "Washington": {
+                "abbr": "WA",
+                "winner": "Biden",
+                "state": "Washington"
+            },
+            "Wisconsin": {
+                "abbr": "WI",
+                "winner": "Biden",
+                "state": "Wisconsin"
+            },
+            "West Virginia": {
+                "abbr": "WV",
+                "winner": "Trump",
+                "state": "West Virginia"
+            },
+            "Wyoming": {
+                "abbr": "WY",
+                "winner": "Trump",
+                "state": "Wyoming"
+            }
+        }
+    },
+    {
+        "winner": "Biden",
+        "evs": {
+            "Biden": 286,
+            "Trump": 252
+        },
+        "states": {
+            "Alaska": {
+                "abbr": "AK",
+                "winner": "Trump",
+                "state": "Alaska"
+            },
+            "Alabama": {
+                "abbr": "AL",
+                "winner": "Trump",
+                "state": "Alabama"
+            },
+            "Arkansas": {
+                "abbr": "AR",
+                "winner": "Trump",
+                "state": "Arkansas"
+            },
+            "Arizona": {
+                "abbr": "AZ",
+                "winner": "Trump",
+                "state": "Arizona"
+            },
+            "California": {
+                "abbr": "CA",
+                "winner": "Biden",
+                "state": "California"
+            },
+            "Colorado": {
+                "abbr": "CO",
+                "winner": "Biden",
+                "state": "Colorado"
+            },
+            "Connecticut": {
+                "abbr": "CT",
+                "winner": "Biden",
+                "state": "Connecticut"
+            },
+            "District of Columbia": {
+                "abbr": "DC",
+                "winner": "Biden",
+                "state": "District of Columbia"
+            },
+            "Delaware": {
+                "abbr": "DE",
+                "winner": "Biden",
+                "state": "Delaware"
+            },
+            "Florida": {
+                "abbr": "FL",
+                "winner": "Biden",
+                "state": "Florida"
+            },
+            "Georgia": {
+                "abbr": "GA",
+                "winner": "Trump",
+                "state": "Georgia"
+            },
+            "Hawaii": {
+                "abbr": "HI",
+                "winner": "Biden",
+                "state": "Hawaii"
+            },
+            "Iowa": {
+                "abbr": "IA",
+                "winner": "Trump",
+                "state": "Iowa"
+            },
+            "Idaho": {
+                "abbr": "ID",
+                "winner": "Trump",
+                "state": "Idaho"
+            },
+            "Illinois": {
+                "abbr": "IL",
+                "winner": "Biden",
+                "state": "Illinois"
+            },
+            "Indiana": {
+                "abbr": "IN",
+                "winner": "Trump",
+                "state": "Indiana"
+            },
+            "Kansas": {
+                "abbr": "KS",
+                "winner": "Trump",
+                "state": "Kansas"
+            },
+            "Kentucky": {
+                "abbr": "KY",
+                "winner": "Trump",
+                "state": "Kentucky"
+            },
+            "Louisiana": {
+                "abbr": "LA",
+                "winner": "Trump",
+                "state": "Louisiana"
+            },
+            "Massachusetts": {
+                "abbr": "MA",
+                "winner": "Biden",
+                "state": "Massachusetts"
+            },
+            "Maryland": {
+                "abbr": "MD",
+                "winner": "Biden",
+                "state": "Maryland"
+            },
+            "Maine": {
+                "abbr": "ME",
+                "winner": "Trump",
+                "state": "Maine"
+            },
+            "undefined": {
+                "abbr": "NE3",
+                "winner": "Trump"
+            },
+            "Michigan": {
+                "abbr": "MI",
+                "winner": "Biden",
+                "state": "Michigan"
+            },
+            "Minnesota": {
+                "abbr": "MN",
+                "winner": "Biden",
+                "state": "Minnesota"
+            },
+            "Missouri": {
+                "abbr": "MO",
+                "winner": "Trump",
+                "state": "Missouri"
+            },
+            "Mississippi": {
+                "abbr": "MS",
+                "winner": "Trump",
+                "state": "Mississippi"
+            },
+            "Montana": {
+                "abbr": "MT",
+                "winner": "Trump",
+                "state": "Montana"
+            },
+            "North Carolina": {
+                "abbr": "NC",
+                "winner": "Trump",
+                "state": "North Carolina"
+            },
+            "North Dakota": {
+                "abbr": "ND",
+                "winner": "Trump",
+                "state": "North Dakota"
+            },
+            "Nebraska": {
+                "abbr": "NE",
+                "winner": "Trump",
+                "state": "Nebraska"
+            },
+            "New Hampshire": {
+                "abbr": "NH",
+                "winner": "Biden",
+                "state": "New Hampshire"
+            },
+            "New Jersey": {
+                "abbr": "NJ",
+                "winner": "Biden",
+                "state": "New Jersey"
+            },
+            "New Mexico": {
+                "abbr": "NM",
+                "winner": "Biden",
+                "state": "New Mexico"
+            },
+            "Nevada": {
+                "abbr": "NV",
+                "winner": "Biden",
+                "state": "Nevada"
+            },
+            "New York": {
+                "abbr": "NY",
+                "winner": "Biden",
+                "state": "New York"
+            },
+            "Ohio": {
+                "abbr": "OH",
+                "winner": "Trump",
+                "state": "Ohio"
+            },
+            "Oklahoma": {
+                "abbr": "OK",
+                "winner": "Trump",
+                "state": "Oklahoma"
+            },
+            "Oregon": {
+                "abbr": "OR",
+                "winner": "Biden",
+                "state": "Oregon"
+            },
+            "Pennsylvania": {
+                "abbr": "PA",
+                "winner": "Trump",
+                "state": "Pennsylvania"
+            },
+            "Rhode Island": {
+                "abbr": "RI",
+                "winner": "Biden",
+                "state": "Rhode Island"
+            },
+            "South Carolina": {
+                "abbr": "SC",
+                "winner": "Trump",
+                "state": "South Carolina"
+            },
+            "South Dakota": {
+                "abbr": "SD",
+                "winner": "Trump",
+                "state": "South Dakota"
+            },
+            "Tennessee": {
+                "abbr": "TN",
+                "winner": "Trump",
+                "state": "Tennessee"
+            },
+            "Texas": {
+                "abbr": "TX",
+                "winner": "Trump",
+                "state": "Texas"
+            },
+            "Utah": {
+                "abbr": "UT",
+                "winner": "Trump",
+                "state": "Utah"
+            },
+            "Virginia": {
+                "abbr": "VA",
+                "winner": "Biden",
+                "state": "Virginia"
+            },
+            "Vermont": {
+                "abbr": "VT",
+                "winner": "Biden",
+                "state": "Vermont"
+            },
+            "Washington": {
+                "abbr": "WA",
+                "winner": "Biden",
+                "state": "Washington"
+            },
+            "Wisconsin": {
+                "abbr": "WI",
+                "winner": "Biden",
+                "state": "Wisconsin"
+            },
+            "West Virginia": {
+                "abbr": "WV",
+                "winner": "Trump",
+                "state": "West Virginia"
+            },
+            "Wyoming": {
+                "abbr": "WY",
+                "winner": "Trump",
+                "state": "Wyoming"
+            }
+        }
+    },
+    {
+        "winner": "Biden",
+        "evs": {
+            "Biden": 395,
+            "Trump": 143
+        },
+        "states": {
+            "Alaska": {
+                "abbr": "AK",
+                "winner": "Trump",
+                "state": "Alaska"
+            },
+            "Alabama": {
+                "abbr": "AL",
+                "winner": "Trump",
+                "state": "Alabama"
+            },
+            "Arkansas": {
+                "abbr": "AR",
+                "winner": "Trump",
+                "state": "Arkansas"
+            },
+            "Arizona": {
+                "abbr": "AZ",
+                "winner": "Biden",
+                "state": "Arizona"
+            },
+            "California": {
+                "abbr": "CA",
+                "winner": "Biden",
+                "state": "California"
+            },
+            "Colorado": {
+                "abbr": "CO",
+                "winner": "Biden",
+                "state": "Colorado"
+            },
+            "Connecticut": {
+                "abbr": "CT",
+                "winner": "Biden",
+                "state": "Connecticut"
+            },
+            "District of Columbia": {
+                "abbr": "DC",
+                "winner": "Biden",
+                "state": "District of Columbia"
+            },
+            "Delaware": {
+                "abbr": "DE",
+                "winner": "Biden",
+                "state": "Delaware"
+            },
+            "Florida": {
+                "abbr": "FL",
+                "winner": "Biden",
+                "state": "Florida"
+            },
+            "Georgia": {
+                "abbr": "GA",
+                "winner": "Biden",
+                "state": "Georgia"
+            },
+            "Hawaii": {
+                "abbr": "HI",
+                "winner": "Biden",
+                "state": "Hawaii"
+            },
+            "Iowa": {
+                "abbr": "IA",
+                "winner": "Biden",
+                "state": "Iowa"
+            },
+            "Idaho": {
+                "abbr": "ID",
+                "winner": "Trump",
+                "state": "Idaho"
+            },
+            "Illinois": {
+                "abbr": "IL",
+                "winner": "Biden",
+                "state": "Illinois"
+            },
+            "Indiana": {
+                "abbr": "IN",
+                "winner": "Trump",
+                "state": "Indiana"
+            },
+            "Kansas": {
+                "abbr": "KS",
+                "winner": "Trump",
+                "state": "Kansas"
+            },
+            "Kentucky": {
+                "abbr": "KY",
+                "winner": "Trump",
+                "state": "Kentucky"
+            },
+            "Louisiana": {
+                "abbr": "LA",
+                "winner": "Trump",
+                "state": "Louisiana"
+            },
+            "Massachusetts": {
+                "abbr": "MA",
+                "winner": "Biden",
+                "state": "Massachusetts"
+            },
+            "Maryland": {
+                "abbr": "MD",
+                "winner": "Biden",
+                "state": "Maryland"
+            },
+            "Maine": {
+                "abbr": "ME",
+                "winner": "Biden",
+                "state": "Maine"
+            },
+            "undefined": {
+                "abbr": "NE3",
+                "winner": "Trump"
+            },
+            "Michigan": {
+                "abbr": "MI",
+                "winner": "Biden",
+                "state": "Michigan"
+            },
+            "Minnesota": {
+                "abbr": "MN",
+                "winner": "Biden",
+                "state": "Minnesota"
+            },
+            "Missouri": {
+                "abbr": "MO",
+                "winner": "Trump",
+                "state": "Missouri"
+            },
+            "Mississippi": {
+                "abbr": "MS",
+                "winner": "Trump",
+                "state": "Mississippi"
+            },
+            "Montana": {
+                "abbr": "MT",
+                "winner": "Trump",
+                "state": "Montana"
+            },
+            "North Carolina": {
+                "abbr": "NC",
+                "winner": "Biden",
+                "state": "North Carolina"
+            },
+            "North Dakota": {
+                "abbr": "ND",
+                "winner": "Trump",
+                "state": "North Dakota"
+            },
+            "Nebraska": {
+                "abbr": "NE",
+                "winner": "Trump",
+                "state": "Nebraska"
+            },
+            "New Hampshire": {
+                "abbr": "NH",
+                "winner": "Biden",
+                "state": "New Hampshire"
+            },
+            "New Jersey": {
+                "abbr": "NJ",
+                "winner": "Biden",
+                "state": "New Jersey"
+            },
+            "New Mexico": {
+                "abbr": "NM",
+                "winner": "Biden",
+                "state": "New Mexico"
+            },
+            "Nevada": {
+                "abbr": "NV",
+                "winner": "Biden",
+                "state": "Nevada"
+            },
+            "New York": {
+                "abbr": "NY",
+                "winner": "Biden",
+                "state": "New York"
+            },
+            "Ohio": {
+                "abbr": "OH",
+                "winner": "Trump",
+                "state": "Ohio"
+            },
+            "Oklahoma": {
+                "abbr": "OK",
+                "winner": "Trump",
+                "state": "Oklahoma"
+            },
+            "Oregon": {
+                "abbr": "OR",
+                "winner": "Biden",
+                "state": "Oregon"
+            },
+            "Pennsylvania": {
+                "abbr": "PA",
+                "winner": "Biden",
+                "state": "Pennsylvania"
+            },
+            "Rhode Island": {
+                "abbr": "RI",
+                "winner": "Biden",
+                "state": "Rhode Island"
+            },
+            "South Carolina": {
+                "abbr": "SC",
+                "winner": "Trump",
+                "state": "South Carolina"
+            },
+            "South Dakota": {
+                "abbr": "SD",
+                "winner": "Trump",
+                "state": "South Dakota"
+            },
+            "Tennessee": {
+                "abbr": "TN",
+                "winner": "Trump",
+                "state": "Tennessee"
+            },
+            "Texas": {
+                "abbr": "TX",
+                "winner": "Biden",
+                "state": "Texas"
+            },
+            "Utah": {
+                "abbr": "UT",
+                "winner": "Trump",
+                "state": "Utah"
+            },
+            "Virginia": {
+                "abbr": "VA",
+                "winner": "Biden",
+                "state": "Virginia"
+            },
+            "Vermont": {
+                "abbr": "VT",
+                "winner": "Biden",
+                "state": "Vermont"
+            },
+            "Washington": {
+                "abbr": "WA",
+                "winner": "Biden",
+                "state": "Washington"
+            },
+            "Wisconsin": {
+                "abbr": "WI",
+                "winner": "Biden",
+                "state": "Wisconsin"
+            },
+            "West Virginia": {
+                "abbr": "WV",
+                "winner": "Trump",
+                "state": "West Virginia"
+            },
+            "Wyoming": {
+                "abbr": "WY",
+                "winner": "Trump",
+                "state": "Wyoming"
+            }
+        }
+    },
+    {
+        "winner": "Biden",
+        "evs": {
+            "Biden": 413,
+            "Trump": 125
+        },
+        "states": {
+            "Alaska": {
+                "abbr": "AK",
+                "winner": "Trump",
+                "state": "Alaska"
+            },
+            "Alabama": {
+                "abbr": "AL",
+                "winner": "Trump",
+                "state": "Alabama"
+            },
+            "Arkansas": {
+                "abbr": "AR",
+                "winner": "Trump",
+                "state": "Arkansas"
+            },
+            "Arizona": {
+                "abbr": "AZ",
+                "winner": "Biden",
+                "state": "Arizona"
+            },
+            "California": {
+                "abbr": "CA",
+                "winner": "Biden",
+                "state": "California"
+            },
+            "Colorado": {
+                "abbr": "CO",
+                "winner": "Biden",
+                "state": "Colorado"
+            },
+            "Connecticut": {
+                "abbr": "CT",
+                "winner": "Biden",
+                "state": "Connecticut"
+            },
+            "District of Columbia": {
+                "abbr": "DC",
+                "winner": "Biden",
+                "state": "District of Columbia"
+            },
+            "Delaware": {
+                "abbr": "DE",
+                "winner": "Biden",
+                "state": "Delaware"
+            },
+            "Florida": {
+                "abbr": "FL",
+                "winner": "Biden",
+                "state": "Florida"
+            },
+            "Georgia": {
+                "abbr": "GA",
+                "winner": "Biden",
+                "state": "Georgia"
+            },
+            "Hawaii": {
+                "abbr": "HI",
+                "winner": "Biden",
+                "state": "Hawaii"
+            },
+            "Iowa": {
+                "abbr": "IA",
+                "winner": "Biden",
+                "state": "Iowa"
+            },
+            "Idaho": {
+                "abbr": "ID",
+                "winner": "Trump",
+                "state": "Idaho"
+            },
+            "Illinois": {
+                "abbr": "IL",
+                "winner": "Biden",
+                "state": "Illinois"
+            },
+            "Indiana": {
+                "abbr": "IN",
+                "winner": "Trump",
+                "state": "Indiana"
+            },
+            "Kansas": {
+                "abbr": "KS",
+                "winner": "Trump",
+                "state": "Kansas"
+            },
+            "Kentucky": {
+                "abbr": "KY",
+                "winner": "Trump",
+                "state": "Kentucky"
+            },
+            "Louisiana": {
+                "abbr": "LA",
+                "winner": "Trump",
+                "state": "Louisiana"
+            },
+            "Massachusetts": {
+                "abbr": "MA",
+                "winner": "Biden",
+                "state": "Massachusetts"
+            },
+            "Maryland": {
+                "abbr": "MD",
+                "winner": "Biden",
+                "state": "Maryland"
+            },
+            "Maine": {
+                "abbr": "ME",
+                "winner": "Biden",
+                "state": "Maine"
+            },
+            "undefined": {
+                "abbr": "NE3",
+                "winner": "Trump"
+            },
+            "Michigan": {
+                "abbr": "MI",
+                "winner": "Biden",
+                "state": "Michigan"
+            },
+            "Minnesota": {
+                "abbr": "MN",
+                "winner": "Biden",
+                "state": "Minnesota"
+            },
+            "Missouri": {
+                "abbr": "MO",
+                "winner": "Trump",
+                "state": "Missouri"
+            },
+            "Mississippi": {
+                "abbr": "MS",
+                "winner": "Trump",
+                "state": "Mississippi"
+            },
+            "Montana": {
+                "abbr": "MT",
+                "winner": "Trump",
+                "state": "Montana"
+            },
+            "North Carolina": {
+                "abbr": "NC",
+                "winner": "Biden",
+                "state": "North Carolina"
+            },
+            "North Dakota": {
+                "abbr": "ND",
+                "winner": "Trump",
+                "state": "North Dakota"
+            },
+            "Nebraska": {
+                "abbr": "NE",
+                "winner": "Trump",
+                "state": "Nebraska"
+            },
+            "New Hampshire": {
+                "abbr": "NH",
+                "winner": "Biden",
+                "state": "New Hampshire"
+            },
+            "New Jersey": {
+                "abbr": "NJ",
+                "winner": "Biden",
+                "state": "New Jersey"
+            },
+            "New Mexico": {
+                "abbr": "NM",
+                "winner": "Biden",
+                "state": "New Mexico"
+            },
+            "Nevada": {
+                "abbr": "NV",
+                "winner": "Biden",
+                "state": "Nevada"
+            },
+            "New York": {
+                "abbr": "NY",
+                "winner": "Biden",
+                "state": "New York"
+            },
+            "Ohio": {
+                "abbr": "OH",
+                "winner": "Biden",
+                "state": "Ohio"
+            },
+            "Oklahoma": {
+                "abbr": "OK",
+                "winner": "Trump",
+                "state": "Oklahoma"
+            },
+            "Oregon": {
+                "abbr": "OR",
+                "winner": "Biden",
+                "state": "Oregon"
+            },
+            "Pennsylvania": {
+                "abbr": "PA",
+                "winner": "Biden",
+                "state": "Pennsylvania"
+            },
+            "Rhode Island": {
+                "abbr": "RI",
+                "winner": "Biden",
+                "state": "Rhode Island"
+            },
+            "South Carolina": {
+                "abbr": "SC",
+                "winner": "Trump",
+                "state": "South Carolina"
+            },
+            "South Dakota": {
+                "abbr": "SD",
+                "winner": "Trump",
+                "state": "South Dakota"
+            },
+            "Tennessee": {
+                "abbr": "TN",
+                "winner": "Trump",
+                "state": "Tennessee"
+            },
+            "Texas": {
+                "abbr": "TX",
+                "winner": "Biden",
+                "state": "Texas"
+            },
+            "Utah": {
+                "abbr": "UT",
+                "winner": "Trump",
+                "state": "Utah"
+            },
+            "Virginia": {
+                "abbr": "VA",
+                "winner": "Biden",
+                "state": "Virginia"
+            },
+            "Vermont": {
+                "abbr": "VT",
+                "winner": "Biden",
+                "state": "Vermont"
+            },
+            "Washington": {
+                "abbr": "WA",
+                "winner": "Biden",
+                "state": "Washington"
+            },
+            "Wisconsin": {
+                "abbr": "WI",
+                "winner": "Biden",
+                "state": "Wisconsin"
+            },
+            "West Virginia": {
+                "abbr": "WV",
+                "winner": "Trump",
+                "state": "West Virginia"
+            },
+            "Wyoming": {
+                "abbr": "WY",
+                "winner": "Trump",
+                "state": "Wyoming"
+            }
+        }
+    },
+    {
+        "winner": "Biden",
+        "evs": {
+            "Biden": 431,
+            "Trump": 107
+        },
+        "states": {
+            "Alaska": {
+                "abbr": "AK",
+                "winner": "Trump",
+                "state": "Alaska"
+            },
+            "Alabama": {
+                "abbr": "AL",
+                "winner": "Biden",
+                "state": "Alabama"
+            },
+            "Arkansas": {
+                "abbr": "AR",
+                "winner": "Trump",
+                "state": "Arkansas"
+            },
+            "Arizona": {
+                "abbr": "AZ",
+                "winner": "Biden",
+                "state": "Arizona"
+            },
+            "California": {
+                "abbr": "CA",
+                "winner": "Biden",
+                "state": "California"
+            },
+            "Colorado": {
+                "abbr": "CO",
+                "winner": "Biden",
+                "state": "Colorado"
+            },
+            "Connecticut": {
+                "abbr": "CT",
+                "winner": "Biden",
+                "state": "Connecticut"
+            },
+            "District of Columbia": {
+                "abbr": "DC",
+                "winner": "Biden",
+                "state": "District of Columbia"
+            },
+            "Delaware": {
+                "abbr": "DE",
+                "winner": "Biden",
+                "state": "Delaware"
+            },
+            "Florida": {
+                "abbr": "FL",
+                "winner": "Biden",
+                "state": "Florida"
+            },
+            "Georgia": {
+                "abbr": "GA",
+                "winner": "Biden",
+                "state": "Georgia"
+            },
+            "Hawaii": {
+                "abbr": "HI",
+                "winner": "Biden",
+                "state": "Hawaii"
+            },
+            "Iowa": {
+                "abbr": "IA",
+                "winner": "Trump",
+                "state": "Iowa"
+            },
+            "Idaho": {
+                "abbr": "ID",
+                "winner": "Trump",
+                "state": "Idaho"
+            },
+            "Illinois": {
+                "abbr": "IL",
+                "winner": "Biden",
+                "state": "Illinois"
+            },
+            "Indiana": {
+                "abbr": "IN",
+                "winner": "Trump",
+                "state": "Indiana"
+            },
+            "Kansas": {
+                "abbr": "KS",
+                "winner": "Trump",
+                "state": "Kansas"
+            },
+            "Kentucky": {
+                "abbr": "KY",
+                "winner": "Trump",
+                "state": "Kentucky"
+            },
+            "Louisiana": {
+                "abbr": "LA",
+                "winner": "Biden",
+                "state": "Louisiana"
+            },
+            "Massachusetts": {
+                "abbr": "MA",
+                "winner": "Biden",
+                "state": "Massachusetts"
+            },
+            "Maryland": {
+                "abbr": "MD",
+                "winner": "Biden",
+                "state": "Maryland"
+            },
+            "Maine": {
+                "abbr": "ME",
+                "winner": "Biden",
+                "state": "Maine"
+            },
+            "undefined": {
+                "abbr": "NE3",
+                "winner": "Trump"
+            },
+            "Michigan": {
+                "abbr": "MI",
+                "winner": "Biden",
+                "state": "Michigan"
+            },
+            "Minnesota": {
+                "abbr": "MN",
+                "winner": "Biden",
+                "state": "Minnesota"
+            },
+            "Missouri": {
+                "abbr": "MO",
+                "winner": "Trump",
+                "state": "Missouri"
+            },
+            "Mississippi": {
+                "abbr": "MS",
+                "winner": "Biden",
+                "state": "Mississippi"
+            },
+            "Montana": {
+                "abbr": "MT",
+                "winner": "Trump",
+                "state": "Montana"
+            },
+            "North Carolina": {
+                "abbr": "NC",
+                "winner": "Biden",
+                "state": "North Carolina"
+            },
+            "North Dakota": {
+                "abbr": "ND",
+                "winner": "Trump",
+                "state": "North Dakota"
+            },
+            "Nebraska": {
+                "abbr": "NE",
+                "winner": "Trump",
+                "state": "Nebraska"
+            },
+            "New Hampshire": {
+                "abbr": "NH",
+                "winner": "Biden",
+                "state": "New Hampshire"
+            },
+            "New Jersey": {
+                "abbr": "NJ",
+                "winner": "Biden",
+                "state": "New Jersey"
+            },
+            "New Mexico": {
+                "abbr": "NM",
+                "winner": "Biden",
+                "state": "New Mexico"
+            },
+            "Nevada": {
+                "abbr": "NV",
+                "winner": "Biden",
+                "state": "Nevada"
+            },
+            "New York": {
+                "abbr": "NY",
+                "winner": "Biden",
+                "state": "New York"
+            },
+            "Ohio": {
+                "abbr": "OH",
+                "winner": "Trump",
+                "state": "Ohio"
+            },
+            "Oklahoma": {
+                "abbr": "OK",
+                "winner": "Trump",
+                "state": "Oklahoma"
+            },
+            "Oregon": {
+                "abbr": "OR",
+                "winner": "Biden",
+                "state": "Oregon"
+            },
+            "Pennsylvania": {
+                "abbr": "PA",
+                "winner": "Biden",
+                "state": "Pennsylvania"
+            },
+            "Rhode Island": {
+                "abbr": "RI",
+                "winner": "Biden",
+                "state": "Rhode Island"
+            },
+            "South Carolina": {
+                "abbr": "SC",
+                "winner": "Biden",
+                "state": "South Carolina"
+            },
+            "South Dakota": {
+                "abbr": "SD",
+                "winner": "Trump",
+                "state": "South Dakota"
+            },
+            "Tennessee": {
+                "abbr": "TN",
+                "winner": "Biden",
+                "state": "Tennessee"
+            },
+            "Texas": {
+                "abbr": "TX",
+                "winner": "Biden",
+                "state": "Texas"
+            },
+            "Utah": {
+                "abbr": "UT",
+                "winner": "Trump",
+                "state": "Utah"
+            },
+            "Virginia": {
+                "abbr": "VA",
+                "winner": "Biden",
+                "state": "Virginia"
+            },
+            "Vermont": {
+                "abbr": "VT",
+                "winner": "Biden",
+                "state": "Vermont"
+            },
+            "Washington": {
+                "abbr": "WA",
+                "winner": "Biden",
+                "state": "Washington"
+            },
+            "Wisconsin": {
+                "abbr": "WI",
+                "winner": "Biden",
+                "state": "Wisconsin"
+            },
+            "West Virginia": {
+                "abbr": "WV",
+                "winner": "Trump",
+                "state": "West Virginia"
+            },
+            "Wyoming": {
+                "abbr": "WY",
+                "winner": "Trump",
+                "state": "Wyoming"
+            }
+        }
+    },
+    {
+        "winner": "Biden",
+        "evs": {
+            "Biden": 404,
+            "Trump": 134
+        },
+        "states": {
+            "Alaska": {
+                "abbr": "AK",
+                "winner": "Trump",
+                "state": "Alaska"
+            },
+            "Alabama": {
+                "abbr": "AL",
+                "winner": "Trump",
+                "state": "Alabama"
+            },
+            "Arkansas": {
+                "abbr": "AR",
+                "winner": "Trump",
+                "state": "Arkansas"
+            },
+            "Arizona": {
+                "abbr": "AZ",
+                "winner": "Biden",
+                "state": "Arizona"
+            },
+            "California": {
+                "abbr": "CA",
+                "winner": "Biden",
+                "state": "California"
+            },
+            "Colorado": {
+                "abbr": "CO",
+                "winner": "Biden",
+                "state": "Colorado"
+            },
+            "Connecticut": {
+                "abbr": "CT",
+                "winner": "Biden",
+                "state": "Connecticut"
+            },
+            "District of Columbia": {
+                "abbr": "DC",
+                "winner": "Biden",
+                "state": "District of Columbia"
+            },
+            "Delaware": {
+                "abbr": "DE",
+                "winner": "Biden",
+                "state": "Delaware"
+            },
+            "Florida": {
+                "abbr": "FL",
+                "winner": "Biden",
+                "state": "Florida"
+            },
+            "Georgia": {
+                "abbr": "GA",
+                "winner": "Biden",
+                "state": "Georgia"
+            },
+            "Hawaii": {
+                "abbr": "HI",
+                "winner": "Biden",
+                "state": "Hawaii"
+            },
+            "Iowa": {
+                "abbr": "IA",
+                "winner": "Biden",
+                "state": "Iowa"
+            },
+            "Idaho": {
+                "abbr": "ID",
+                "winner": "Trump",
+                "state": "Idaho"
+            },
+            "Illinois": {
+                "abbr": "IL",
+                "winner": "Biden",
+                "state": "Illinois"
+            },
+            "Indiana": {
+                "abbr": "IN",
+                "winner": "Trump",
+                "state": "Indiana"
+            },
+            "Kansas": {
+                "abbr": "KS",
+                "winner": "Trump",
+                "state": "Kansas"
+            },
+            "Kentucky": {
+                "abbr": "KY",
+                "winner": "Trump",
+                "state": "Kentucky"
+            },
+            "Louisiana": {
+                "abbr": "LA",
+                "winner": "Trump",
+                "state": "Louisiana"
+            },
+            "Massachusetts": {
+                "abbr": "MA",
+                "winner": "Biden",
+                "state": "Massachusetts"
+            },
+            "Maryland": {
+                "abbr": "MD",
+                "winner": "Biden",
+                "state": "Maryland"
+            },
+            "Maine": {
+                "abbr": "ME",
+                "winner": "Biden",
+                "state": "Maine"
+            },
+            "undefined": {
+                "abbr": "NE3",
+                "winner": "Trump"
+            },
+            "Michigan": {
+                "abbr": "MI",
+                "winner": "Biden",
+                "state": "Michigan"
+            },
+            "Minnesota": {
+                "abbr": "MN",
+                "winner": "Biden",
+                "state": "Minnesota"
+            },
+            "Missouri": {
+                "abbr": "MO",
+                "winner": "Trump",
+                "state": "Missouri"
+            },
+            "Mississippi": {
+                "abbr": "MS",
+                "winner": "Trump",
+                "state": "Mississippi"
+            },
+            "Montana": {
+                "abbr": "MT",
+                "winner": "Trump",
+                "state": "Montana"
+            },
+            "North Carolina": {
+                "abbr": "NC",
+                "winner": "Biden",
+                "state": "North Carolina"
+            },
+            "North Dakota": {
+                "abbr": "ND",
+                "winner": "Trump",
+                "state": "North Dakota"
+            },
+            "Nebraska": {
+                "abbr": "NE",
+                "winner": "Trump",
+                "state": "Nebraska"
+            },
+            "New Hampshire": {
+                "abbr": "NH",
+                "winner": "Biden",
+                "state": "New Hampshire"
+            },
+            "New Jersey": {
+                "abbr": "NJ",
+                "winner": "Biden",
+                "state": "New Jersey"
+            },
+            "New Mexico": {
+                "abbr": "NM",
+                "winner": "Biden",
+                "state": "New Mexico"
+            },
+            "Nevada": {
+                "abbr": "NV",
+                "winner": "Biden",
+                "state": "Nevada"
+            },
+            "New York": {
+                "abbr": "NY",
+                "winner": "Biden",
+                "state": "New York"
+            },
+            "Ohio": {
+                "abbr": "OH",
+                "winner": "Trump",
+                "state": "Ohio"
+            },
+            "Oklahoma": {
+                "abbr": "OK",
+                "winner": "Trump",
+                "state": "Oklahoma"
+            },
+            "Oregon": {
+                "abbr": "OR",
+                "winner": "Biden",
+                "state": "Oregon"
+            },
+            "Pennsylvania": {
+                "abbr": "PA",
+                "winner": "Biden",
+                "state": "Pennsylvania"
+            },
+            "Rhode Island": {
+                "abbr": "RI",
+                "winner": "Biden",
+                "state": "Rhode Island"
+            },
+            "South Carolina": {
+                "abbr": "SC",
+                "winner": "Biden",
+                "state": "South Carolina"
+            },
+            "South Dakota": {
+                "abbr": "SD",
+                "winner": "Trump",
+                "state": "South Dakota"
+            },
+            "Tennessee": {
+                "abbr": "TN",
+                "winner": "Trump",
+                "state": "Tennessee"
+            },
+            "Texas": {
+                "abbr": "TX",
+                "winner": "Biden",
+                "state": "Texas"
+            },
+            "Utah": {
+                "abbr": "UT",
+                "winner": "Trump",
+                "state": "Utah"
+            },
+            "Virginia": {
+                "abbr": "VA",
+                "winner": "Biden",
+                "state": "Virginia"
+            },
+            "Vermont": {
+                "abbr": "VT",
+                "winner": "Biden",
+                "state": "Vermont"
+            },
+            "Washington": {
+                "abbr": "WA",
+                "winner": "Biden",
+                "state": "Washington"
+            },
+            "Wisconsin": {
+                "abbr": "WI",
+                "winner": "Biden",
+                "state": "Wisconsin"
+            },
+            "West Virginia": {
+                "abbr": "WV",
+                "winner": "Trump",
+                "state": "West Virginia"
+            },
+            "Wyoming": {
+                "abbr": "WY",
+                "winner": "Trump",
+                "state": "Wyoming"
+            }
+        }
+    },
+    {
+        "winner": "Biden",
+        "evs": {
+            "Biden": 297,
+            "Trump": 241
+        },
+        "states": {
+            "Alaska": {
+                "abbr": "AK",
+                "winner": "Trump",
+                "state": "Alaska"
+            },
+            "Alabama": {
+                "abbr": "AL",
+                "winner": "Trump",
+                "state": "Alabama"
+            },
+            "Arkansas": {
+                "abbr": "AR",
+                "winner": "Trump",
+                "state": "Arkansas"
+            },
+            "Arizona": {
+                "abbr": "AZ",
+                "winner": "Biden",
+                "state": "Arizona"
+            },
+            "California": {
+                "abbr": "CA",
+                "winner": "Biden",
+                "state": "California"
+            },
+            "Colorado": {
+                "abbr": "CO",
+                "winner": "Biden",
+                "state": "Colorado"
+            },
+            "Connecticut": {
+                "abbr": "CT",
+                "winner": "Biden",
+                "state": "Connecticut"
+            },
+            "District of Columbia": {
+                "abbr": "DC",
+                "winner": "Biden",
+                "state": "District of Columbia"
+            },
+            "Delaware": {
+                "abbr": "DE",
+                "winner": "Biden",
+                "state": "Delaware"
+            },
+            "Florida": {
+                "abbr": "FL",
+                "winner": "Biden",
+                "state": "Florida"
+            },
+            "Georgia": {
+                "abbr": "GA",
+                "winner": "Trump",
+                "state": "Georgia"
+            },
+            "Hawaii": {
+                "abbr": "HI",
+                "winner": "Biden",
+                "state": "Hawaii"
+            },
+            "Iowa": {
+                "abbr": "IA",
+                "winner": "Trump",
+                "state": "Iowa"
+            },
+            "Idaho": {
+                "abbr": "ID",
+                "winner": "Trump",
+                "state": "Idaho"
+            },
+            "Illinois": {
+                "abbr": "IL",
+                "winner": "Biden",
+                "state": "Illinois"
+            },
+            "Indiana": {
+                "abbr": "IN",
+                "winner": "Trump",
+                "state": "Indiana"
+            },
+            "Kansas": {
+                "abbr": "KS",
+                "winner": "Trump",
+                "state": "Kansas"
+            },
+            "Kentucky": {
+                "abbr": "KY",
+                "winner": "Trump",
+                "state": "Kentucky"
+            },
+            "Louisiana": {
+                "abbr": "LA",
+                "winner": "Trump",
+                "state": "Louisiana"
+            },
+            "Massachusetts": {
+                "abbr": "MA",
+                "winner": "Biden",
+                "state": "Massachusetts"
+            },
+            "Maryland": {
+                "abbr": "MD",
+                "winner": "Biden",
+                "state": "Maryland"
+            },
+            "Maine": {
+                "abbr": "ME",
+                "winner": "Biden",
+                "state": "Maine"
+            },
+            "undefined": {
+                "abbr": "NE3",
+                "winner": "Trump"
+            },
+            "Michigan": {
+                "abbr": "MI",
+                "winner": "Biden",
+                "state": "Michigan"
+            },
+            "Minnesota": {
+                "abbr": "MN",
+                "winner": "Biden",
+                "state": "Minnesota"
+            },
+            "Missouri": {
+                "abbr": "MO",
+                "winner": "Trump",
+                "state": "Missouri"
+            },
+            "Mississippi": {
+                "abbr": "MS",
+                "winner": "Trump",
+                "state": "Mississippi"
+            },
+            "Montana": {
+                "abbr": "MT",
+                "winner": "Biden",
+                "state": "Montana"
+            },
+            "North Carolina": {
+                "abbr": "NC",
+                "winner": "Trump",
+                "state": "North Carolina"
+            },
+            "North Dakota": {
+                "abbr": "ND",
+                "winner": "Trump",
+                "state": "North Dakota"
+            },
+            "Nebraska": {
+                "abbr": "NE",
+                "winner": "Trump",
+                "state": "Nebraska"
+            },
+            "New Hampshire": {
+                "abbr": "NH",
+                "winner": "Trump",
+                "state": "New Hampshire"
+            },
+            "New Jersey": {
+                "abbr": "NJ",
+                "winner": "Biden",
+                "state": "New Jersey"
+            },
+            "New Mexico": {
+                "abbr": "NM",
+                "winner": "Biden",
+                "state": "New Mexico"
+            },
+            "Nevada": {
+                "abbr": "NV",
+                "winner": "Biden",
+                "state": "Nevada"
+            },
+            "New York": {
+                "abbr": "NY",
+                "winner": "Biden",
+                "state": "New York"
+            },
+            "Ohio": {
+                "abbr": "OH",
+                "winner": "Trump",
+                "state": "Ohio"
+            },
+            "Oklahoma": {
+                "abbr": "OK",
+                "winner": "Trump",
+                "state": "Oklahoma"
+            },
+            "Oregon": {
+                "abbr": "OR",
+                "winner": "Biden",
+                "state": "Oregon"
+            },
+            "Pennsylvania": {
+                "abbr": "PA",
+                "winner": "Trump",
+                "state": "Pennsylvania"
+            },
+            "Rhode Island": {
+                "abbr": "RI",
+                "winner": "Biden",
+                "state": "Rhode Island"
+            },
+            "South Carolina": {
+                "abbr": "SC",
+                "winner": "Trump",
+                "state": "South Carolina"
+            },
+            "South Dakota": {
+                "abbr": "SD",
+                "winner": "Trump",
+                "state": "South Dakota"
+            },
+            "Tennessee": {
+                "abbr": "TN",
+                "winner": "Trump",
+                "state": "Tennessee"
+            },
+            "Texas": {
+                "abbr": "TX",
+                "winner": "Trump",
+                "state": "Texas"
+            },
+            "Utah": {
+                "abbr": "UT",
+                "winner": "Trump",
+                "state": "Utah"
+            },
+            "Virginia": {
+                "abbr": "VA",
+                "winner": "Biden",
+                "state": "Virginia"
+            },
+            "Vermont": {
+                "abbr": "VT",
+                "winner": "Biden",
+                "state": "Vermont"
+            },
+            "Washington": {
+                "abbr": "WA",
+                "winner": "Biden",
+                "state": "Washington"
+            },
+            "Wisconsin": {
+                "abbr": "WI",
+                "winner": "Biden",
+                "state": "Wisconsin"
+            },
+            "West Virginia": {
+                "abbr": "WV",
+                "winner": "Trump",
+                "state": "West Virginia"
+            },
+            "Wyoming": {
+                "abbr": "WY",
+                "winner": "Trump",
+                "state": "Wyoming"
+            }
+        }
+    },
+    {
+        "winner": "Biden",
+        "evs": {
+            "Biden": 369,
+            "Trump": 169
+        },
+        "states": {
+            "Alaska": {
+                "abbr": "AK",
+                "winner": "Trump",
+                "state": "Alaska"
+            },
+            "Alabama": {
+                "abbr": "AL",
+                "winner": "Trump",
+                "state": "Alabama"
+            },
+            "Arkansas": {
+                "abbr": "AR",
+                "winner": "Trump",
+                "state": "Arkansas"
+            },
+            "Arizona": {
+                "abbr": "AZ",
+                "winner": "Biden",
+                "state": "Arizona"
+            },
+            "California": {
+                "abbr": "CA",
+                "winner": "Biden",
+                "state": "California"
+            },
+            "Colorado": {
+                "abbr": "CO",
+                "winner": "Biden",
+                "state": "Colorado"
+            },
+            "Connecticut": {
+                "abbr": "CT",
+                "winner": "Biden",
+                "state": "Connecticut"
+            },
+            "District of Columbia": {
+                "abbr": "DC",
+                "winner": "Biden",
+                "state": "District of Columbia"
+            },
+            "Delaware": {
+                "abbr": "DE",
+                "winner": "Biden",
+                "state": "Delaware"
+            },
+            "Florida": {
+                "abbr": "FL",
+                "winner": "Biden",
+                "state": "Florida"
+            },
+            "Georgia": {
+                "abbr": "GA",
+                "winner": "Biden",
+                "state": "Georgia"
+            },
+            "Hawaii": {
+                "abbr": "HI",
+                "winner": "Biden",
+                "state": "Hawaii"
+            },
+            "Iowa": {
+                "abbr": "IA",
+                "winner": "Trump",
+                "state": "Iowa"
+            },
+            "Idaho": {
+                "abbr": "ID",
+                "winner": "Trump",
+                "state": "Idaho"
+            },
+            "Illinois": {
+                "abbr": "IL",
+                "winner": "Biden",
+                "state": "Illinois"
+            },
+            "Indiana": {
+                "abbr": "IN",
+                "winner": "Trump",
+                "state": "Indiana"
+            },
+            "Kansas": {
+                "abbr": "KS",
+                "winner": "Trump",
+                "state": "Kansas"
+            },
+            "Kentucky": {
+                "abbr": "KY",
+                "winner": "Trump",
+                "state": "Kentucky"
+            },
+            "Louisiana": {
+                "abbr": "LA",
+                "winner": "Trump",
+                "state": "Louisiana"
+            },
+            "Massachusetts": {
+                "abbr": "MA",
+                "winner": "Biden",
+                "state": "Massachusetts"
+            },
+            "Maryland": {
+                "abbr": "MD",
+                "winner": "Biden",
+                "state": "Maryland"
+            },
+            "Maine": {
+                "abbr": "ME",
+                "winner": "Biden",
+                "state": "Maine"
+            },
+            "undefined": {
+                "abbr": "NE3",
+                "winner": "Trump"
+            },
+            "Michigan": {
+                "abbr": "MI",
+                "winner": "Biden",
+                "state": "Michigan"
+            },
+            "Minnesota": {
+                "abbr": "MN",
+                "winner": "Biden",
+                "state": "Minnesota"
+            },
+            "Missouri": {
+                "abbr": "MO",
+                "winner": "Trump",
+                "state": "Missouri"
+            },
+            "Mississippi": {
+                "abbr": "MS",
+                "winner": "Trump",
+                "state": "Mississippi"
+            },
+            "Montana": {
+                "abbr": "MT",
+                "winner": "Trump",
+                "state": "Montana"
+            },
+            "North Carolina": {
+                "abbr": "NC",
+                "winner": "Biden",
+                "state": "North Carolina"
+            },
+            "North Dakota": {
+                "abbr": "ND",
+                "winner": "Trump",
+                "state": "North Dakota"
+            },
+            "Nebraska": {
+                "abbr": "NE",
+                "winner": "Trump",
+                "state": "Nebraska"
+            },
+            "New Hampshire": {
+                "abbr": "NH",
+                "winner": "Biden",
+                "state": "New Hampshire"
+            },
+            "New Jersey": {
+                "abbr": "NJ",
+                "winner": "Biden",
+                "state": "New Jersey"
+            },
+            "New Mexico": {
+                "abbr": "NM",
+                "winner": "Biden",
+                "state": "New Mexico"
+            },
+            "Nevada": {
+                "abbr": "NV",
+                "winner": "Biden",
+                "state": "Nevada"
+            },
+            "New York": {
+                "abbr": "NY",
+                "winner": "Biden",
+                "state": "New York"
+            },
+            "Ohio": {
+                "abbr": "OH",
+                "winner": "Biden",
+                "state": "Ohio"
+            },
+            "Oklahoma": {
+                "abbr": "OK",
+                "winner": "Trump",
+                "state": "Oklahoma"
+            },
+            "Oregon": {
+                "abbr": "OR",
+                "winner": "Biden",
+                "state": "Oregon"
+            },
+            "Pennsylvania": {
+                "abbr": "PA",
+                "winner": "Biden",
+                "state": "Pennsylvania"
+            },
+            "Rhode Island": {
+                "abbr": "RI",
+                "winner": "Biden",
+                "state": "Rhode Island"
+            },
+            "South Carolina": {
+                "abbr": "SC",
+                "winner": "Trump",
+                "state": "South Carolina"
+            },
+            "South Dakota": {
+                "abbr": "SD",
+                "winner": "Trump",
+                "state": "South Dakota"
+            },
+            "Tennessee": {
+                "abbr": "TN",
+                "winner": "Trump",
+                "state": "Tennessee"
+            },
+            "Texas": {
+                "abbr": "TX",
+                "winner": "Trump",
+                "state": "Texas"
+            },
+            "Utah": {
+                "abbr": "UT",
+                "winner": "Trump",
+                "state": "Utah"
+            },
+            "Virginia": {
+                "abbr": "VA",
+                "winner": "Biden",
+                "state": "Virginia"
+            },
+            "Vermont": {
+                "abbr": "VT",
+                "winner": "Biden",
+                "state": "Vermont"
+            },
+            "Washington": {
+                "abbr": "WA",
+                "winner": "Biden",
+                "state": "Washington"
+            },
+            "Wisconsin": {
+                "abbr": "WI",
+                "winner": "Biden",
+                "state": "Wisconsin"
+            },
+            "West Virginia": {
+                "abbr": "WV",
+                "winner": "Trump",
+                "state": "West Virginia"
+            },
+            "Wyoming": {
+                "abbr": "WY",
+                "winner": "Trump",
+                "state": "Wyoming"
+            }
+        }
+    },
+    {
+        "winner": "Biden",
+        "evs": {
+            "Biden": 378,
+            "Trump": 160
+        },
+        "states": {
+            "Alaska": {
+                "abbr": "AK",
+                "winner": "Trump",
+                "state": "Alaska"
+            },
+            "Alabama": {
+                "abbr": "AL",
+                "winner": "Trump",
+                "state": "Alabama"
+            },
+            "Arkansas": {
+                "abbr": "AR",
+                "winner": "Trump",
+                "state": "Arkansas"
+            },
+            "Arizona": {
+                "abbr": "AZ",
+                "winner": "Biden",
+                "state": "Arizona"
+            },
+            "California": {
+                "abbr": "CA",
+                "winner": "Biden",
+                "state": "California"
+            },
+            "Colorado": {
+                "abbr": "CO",
+                "winner": "Biden",
+                "state": "Colorado"
+            },
+            "Connecticut": {
+                "abbr": "CT",
+                "winner": "Biden",
+                "state": "Connecticut"
+            },
+            "District of Columbia": {
+                "abbr": "DC",
+                "winner": "Biden",
+                "state": "District of Columbia"
+            },
+            "Delaware": {
+                "abbr": "DE",
+                "winner": "Biden",
+                "state": "Delaware"
+            },
+            "Florida": {
+                "abbr": "FL",
+                "winner": "Biden",
+                "state": "Florida"
+            },
+            "Georgia": {
+                "abbr": "GA",
+                "winner": "Biden",
+                "state": "Georgia"
+            },
+            "Hawaii": {
+                "abbr": "HI",
+                "winner": "Biden",
+                "state": "Hawaii"
+            },
+            "Iowa": {
+                "abbr": "IA",
+                "winner": "Biden",
+                "state": "Iowa"
+            },
+            "Idaho": {
+                "abbr": "ID",
+                "winner": "Trump",
+                "state": "Idaho"
+            },
+            "Illinois": {
+                "abbr": "IL",
+                "winner": "Biden",
+                "state": "Illinois"
+            },
+            "Indiana": {
+                "abbr": "IN",
+                "winner": "Trump",
+                "state": "Indiana"
+            },
+            "Kansas": {
+                "abbr": "KS",
+                "winner": "Trump",
+                "state": "Kansas"
+            },
+            "Kentucky": {
+                "abbr": "KY",
+                "winner": "Trump",
+                "state": "Kentucky"
+            },
+            "Louisiana": {
+                "abbr": "LA",
+                "winner": "Trump",
+                "state": "Louisiana"
+            },
+            "Massachusetts": {
+                "abbr": "MA",
+                "winner": "Biden",
+                "state": "Massachusetts"
+            },
+            "Maryland": {
+                "abbr": "MD",
+                "winner": "Biden",
+                "state": "Maryland"
+            },
+            "Maine": {
+                "abbr": "ME",
+                "winner": "Biden",
+                "state": "Maine"
+            },
+            "undefined": {
+                "abbr": "NE3",
+                "winner": "Trump"
+            },
+            "Michigan": {
+                "abbr": "MI",
+                "winner": "Biden",
+                "state": "Michigan"
+            },
+            "Minnesota": {
+                "abbr": "MN",
+                "winner": "Biden",
+                "state": "Minnesota"
+            },
+            "Missouri": {
+                "abbr": "MO",
+                "winner": "Trump",
+                "state": "Missouri"
+            },
+            "Mississippi": {
+                "abbr": "MS",
+                "winner": "Trump",
+                "state": "Mississippi"
+            },
+            "Montana": {
+                "abbr": "MT",
+                "winner": "Biden",
+                "state": "Montana"
+            },
+            "North Carolina": {
+                "abbr": "NC",
+                "winner": "Biden",
+                "state": "North Carolina"
+            },
+            "North Dakota": {
+                "abbr": "ND",
+                "winner": "Trump",
+                "state": "North Dakota"
+            },
+            "Nebraska": {
+                "abbr": "NE",
+                "winner": "Trump",
+                "state": "Nebraska"
+            },
+            "New Hampshire": {
+                "abbr": "NH",
+                "winner": "Biden",
+                "state": "New Hampshire"
+            },
+            "New Jersey": {
+                "abbr": "NJ",
+                "winner": "Biden",
+                "state": "New Jersey"
+            },
+            "New Mexico": {
+                "abbr": "NM",
+                "winner": "Biden",
+                "state": "New Mexico"
+            },
+            "Nevada": {
+                "abbr": "NV",
+                "winner": "Biden",
+                "state": "Nevada"
+            },
+            "New York": {
+                "abbr": "NY",
+                "winner": "Biden",
+                "state": "New York"
+            },
+            "Ohio": {
+                "abbr": "OH",
+                "winner": "Biden",
+                "state": "Ohio"
+            },
+            "Oklahoma": {
+                "abbr": "OK",
+                "winner": "Trump",
+                "state": "Oklahoma"
+            },
+            "Oregon": {
+                "abbr": "OR",
+                "winner": "Biden",
+                "state": "Oregon"
+            },
+            "Pennsylvania": {
+                "abbr": "PA",
+                "winner": "Biden",
+                "state": "Pennsylvania"
+            },
+            "Rhode Island": {
+                "abbr": "RI",
+                "winner": "Biden",
+                "state": "Rhode Island"
+            },
+            "South Carolina": {
+                "abbr": "SC",
+                "winner": "Trump",
+                "state": "South Carolina"
+            },
+            "South Dakota": {
+                "abbr": "SD",
+                "winner": "Trump",
+                "state": "South Dakota"
+            },
+            "Tennessee": {
+                "abbr": "TN",
+                "winner": "Trump",
+                "state": "Tennessee"
+            },
+            "Texas": {
+                "abbr": "TX",
+                "winner": "Trump",
+                "state": "Texas"
+            },
+            "Utah": {
+                "abbr": "UT",
+                "winner": "Trump",
+                "state": "Utah"
+            },
+            "Virginia": {
+                "abbr": "VA",
+                "winner": "Biden",
+                "state": "Virginia"
+            },
+            "Vermont": {
+                "abbr": "VT",
+                "winner": "Biden",
+                "state": "Vermont"
+            },
+            "Washington": {
+                "abbr": "WA",
+                "winner": "Biden",
+                "state": "Washington"
+            },
+            "Wisconsin": {
+                "abbr": "WI",
+                "winner": "Biden",
+                "state": "Wisconsin"
+            },
+            "West Virginia": {
+                "abbr": "WV",
+                "winner": "Trump",
+                "state": "West Virginia"
+            },
+            "Wyoming": {
+                "abbr": "WY",
+                "winner": "Trump",
+                "state": "Wyoming"
+            }
+        }
+    },
+    {
+        "winner": "Biden",
+        "evs": {
+            "Biden": 360,
+            "Trump": 178
+        },
+        "states": {
+            "Alaska": {
+                "abbr": "AK",
+                "winner": "Trump",
+                "state": "Alaska"
+            },
+            "Alabama": {
+                "abbr": "AL",
+                "winner": "Trump",
+                "state": "Alabama"
+            },
+            "Arkansas": {
+                "abbr": "AR",
+                "winner": "Trump",
+                "state": "Arkansas"
+            },
+            "Arizona": {
+                "abbr": "AZ",
+                "winner": "Biden",
+                "state": "Arizona"
+            },
+            "California": {
+                "abbr": "CA",
+                "winner": "Biden",
+                "state": "California"
+            },
+            "Colorado": {
+                "abbr": "CO",
+                "winner": "Biden",
+                "state": "Colorado"
+            },
+            "Connecticut": {
+                "abbr": "CT",
+                "winner": "Biden",
+                "state": "Connecticut"
+            },
+            "District of Columbia": {
+                "abbr": "DC",
+                "winner": "Biden",
+                "state": "District of Columbia"
+            },
+            "Delaware": {
+                "abbr": "DE",
+                "winner": "Biden",
+                "state": "Delaware"
+            },
+            "Florida": {
+                "abbr": "FL",
+                "winner": "Biden",
+                "state": "Florida"
+            },
+            "Georgia": {
+                "abbr": "GA",
+                "winner": "Biden",
+                "state": "Georgia"
+            },
+            "Hawaii": {
+                "abbr": "HI",
+                "winner": "Biden",
+                "state": "Hawaii"
+            },
+            "Iowa": {
+                "abbr": "IA",
+                "winner": "Biden",
+                "state": "Iowa"
+            },
+            "Idaho": {
+                "abbr": "ID",
+                "winner": "Trump",
+                "state": "Idaho"
+            },
+            "Illinois": {
+                "abbr": "IL",
+                "winner": "Biden",
+                "state": "Illinois"
+            },
+            "Indiana": {
+                "abbr": "IN",
+                "winner": "Trump",
+                "state": "Indiana"
+            },
+            "Kansas": {
+                "abbr": "KS",
+                "winner": "Trump",
+                "state": "Kansas"
+            },
+            "Kentucky": {
+                "abbr": "KY",
+                "winner": "Trump",
+                "state": "Kentucky"
+            },
+            "Louisiana": {
+                "abbr": "LA",
+                "winner": "Trump",
+                "state": "Louisiana"
+            },
+            "Massachusetts": {
+                "abbr": "MA",
+                "winner": "Biden",
+                "state": "Massachusetts"
+            },
+            "Maryland": {
+                "abbr": "MD",
+                "winner": "Biden",
+                "state": "Maryland"
+            },
+            "Maine": {
+                "abbr": "ME",
+                "winner": "Biden",
+                "state": "Maine"
+            },
+            "undefined": {
+                "abbr": "NE3",
+                "winner": "Trump"
+            },
+            "Michigan": {
+                "abbr": "MI",
+                "winner": "Biden",
+                "state": "Michigan"
+            },
+            "Minnesota": {
+                "abbr": "MN",
+                "winner": "Biden",
+                "state": "Minnesota"
+            },
+            "Missouri": {
+                "abbr": "MO",
+                "winner": "Trump",
+                "state": "Missouri"
+            },
+            "Mississippi": {
+                "abbr": "MS",
+                "winner": "Trump",
+                "state": "Mississippi"
+            },
+            "Montana": {
+                "abbr": "MT",
+                "winner": "Trump",
+                "state": "Montana"
+            },
+            "North Carolina": {
+                "abbr": "NC",
+                "winner": "Trump",
+                "state": "North Carolina"
+            },
+            "North Dakota": {
+                "abbr": "ND",
+                "winner": "Trump",
+                "state": "North Dakota"
+            },
+            "Nebraska": {
+                "abbr": "NE",
+                "winner": "Trump",
+                "state": "Nebraska"
+            },
+            "New Hampshire": {
+                "abbr": "NH",
+                "winner": "Biden",
+                "state": "New Hampshire"
+            },
+            "New Jersey": {
+                "abbr": "NJ",
+                "winner": "Biden",
+                "state": "New Jersey"
+            },
+            "New Mexico": {
+                "abbr": "NM",
+                "winner": "Biden",
+                "state": "New Mexico"
+            },
+            "Nevada": {
+                "abbr": "NV",
+                "winner": "Biden",
+                "state": "Nevada"
+            },
+            "New York": {
+                "abbr": "NY",
+                "winner": "Biden",
+                "state": "New York"
+            },
+            "Ohio": {
+                "abbr": "OH",
+                "winner": "Biden",
+                "state": "Ohio"
+            },
+            "Oklahoma": {
+                "abbr": "OK",
+                "winner": "Trump",
+                "state": "Oklahoma"
+            },
+            "Oregon": {
+                "abbr": "OR",
+                "winner": "Biden",
+                "state": "Oregon"
+            },
+            "Pennsylvania": {
+                "abbr": "PA",
+                "winner": "Biden",
+                "state": "Pennsylvania"
+            },
+            "Rhode Island": {
+                "abbr": "RI",
+                "winner": "Biden",
+                "state": "Rhode Island"
+            },
+            "South Carolina": {
+                "abbr": "SC",
+                "winner": "Trump",
+                "state": "South Carolina"
+            },
+            "South Dakota": {
+                "abbr": "SD",
+                "winner": "Trump",
+                "state": "South Dakota"
+            },
+            "Tennessee": {
+                "abbr": "TN",
+                "winner": "Trump",
+                "state": "Tennessee"
+            },
+            "Texas": {
+                "abbr": "TX",
+                "winner": "Trump",
+                "state": "Texas"
+            },
+            "Utah": {
+                "abbr": "UT",
+                "winner": "Trump",
+                "state": "Utah"
+            },
+            "Virginia": {
+                "abbr": "VA",
+                "winner": "Biden",
+                "state": "Virginia"
+            },
+            "Vermont": {
+                "abbr": "VT",
+                "winner": "Biden",
+                "state": "Vermont"
+            },
+            "Washington": {
+                "abbr": "WA",
+                "winner": "Biden",
+                "state": "Washington"
+            },
+            "Wisconsin": {
+                "abbr": "WI",
+                "winner": "Biden",
+                "state": "Wisconsin"
+            },
+            "West Virginia": {
+                "abbr": "WV",
+                "winner": "Trump",
+                "state": "West Virginia"
+            },
+            "Wyoming": {
+                "abbr": "WY",
+                "winner": "Trump",
+                "state": "Wyoming"
+            }
+        }
+    },
+    {
+        "winner": "Biden",
+        "evs": {
+            "Biden": 375,
+            "Trump": 163
+        },
+        "states": {
+            "Alaska": {
+                "abbr": "AK",
+                "winner": "Biden",
+                "state": "Alaska"
+            },
+            "Alabama": {
+                "abbr": "AL",
+                "winner": "Trump",
+                "state": "Alabama"
+            },
+            "Arkansas": {
+                "abbr": "AR",
+                "winner": "Trump",
+                "state": "Arkansas"
+            },
+            "Arizona": {
+                "abbr": "AZ",
+                "winner": "Biden",
+                "state": "Arizona"
+            },
+            "California": {
+                "abbr": "CA",
+                "winner": "Biden",
+                "state": "California"
+            },
+            "Colorado": {
+                "abbr": "CO",
+                "winner": "Biden",
+                "state": "Colorado"
+            },
+            "Connecticut": {
+                "abbr": "CT",
+                "winner": "Biden",
+                "state": "Connecticut"
+            },
+            "District of Columbia": {
+                "abbr": "DC",
+                "winner": "Biden",
+                "state": "District of Columbia"
+            },
+            "Delaware": {
+                "abbr": "DE",
+                "winner": "Biden",
+                "state": "Delaware"
+            },
+            "Florida": {
+                "abbr": "FL",
+                "winner": "Biden",
+                "state": "Florida"
+            },
+            "Georgia": {
+                "abbr": "GA",
+                "winner": "Trump",
+                "state": "Georgia"
+            },
+            "Hawaii": {
+                "abbr": "HI",
+                "winner": "Biden",
+                "state": "Hawaii"
+            },
+            "Iowa": {
+                "abbr": "IA",
+                "winner": "Trump",
+                "state": "Iowa"
+            },
+            "Idaho": {
+                "abbr": "ID",
+                "winner": "Trump",
+                "state": "Idaho"
+            },
+            "Illinois": {
+                "abbr": "IL",
+                "winner": "Biden",
+                "state": "Illinois"
+            },
+            "Indiana": {
+                "abbr": "IN",
+                "winner": "Trump",
+                "state": "Indiana"
+            },
+            "Kansas": {
+                "abbr": "KS",
+                "winner": "Trump",
+                "state": "Kansas"
+            },
+            "Kentucky": {
+                "abbr": "KY",
+                "winner": "Trump",
+                "state": "Kentucky"
+            },
+            "Louisiana": {
+                "abbr": "LA",
+                "winner": "Trump",
+                "state": "Louisiana"
+            },
+            "Massachusetts": {
+                "abbr": "MA",
+                "winner": "Biden",
+                "state": "Massachusetts"
+            },
+            "Maryland": {
+                "abbr": "MD",
+                "winner": "Biden",
+                "state": "Maryland"
+            },
+            "Maine": {
+                "abbr": "ME",
+                "winner": "Biden",
+                "state": "Maine"
+            },
+            "undefined": {
+                "abbr": "NE3",
+                "winner": "Trump"
+            },
+            "Michigan": {
+                "abbr": "MI",
+                "winner": "Biden",
+                "state": "Michigan"
+            },
+            "Minnesota": {
+                "abbr": "MN",
+                "winner": "Biden",
+                "state": "Minnesota"
+            },
+            "Missouri": {
+                "abbr": "MO",
+                "winner": "Trump",
+                "state": "Missouri"
+            },
+            "Mississippi": {
+                "abbr": "MS",
+                "winner": "Trump",
+                "state": "Mississippi"
+            },
+            "Montana": {
+                "abbr": "MT",
+                "winner": "Trump",
+                "state": "Montana"
+            },
+            "North Carolina": {
+                "abbr": "NC",
+                "winner": "Biden",
+                "state": "North Carolina"
+            },
+            "North Dakota": {
+                "abbr": "ND",
+                "winner": "Trump",
+                "state": "North Dakota"
+            },
+            "Nebraska": {
+                "abbr": "NE",
+                "winner": "Trump",
+                "state": "Nebraska"
+            },
+            "New Hampshire": {
+                "abbr": "NH",
+                "winner": "Biden",
+                "state": "New Hampshire"
+            },
+            "New Jersey": {
+                "abbr": "NJ",
+                "winner": "Biden",
+                "state": "New Jersey"
+            },
+            "New Mexico": {
+                "abbr": "NM",
+                "winner": "Biden",
+                "state": "New Mexico"
+            },
+            "Nevada": {
+                "abbr": "NV",
+                "winner": "Biden",
+                "state": "Nevada"
+            },
+            "New York": {
+                "abbr": "NY",
+                "winner": "Biden",
+                "state": "New York"
+            },
+            "Ohio": {
+                "abbr": "OH",
+                "winner": "Trump",
+                "state": "Ohio"
+            },
+            "Oklahoma": {
+                "abbr": "OK",
+                "winner": "Trump",
+                "state": "Oklahoma"
+            },
+            "Oregon": {
+                "abbr": "OR",
+                "winner": "Biden",
+                "state": "Oregon"
+            },
+            "Pennsylvania": {
+                "abbr": "PA",
+                "winner": "Biden",
+                "state": "Pennsylvania"
+            },
+            "Rhode Island": {
+                "abbr": "RI",
+                "winner": "Biden",
+                "state": "Rhode Island"
+            },
+            "South Carolina": {
+                "abbr": "SC",
+                "winner": "Trump",
+                "state": "South Carolina"
+            },
+            "South Dakota": {
+                "abbr": "SD",
+                "winner": "Trump",
+                "state": "South Dakota"
+            },
+            "Tennessee": {
+                "abbr": "TN",
+                "winner": "Trump",
+                "state": "Tennessee"
+            },
+            "Texas": {
+                "abbr": "TX",
+                "winner": "Biden",
+                "state": "Texas"
+            },
+            "Utah": {
+                "abbr": "UT",
+                "winner": "Trump",
+                "state": "Utah"
+            },
+            "Virginia": {
+                "abbr": "VA",
+                "winner": "Biden",
+                "state": "Virginia"
+            },
+            "Vermont": {
+                "abbr": "VT",
+                "winner": "Biden",
+                "state": "Vermont"
+            },
+            "Washington": {
+                "abbr": "WA",
+                "winner": "Biden",
+                "state": "Washington"
+            },
+            "Wisconsin": {
+                "abbr": "WI",
+                "winner": "Biden",
+                "state": "Wisconsin"
+            },
+            "West Virginia": {
+                "abbr": "WV",
+                "winner": "Trump",
+                "state": "West Virginia"
+            },
+            "Wyoming": {
+                "abbr": "WY",
+                "winner": "Trump",
+                "state": "Wyoming"
+            }
+        }
+    },
+    {
+        "winner": "Biden",
+        "evs": {
+            "Biden": 412,
+            "Trump": 126
+        },
+        "states": {
+            "Alaska": {
+                "abbr": "AK",
+                "winner": "Trump",
+                "state": "Alaska"
+            },
+            "Alabama": {
+                "abbr": "AL",
+                "winner": "Trump",
+                "state": "Alabama"
+            },
+            "Arkansas": {
+                "abbr": "AR",
+                "winner": "Trump",
+                "state": "Arkansas"
+            },
+            "Arizona": {
+                "abbr": "AZ",
+                "winner": "Trump",
+                "state": "Arizona"
+            },
+            "California": {
+                "abbr": "CA",
+                "winner": "Biden",
+                "state": "California"
+            },
+            "Colorado": {
+                "abbr": "CO",
+                "winner": "Biden",
+                "state": "Colorado"
+            },
+            "Connecticut": {
+                "abbr": "CT",
+                "winner": "Biden",
+                "state": "Connecticut"
+            },
+            "District of Columbia": {
+                "abbr": "DC",
+                "winner": "Biden",
+                "state": "District of Columbia"
+            },
+            "Delaware": {
+                "abbr": "DE",
+                "winner": "Biden",
+                "state": "Delaware"
+            },
+            "Florida": {
+                "abbr": "FL",
+                "winner": "Biden",
+                "state": "Florida"
+            },
+            "Georgia": {
+                "abbr": "GA",
+                "winner": "Biden",
+                "state": "Georgia"
+            },
+            "Hawaii": {
+                "abbr": "HI",
+                "winner": "Biden",
+                "state": "Hawaii"
+            },
+            "Iowa": {
+                "abbr": "IA",
+                "winner": "Biden",
+                "state": "Iowa"
+            },
+            "Idaho": {
+                "abbr": "ID",
+                "winner": "Trump",
+                "state": "Idaho"
+            },
+            "Illinois": {
+                "abbr": "IL",
+                "winner": "Biden",
+                "state": "Illinois"
+            },
+            "Indiana": {
+                "abbr": "IN",
+                "winner": "Trump",
+                "state": "Indiana"
+            },
+            "Kansas": {
+                "abbr": "KS",
+                "winner": "Trump",
+                "state": "Kansas"
+            },
+            "Kentucky": {
+                "abbr": "KY",
+                "winner": "Trump",
+                "state": "Kentucky"
+            },
+            "Louisiana": {
+                "abbr": "LA",
+                "winner": "Trump",
+                "state": "Louisiana"
+            },
+            "Massachusetts": {
+                "abbr": "MA",
+                "winner": "Biden",
+                "state": "Massachusetts"
+            },
+            "Maryland": {
+                "abbr": "MD",
+                "winner": "Biden",
+                "state": "Maryland"
+            },
+            "Maine": {
+                "abbr": "ME",
+                "winner": "Biden",
+                "state": "Maine"
+            },
+            "undefined": {
+                "abbr": "NE3",
+                "winner": "Trump"
+            },
+            "Michigan": {
+                "abbr": "MI",
+                "winner": "Biden",
+                "state": "Michigan"
+            },
+            "Minnesota": {
+                "abbr": "MN",
+                "winner": "Biden",
+                "state": "Minnesota"
+            },
+            "Missouri": {
+                "abbr": "MO",
+                "winner": "Biden",
+                "state": "Missouri"
+            },
+            "Mississippi": {
+                "abbr": "MS",
+                "winner": "Trump",
+                "state": "Mississippi"
+            },
+            "Montana": {
+                "abbr": "MT",
+                "winner": "Trump",
+                "state": "Montana"
+            },
+            "North Carolina": {
+                "abbr": "NC",
+                "winner": "Biden",
+                "state": "North Carolina"
+            },
+            "North Dakota": {
+                "abbr": "ND",
+                "winner": "Trump",
+                "state": "North Dakota"
+            },
+            "Nebraska": {
+                "abbr": "NE",
+                "winner": "Trump",
+                "state": "Nebraska"
+            },
+            "New Hampshire": {
+                "abbr": "NH",
+                "winner": "Biden",
+                "state": "New Hampshire"
+            },
+            "New Jersey": {
+                "abbr": "NJ",
+                "winner": "Biden",
+                "state": "New Jersey"
+            },
+            "New Mexico": {
+                "abbr": "NM",
+                "winner": "Biden",
+                "state": "New Mexico"
+            },
+            "Nevada": {
+                "abbr": "NV",
+                "winner": "Biden",
+                "state": "Nevada"
+            },
+            "New York": {
+                "abbr": "NY",
+                "winner": "Biden",
+                "state": "New York"
+            },
+            "Ohio": {
+                "abbr": "OH",
+                "winner": "Biden",
+                "state": "Ohio"
+            },
+            "Oklahoma": {
+                "abbr": "OK",
+                "winner": "Trump",
+                "state": "Oklahoma"
+            },
+            "Oregon": {
+                "abbr": "OR",
+                "winner": "Biden",
+                "state": "Oregon"
+            },
+            "Pennsylvania": {
+                "abbr": "PA",
+                "winner": "Biden",
+                "state": "Pennsylvania"
+            },
+            "Rhode Island": {
+                "abbr": "RI",
+                "winner": "Biden",
+                "state": "Rhode Island"
+            },
+            "South Carolina": {
+                "abbr": "SC",
+                "winner": "Trump",
+                "state": "South Carolina"
+            },
+            "South Dakota": {
+                "abbr": "SD",
+                "winner": "Trump",
+                "state": "South Dakota"
+            },
+            "Tennessee": {
+                "abbr": "TN",
+                "winner": "Trump",
+                "state": "Tennessee"
+            },
+            "Texas": {
+                "abbr": "TX",
+                "winner": "Biden",
+                "state": "Texas"
+            },
+            "Utah": {
+                "abbr": "UT",
+                "winner": "Trump",
+                "state": "Utah"
+            },
+            "Virginia": {
+                "abbr": "VA",
+                "winner": "Biden",
+                "state": "Virginia"
+            },
+            "Vermont": {
+                "abbr": "VT",
+                "winner": "Biden",
+                "state": "Vermont"
+            },
+            "Washington": {
+                "abbr": "WA",
+                "winner": "Biden",
+                "state": "Washington"
+            },
+            "Wisconsin": {
+                "abbr": "WI",
+                "winner": "Biden",
+                "state": "Wisconsin"
+            },
+            "West Virginia": {
+                "abbr": "WV",
+                "winner": "Trump",
+                "state": "West Virginia"
+            },
+            "Wyoming": {
+                "abbr": "WY",
+                "winner": "Trump",
+                "state": "Wyoming"
+            }
+        }
+    },
+    {
+        "winner": "Biden",
+        "evs": {
+            "Biden": 350,
+            "Trump": 188
+        },
+        "states": {
+            "Alaska": {
+                "abbr": "AK",
+                "winner": "Trump",
+                "state": "Alaska"
+            },
+            "Alabama": {
+                "abbr": "AL",
+                "winner": "Trump",
+                "state": "Alabama"
+            },
+            "Arkansas": {
+                "abbr": "AR",
+                "winner": "Trump",
+                "state": "Arkansas"
+            },
+            "Arizona": {
+                "abbr": "AZ",
+                "winner": "Biden",
+                "state": "Arizona"
+            },
+            "California": {
+                "abbr": "CA",
+                "winner": "Biden",
+                "state": "California"
+            },
+            "Colorado": {
+                "abbr": "CO",
+                "winner": "Biden",
+                "state": "Colorado"
+            },
+            "Connecticut": {
+                "abbr": "CT",
+                "winner": "Biden",
+                "state": "Connecticut"
+            },
+            "District of Columbia": {
+                "abbr": "DC",
+                "winner": "Biden",
+                "state": "District of Columbia"
+            },
+            "Delaware": {
+                "abbr": "DE",
+                "winner": "Biden",
+                "state": "Delaware"
+            },
+            "Florida": {
+                "abbr": "FL",
+                "winner": "Biden",
+                "state": "Florida"
+            },
+            "Georgia": {
+                "abbr": "GA",
+                "winner": "Biden",
+                "state": "Georgia"
+            },
+            "Hawaii": {
+                "abbr": "HI",
+                "winner": "Biden",
+                "state": "Hawaii"
+            },
+            "Iowa": {
+                "abbr": "IA",
+                "winner": "Trump",
+                "state": "Iowa"
+            },
+            "Idaho": {
+                "abbr": "ID",
+                "winner": "Trump",
+                "state": "Idaho"
+            },
+            "Illinois": {
+                "abbr": "IL",
+                "winner": "Biden",
+                "state": "Illinois"
+            },
+            "Indiana": {
+                "abbr": "IN",
+                "winner": "Trump",
+                "state": "Indiana"
+            },
+            "Kansas": {
+                "abbr": "KS",
+                "winner": "Trump",
+                "state": "Kansas"
+            },
+            "Kentucky": {
+                "abbr": "KY",
+                "winner": "Trump",
+                "state": "Kentucky"
+            },
+            "Louisiana": {
+                "abbr": "LA",
+                "winner": "Trump",
+                "state": "Louisiana"
+            },
+            "Massachusetts": {
+                "abbr": "MA",
+                "winner": "Biden",
+                "state": "Massachusetts"
+            },
+            "Maryland": {
+                "abbr": "MD",
+                "winner": "Biden",
+                "state": "Maryland"
+            },
+            "Maine": {
+                "abbr": "ME",
+                "winner": "Biden",
+                "state": "Maine"
+            },
+            "undefined": {
+                "abbr": "NE3",
+                "winner": "Trump"
+            },
+            "Michigan": {
+                "abbr": "MI",
+                "winner": "Biden",
+                "state": "Michigan"
+            },
+            "Minnesota": {
+                "abbr": "MN",
+                "winner": "Biden",
+                "state": "Minnesota"
+            },
+            "Missouri": {
+                "abbr": "MO",
+                "winner": "Trump",
+                "state": "Missouri"
+            },
+            "Mississippi": {
+                "abbr": "MS",
+                "winner": "Trump",
+                "state": "Mississippi"
+            },
+            "Montana": {
+                "abbr": "MT",
+                "winner": "Trump",
+                "state": "Montana"
+            },
+            "North Carolina": {
+                "abbr": "NC",
+                "winner": "Biden",
+                "state": "North Carolina"
+            },
+            "North Dakota": {
+                "abbr": "ND",
+                "winner": "Trump",
+                "state": "North Dakota"
+            },
+            "Nebraska": {
+                "abbr": "NE",
+                "winner": "Trump",
+                "state": "Nebraska"
+            },
+            "New Hampshire": {
+                "abbr": "NH",
+                "winner": "Biden",
+                "state": "New Hampshire"
+            },
+            "New Jersey": {
+                "abbr": "NJ",
+                "winner": "Biden",
+                "state": "New Jersey"
+            },
+            "New Mexico": {
+                "abbr": "NM",
+                "winner": "Biden",
+                "state": "New Mexico"
+            },
+            "Nevada": {
+                "abbr": "NV",
+                "winner": "Biden",
+                "state": "Nevada"
+            },
+            "New York": {
+                "abbr": "NY",
+                "winner": "Biden",
+                "state": "New York"
+            },
+            "Ohio": {
+                "abbr": "OH",
+                "winner": "Trump",
+                "state": "Ohio"
+            },
+            "Oklahoma": {
+                "abbr": "OK",
+                "winner": "Trump",
+                "state": "Oklahoma"
+            },
+            "Oregon": {
+                "abbr": "OR",
+                "winner": "Biden",
+                "state": "Oregon"
+            },
+            "Pennsylvania": {
+                "abbr": "PA",
+                "winner": "Biden",
+                "state": "Pennsylvania"
+            },
+            "Rhode Island": {
+                "abbr": "RI",
+                "winner": "Biden",
+                "state": "Rhode Island"
+            },
+            "South Carolina": {
+                "abbr": "SC",
+                "winner": "Trump",
+                "state": "South Carolina"
+            },
+            "South Dakota": {
+                "abbr": "SD",
+                "winner": "Trump",
+                "state": "South Dakota"
+            },
+            "Tennessee": {
+                "abbr": "TN",
+                "winner": "Trump",
+                "state": "Tennessee"
+            },
+            "Texas": {
+                "abbr": "TX",
+                "winner": "Trump",
+                "state": "Texas"
+            },
+            "Utah": {
+                "abbr": "UT",
+                "winner": "Trump",
+                "state": "Utah"
+            },
+            "Virginia": {
+                "abbr": "VA",
+                "winner": "Biden",
+                "state": "Virginia"
+            },
+            "Vermont": {
+                "abbr": "VT",
+                "winner": "Biden",
+                "state": "Vermont"
+            },
+            "Washington": {
+                "abbr": "WA",
+                "winner": "Biden",
+                "state": "Washington"
+            },
+            "Wisconsin": {
+                "abbr": "WI",
+                "winner": "Biden",
+                "state": "Wisconsin"
+            },
+            "West Virginia": {
+                "abbr": "WV",
+                "winner": "Trump",
+                "state": "West Virginia"
+            },
+            "Wyoming": {
+                "abbr": "WY",
+                "winner": "Trump",
+                "state": "Wyoming"
+            }
+        }
+    },
+    {
+        "winner": "Biden",
+        "evs": {
+            "Biden": 460,
+            "Trump": 78
+        },
+        "states": {
+            "Alaska": {
+                "abbr": "AK",
+                "winner": "Biden",
+                "state": "Alaska"
+            },
+            "Alabama": {
+                "abbr": "AL",
+                "winner": "Trump",
+                "state": "Alabama"
+            },
+            "Arkansas": {
+                "abbr": "AR",
+                "winner": "Trump",
+                "state": "Arkansas"
+            },
+            "Arizona": {
+                "abbr": "AZ",
+                "winner": "Biden",
+                "state": "Arizona"
+            },
+            "California": {
+                "abbr": "CA",
+                "winner": "Biden",
+                "state": "California"
+            },
+            "Colorado": {
+                "abbr": "CO",
+                "winner": "Biden",
+                "state": "Colorado"
+            },
+            "Connecticut": {
+                "abbr": "CT",
+                "winner": "Biden",
+                "state": "Connecticut"
+            },
+            "District of Columbia": {
+                "abbr": "DC",
+                "winner": "Biden",
+                "state": "District of Columbia"
+            },
+            "Delaware": {
+                "abbr": "DE",
+                "winner": "Biden",
+                "state": "Delaware"
+            },
+            "Florida": {
+                "abbr": "FL",
+                "winner": "Biden",
+                "state": "Florida"
+            },
+            "Georgia": {
+                "abbr": "GA",
+                "winner": "Biden",
+                "state": "Georgia"
+            },
+            "Hawaii": {
+                "abbr": "HI",
+                "winner": "Biden",
+                "state": "Hawaii"
+            },
+            "Iowa": {
+                "abbr": "IA",
+                "winner": "Biden",
+                "state": "Iowa"
+            },
+            "Idaho": {
+                "abbr": "ID",
+                "winner": "Trump",
+                "state": "Idaho"
+            },
+            "Illinois": {
+                "abbr": "IL",
+                "winner": "Biden",
+                "state": "Illinois"
+            },
+            "Indiana": {
+                "abbr": "IN",
+                "winner": "Biden",
+                "state": "Indiana"
+            },
+            "Kansas": {
+                "abbr": "KS",
+                "winner": "Trump",
+                "state": "Kansas"
+            },
+            "Kentucky": {
+                "abbr": "KY",
+                "winner": "Trump",
+                "state": "Kentucky"
+            },
+            "Louisiana": {
+                "abbr": "LA",
+                "winner": "Biden",
+                "state": "Louisiana"
+            },
+            "Massachusetts": {
+                "abbr": "MA",
+                "winner": "Biden",
+                "state": "Massachusetts"
+            },
+            "Maryland": {
+                "abbr": "MD",
+                "winner": "Biden",
+                "state": "Maryland"
+            },
+            "Maine": {
+                "abbr": "ME",
+                "winner": "Biden",
+                "state": "Maine"
+            },
+            "undefined": {
+                "abbr": "NE3",
+                "winner": "Trump"
+            },
+            "Michigan": {
+                "abbr": "MI",
+                "winner": "Biden",
+                "state": "Michigan"
+            },
+            "Minnesota": {
+                "abbr": "MN",
+                "winner": "Biden",
+                "state": "Minnesota"
+            },
+            "Missouri": {
+                "abbr": "MO",
+                "winner": "Biden",
+                "state": "Missouri"
+            },
+            "Mississippi": {
+                "abbr": "MS",
+                "winner": "Biden",
+                "state": "Mississippi"
+            },
+            "Montana": {
+                "abbr": "MT",
+                "winner": "Trump",
+                "state": "Montana"
+            },
+            "North Carolina": {
+                "abbr": "NC",
+                "winner": "Biden",
+                "state": "North Carolina"
+            },
+            "North Dakota": {
+                "abbr": "ND",
+                "winner": "Trump",
+                "state": "North Dakota"
+            },
+            "Nebraska": {
+                "abbr": "NE",
+                "winner": "Trump",
+                "state": "Nebraska"
+            },
+            "New Hampshire": {
+                "abbr": "NH",
+                "winner": "Biden",
+                "state": "New Hampshire"
+            },
+            "New Jersey": {
+                "abbr": "NJ",
+                "winner": "Biden",
+                "state": "New Jersey"
+            },
+            "New Mexico": {
+                "abbr": "NM",
+                "winner": "Biden",
+                "state": "New Mexico"
+            },
+            "Nevada": {
+                "abbr": "NV",
+                "winner": "Biden",
+                "state": "Nevada"
+            },
+            "New York": {
+                "abbr": "NY",
+                "winner": "Biden",
+                "state": "New York"
+            },
+            "Ohio": {
+                "abbr": "OH",
+                "winner": "Biden",
+                "state": "Ohio"
+            },
+            "Oklahoma": {
+                "abbr": "OK",
+                "winner": "Trump",
+                "state": "Oklahoma"
+            },
+            "Oregon": {
+                "abbr": "OR",
+                "winner": "Biden",
+                "state": "Oregon"
+            },
+            "Pennsylvania": {
+                "abbr": "PA",
+                "winner": "Biden",
+                "state": "Pennsylvania"
+            },
+            "Rhode Island": {
+                "abbr": "RI",
+                "winner": "Biden",
+                "state": "Rhode Island"
+            },
+            "South Carolina": {
+                "abbr": "SC",
+                "winner": "Biden",
+                "state": "South Carolina"
+            },
+            "South Dakota": {
+                "abbr": "SD",
+                "winner": "Trump",
+                "state": "South Dakota"
+            },
+            "Tennessee": {
+                "abbr": "TN",
+                "winner": "Trump",
+                "state": "Tennessee"
+            },
+            "Texas": {
+                "abbr": "TX",
+                "winner": "Biden",
+                "state": "Texas"
+            },
+            "Utah": {
+                "abbr": "UT",
+                "winner": "Trump",
+                "state": "Utah"
+            },
+            "Virginia": {
+                "abbr": "VA",
+                "winner": "Biden",
+                "state": "Virginia"
+            },
+            "Vermont": {
+                "abbr": "VT",
+                "winner": "Biden",
+                "state": "Vermont"
+            },
+            "Washington": {
+                "abbr": "WA",
+                "winner": "Biden",
+                "state": "Washington"
+            },
+            "Wisconsin": {
+                "abbr": "WI",
+                "winner": "Biden",
+                "state": "Wisconsin"
+            },
+            "West Virginia": {
+                "abbr": "WV",
+                "winner": "Trump",
+                "state": "West Virginia"
+            },
+            "Wyoming": {
+                "abbr": "WY",
+                "winner": "Trump",
+                "state": "Wyoming"
+            }
+        }
+    },
+    {
+        "winner": "Biden",
+        "evs": {
+            "Biden": 291,
+            "Trump": 247
+        },
+        "states": {
+            "Alaska": {
+                "abbr": "AK",
+                "winner": "Trump",
+                "state": "Alaska"
+            },
+            "Alabama": {
+                "abbr": "AL",
+                "winner": "Trump",
+                "state": "Alabama"
+            },
+            "Arkansas": {
+                "abbr": "AR",
+                "winner": "Trump",
+                "state": "Arkansas"
+            },
+            "Arizona": {
+                "abbr": "AZ",
+                "winner": "Biden",
+                "state": "Arizona"
+            },
+            "California": {
+                "abbr": "CA",
+                "winner": "Biden",
+                "state": "California"
+            },
+            "Colorado": {
+                "abbr": "CO",
+                "winner": "Biden",
+                "state": "Colorado"
+            },
+            "Connecticut": {
+                "abbr": "CT",
+                "winner": "Biden",
+                "state": "Connecticut"
+            },
+            "District of Columbia": {
+                "abbr": "DC",
+                "winner": "Biden",
+                "state": "District of Columbia"
+            },
+            "Delaware": {
+                "abbr": "DE",
+                "winner": "Biden",
+                "state": "Delaware"
+            },
+            "Florida": {
+                "abbr": "FL",
+                "winner": "Trump",
+                "state": "Florida"
+            },
+            "Georgia": {
+                "abbr": "GA",
+                "winner": "Trump",
+                "state": "Georgia"
+            },
+            "Hawaii": {
+                "abbr": "HI",
+                "winner": "Biden",
+                "state": "Hawaii"
+            },
+            "Iowa": {
+                "abbr": "IA",
+                "winner": "Trump",
+                "state": "Iowa"
+            },
+            "Idaho": {
+                "abbr": "ID",
+                "winner": "Trump",
+                "state": "Idaho"
+            },
+            "Illinois": {
+                "abbr": "IL",
+                "winner": "Biden",
+                "state": "Illinois"
+            },
+            "Indiana": {
+                "abbr": "IN",
+                "winner": "Trump",
+                "state": "Indiana"
+            },
+            "Kansas": {
+                "abbr": "KS",
+                "winner": "Trump",
+                "state": "Kansas"
+            },
+            "Kentucky": {
+                "abbr": "KY",
+                "winner": "Trump",
+                "state": "Kentucky"
+            },
+            "Louisiana": {
+                "abbr": "LA",
+                "winner": "Trump",
+                "state": "Louisiana"
+            },
+            "Massachusetts": {
+                "abbr": "MA",
+                "winner": "Biden",
+                "state": "Massachusetts"
+            },
+            "Maryland": {
+                "abbr": "MD",
+                "winner": "Biden",
+                "state": "Maryland"
+            },
+            "Maine": {
+                "abbr": "ME",
+                "winner": "Biden",
+                "state": "Maine"
+            },
+            "undefined": {
+                "abbr": "NE3",
+                "winner": "Trump"
+            },
+            "Michigan": {
+                "abbr": "MI",
+                "winner": "Biden",
+                "state": "Michigan"
+            },
+            "Minnesota": {
+                "abbr": "MN",
+                "winner": "Biden",
+                "state": "Minnesota"
+            },
+            "Missouri": {
+                "abbr": "MO",
+                "winner": "Trump",
+                "state": "Missouri"
+            },
+            "Mississippi": {
+                "abbr": "MS",
+                "winner": "Trump",
+                "state": "Mississippi"
+            },
+            "Montana": {
+                "abbr": "MT",
+                "winner": "Trump",
+                "state": "Montana"
+            },
+            "North Carolina": {
+                "abbr": "NC",
+                "winner": "Trump",
+                "state": "North Carolina"
+            },
+            "North Dakota": {
+                "abbr": "ND",
+                "winner": "Trump",
+                "state": "North Dakota"
+            },
+            "Nebraska": {
+                "abbr": "NE",
+                "winner": "Trump",
+                "state": "Nebraska"
+            },
+            "New Hampshire": {
+                "abbr": "NH",
+                "winner": "Biden",
+                "state": "New Hampshire"
+            },
+            "New Jersey": {
+                "abbr": "NJ",
+                "winner": "Biden",
+                "state": "New Jersey"
+            },
+            "New Mexico": {
+                "abbr": "NM",
+                "winner": "Biden",
+                "state": "New Mexico"
+            },
+            "Nevada": {
+                "abbr": "NV",
+                "winner": "Biden",
+                "state": "Nevada"
+            },
+            "New York": {
+                "abbr": "NY",
+                "winner": "Biden",
+                "state": "New York"
+            },
+            "Ohio": {
+                "abbr": "OH",
+                "winner": "Trump",
+                "state": "Ohio"
+            },
+            "Oklahoma": {
+                "abbr": "OK",
+                "winner": "Trump",
+                "state": "Oklahoma"
+            },
+            "Oregon": {
+                "abbr": "OR",
+                "winner": "Biden",
+                "state": "Oregon"
+            },
+            "Pennsylvania": {
+                "abbr": "PA",
+                "winner": "Biden",
+                "state": "Pennsylvania"
+            },
+            "Rhode Island": {
+                "abbr": "RI",
+                "winner": "Biden",
+                "state": "Rhode Island"
+            },
+            "South Carolina": {
+                "abbr": "SC",
+                "winner": "Trump",
+                "state": "South Carolina"
+            },
+            "South Dakota": {
+                "abbr": "SD",
+                "winner": "Trump",
+                "state": "South Dakota"
+            },
+            "Tennessee": {
+                "abbr": "TN",
+                "winner": "Trump",
+                "state": "Tennessee"
+            },
+            "Texas": {
+                "abbr": "TX",
+                "winner": "Trump",
+                "state": "Texas"
+            },
+            "Utah": {
+                "abbr": "UT",
+                "winner": "Trump",
+                "state": "Utah"
+            },
+            "Virginia": {
+                "abbr": "VA",
+                "winner": "Biden",
+                "state": "Virginia"
+            },
+            "Vermont": {
+                "abbr": "VT",
+                "winner": "Biden",
+                "state": "Vermont"
+            },
+            "Washington": {
+                "abbr": "WA",
+                "winner": "Biden",
+                "state": "Washington"
+            },
+            "Wisconsin": {
+                "abbr": "WI",
+                "winner": "Biden",
+                "state": "Wisconsin"
+            },
+            "West Virginia": {
+                "abbr": "WV",
+                "winner": "Trump",
+                "state": "West Virginia"
+            },
+            "Wyoming": {
+                "abbr": "WY",
+                "winner": "Trump",
+                "state": "Wyoming"
+            }
+        }
+    }
+]
