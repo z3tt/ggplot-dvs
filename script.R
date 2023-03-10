@@ -32,7 +32,7 @@ install.packages("ggplot2", "scales", "ragg", "RColorbrewer", "rcartocolor", "sc
 
 
 ## -----------------------------------------------------------------------------
-# install.packages("ggplot2")
+# install.packages("ggplot2") 
 library(ggplot2)
 
 
@@ -568,7 +568,7 @@ g +
     name = "Feels-like temperature"
   ) +
   scale_y_continuous(
-    limits = c(0, NA)
+    limits = c(-20000, NA)
   ) +
   scale_color_discrete()
 
@@ -897,6 +897,40 @@ g +
 
 
 ## -----------------------------------------------------------------------------
+g +
+  facet_wrap(
+    ~ day_night,
+    labeller = label_both
+  )
+
+
+## -----------------------------------------------------------------------------
+g +
+  facet_wrap(
+    ~ is_workday + day_night,
+    labeller = labeller(
+      day_night = stringr::str_to_title
+    )
+  )
+
+
+## -----------------------------------------------------------------------------
+codes <- c(
+  `TRUE` = "Workday",
+  `FALSE` = "Weekend or Holiday"
+)
+
+g +
+  facet_wrap(
+    ~ is_workday + day_night,
+    labeller = labeller(
+      day_night = stringr::str_to_title,
+      is_workday = codes
+    )
+  )
+
+
+## -----------------------------------------------------------------------------
 ggplot(
     bikes,
     aes(x = season, y = count)
@@ -1087,8 +1121,8 @@ g4
 
 ## -----------------------------------------------------------------------------
 codes <- c(
-  workday = "Workday",
-  weekend_or_holiday = "Weekend or Holiday"
+  `TRUE` = "Workday",
+  `FALSE` = "Weekend or Holiday"
 )
 
 g5 <- g4 +
@@ -1113,13 +1147,13 @@ g6 <- g5  +
   ) +
   ## adjust labels y-axis
   scale_y_continuous(
-    expand = c(mult = .05, add = 0),limits = c(0, NA),
+    expand = c(mult = .05, add = 0), limits = c(0, NA),
     breaks = 0:5*10000, labels = scales::label_comma()
   ) +
   ## modify colors + legend
   scale_color_manual(
-    values = c("#3c89d9", "#1ec99b", "#F7B01B", "#a26e7c"), name = NULL,
-    breaks = stringr::str_to_title,
+    values = c("#3c89d9", "#1ec99b", "#F7B01B", "#a26e7c"), 
+    name = NULL, labels = stringr::str_to_title,
     guide = guide_legend(override.aes = list(size = 5))
   ) 
 

@@ -1108,8 +1108,8 @@ Explanation
 <li><strong>Create a chart showing a time series of reported bike shares</strong>
 <ul>
 <li>What is the difference between <code>geom_line()</code> and <code>geom_path()</code>?</li>
-<li>Map the color of the lines to <code>day_night</code>.</li>
-<li>Add points for each observation, colored by the same variable.</li>
+<li>Map the variable <code>day_night</code> to the color of the lines.</li>
+<li>Add points for each observation, encoded by the same variable.</li>
 <li>Turn the points into diamonds.</li>
 </ul></li>
 </ul>
@@ -2134,7 +2134,7 @@ Explanation
 </section>
 <section id="modify-scales-4" class="slide level2">
 <h2>Modify Scales</h2>
-<div class="cell columns column-output-location" data-hash="slides_cache/revealjs/scales-modify-y-1_f02ce31261be4c5e85e3be800963c1b0">
+<div class="cell columns column-output-location" data-hash="slides_cache/revealjs/scales-modify-y-1_a5307dcc5435ee303fde1472e829d463">
 <div class="column">
 <div class="sourceCode cell-code" id="cb72" data-code-line-numbers="8,10|9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb72-1"><a href="#cb72-1"></a>g <span class="sc">+</span></span>
 <span id="cb72-2"><a href="#cb72-2"></a>  <span class="fu">scale_x_continuous</span>(</span>
@@ -2144,7 +2144,7 @@ Explanation
 <span id="cb72-6"><a href="#cb72-6"></a>    <span class="at">name =</span> <span class="st">"Feels-like temperature"</span></span>
 <span id="cb72-7"><a href="#cb72-7"></a>  ) <span class="sc">+</span></span>
 <span id="cb72-8"><a href="#cb72-8"></a>  <span class="fu">scale_y_continuous</span>(</span>
-<span id="cb72-9"><a href="#cb72-9"></a>    <span class="at">limits =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="cn">NA</span>)</span>
+<span id="cb72-9"><a href="#cb72-9"></a>    <span class="at">limits =</span> <span class="fu">c</span>(<span class="sc">-</span><span class="dv">20000</span>, <span class="cn">NA</span>)</span>
 <span id="cb72-10"><a href="#cb72-10"></a>  ) <span class="sc">+</span></span>
 <span id="cb72-11"><a href="#cb72-11"></a>  <span class="fu">scale_color_discrete</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column">
@@ -2861,6 +2861,64 @@ Explanation
 </div>
 </div>
 </div>
+</section>
+<section id="facet-labellers" class="slide level2">
+<h2>Facet Labellers</h2>
+<div class="cell columns column-output-location" data-hash="slides_cache/revealjs/facet-wrap-labels-1_711926874a265dc24ca19528d2cc8197">
+<div class="column">
+<div class="sourceCode cell-code" id="cb107" data-code-line-numbers="2,3,5|4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb107-1"><a href="#cb107-1"></a>g <span class="sc">+</span></span>
+<span id="cb107-2"><a href="#cb107-2"></a>  <span class="fu">facet_wrap</span>(</span>
+<span id="cb107-3"><a href="#cb107-3"></a>    <span class="sc">~</span> day_night,</span>
+<span id="cb107-4"><a href="#cb107-4"></a>    <span class="at">labeller =</span> label_both</span>
+<span id="cb107-5"><a href="#cb107-5"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div><div class="column">
+<div class="cell-output-display">
+<p><img data-src="slides_files/figure-revealjs/facet-wrap-labels-1-1.png" width="1000"></p>
+</div>
+</div>
+</div>
+</section>
+<section id="facet-labellers-1" class="slide level2">
+<h2>Facet Labellers</h2>
+<div class="cell columns column-output-location" data-hash="slides_cache/revealjs/facet-wrap-labels-3_85d2408c8b6d94b3f92d5f9882d46343">
+<div class="column">
+<div class="sourceCode cell-code" id="cb108" data-code-line-numbers="4,6|4,5,6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb108-1"><a href="#cb108-1"></a>g <span class="sc">+</span></span>
+<span id="cb108-2"><a href="#cb108-2"></a>  <span class="fu">facet_wrap</span>(</span>
+<span id="cb108-3"><a href="#cb108-3"></a>    <span class="sc">~</span> is_workday <span class="sc">+</span> day_night,</span>
+<span id="cb108-4"><a href="#cb108-4"></a>    <span class="at">labeller =</span> <span class="fu">labeller</span>(</span>
+<span id="cb108-5"><a href="#cb108-5"></a>      <span class="at">day_night =</span> stringr<span class="sc">::</span>str_to_title</span>
+<span id="cb108-6"><a href="#cb108-6"></a>    )</span>
+<span id="cb108-7"><a href="#cb108-7"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div><div class="column">
+<div class="cell-output-display">
+<p><img data-src="slides_files/figure-revealjs/facet-wrap-labels-3-1.png" width="1000"></p>
+</div>
+</div>
+</div>
+</section>
+<section id="facet-labellers-2" class="slide level2">
+<h2>Facet Labellers</h2>
+<div class="cell columns column-output-location" data-hash="slides_cache/revealjs/facet-wrap-labels-4_72842e0593b103479a1877c690af9cdc">
+<div class="column">
+<div class="sourceCode cell-code" id="cb109" data-code-line-numbers="1,2,3,4|10,11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb109-1"><a href="#cb109-1"></a>codes <span class="ot">&lt;-</span> <span class="fu">c</span>(</span>
+<span id="cb109-2"><a href="#cb109-2"></a>  <span class="st">`</span><span class="at">TRUE</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Workday"</span>,</span>
+<span id="cb109-3"><a href="#cb109-3"></a>  <span class="st">`</span><span class="at">FALSE</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Weekend or Holiday"</span></span>
+<span id="cb109-4"><a href="#cb109-4"></a>)</span>
+<span id="cb109-5"><a href="#cb109-5"></a></span>
+<span id="cb109-6"><a href="#cb109-6"></a>g <span class="sc">+</span></span>
+<span id="cb109-7"><a href="#cb109-7"></a>  <span class="fu">facet_wrap</span>(</span>
+<span id="cb109-8"><a href="#cb109-8"></a>    <span class="sc">~</span> is_workday <span class="sc">+</span> day_night,</span>
+<span id="cb109-9"><a href="#cb109-9"></a>    <span class="at">labeller =</span> <span class="fu">labeller</span>(</span>
+<span id="cb109-10"><a href="#cb109-10"></a>      <span class="at">day_night =</span> stringr<span class="sc">::</span>str_to_title,</span>
+<span id="cb109-11"><a href="#cb109-11"></a>      <span class="at">is_workday =</span> codes</span>
+<span id="cb109-12"><a href="#cb109-12"></a>    )</span>
+<span id="cb109-13"><a href="#cb109-13"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div><div class="column">
+<div class="cell-output-display">
+<p><img data-src="slides_files/figure-revealjs/facet-wrap-labels-4-1.png" width="1000"></p>
+</div>
+</div>
+</div>
 </section></section>
 <section>
 <section id="coordinate-systems" class="title-slide slide level1 center">
@@ -2892,12 +2950,12 @@ Explanation
 <h2>Cartesian Coordinate System</h2>
 <div class="cell columns column-output-location" data-hash="slides_cache/revealjs/coord-cartesian_35bc782beb1f4173552d0fc383751212">
 <div class="column">
-<div class="sourceCode cell-code" id="cb107" data-code-line-numbers="6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb107-1"><a href="#cb107-1"></a><span class="fu">ggplot</span>(</span>
-<span id="cb107-2"><a href="#cb107-2"></a>    bikes,</span>
-<span id="cb107-3"><a href="#cb107-3"></a>    <span class="fu">aes</span>(<span class="at">x =</span> season, <span class="at">y =</span> count)</span>
-<span id="cb107-4"><a href="#cb107-4"></a>  ) <span class="sc">+</span></span>
-<span id="cb107-5"><a href="#cb107-5"></a>  <span class="fu">geom_boxplot</span>() <span class="sc">+</span></span>
-<span id="cb107-6"><a href="#cb107-6"></a>  <span class="fu">coord_cartesian</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb110" data-code-line-numbers="6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb110-1"><a href="#cb110-1"></a><span class="fu">ggplot</span>(</span>
+<span id="cb110-2"><a href="#cb110-2"></a>    bikes,</span>
+<span id="cb110-3"><a href="#cb110-3"></a>    <span class="fu">aes</span>(<span class="at">x =</span> season, <span class="at">y =</span> count)</span>
+<span id="cb110-4"><a href="#cb110-4"></a>  ) <span class="sc">+</span></span>
+<span id="cb110-5"><a href="#cb110-5"></a>  <span class="fu">geom_boxplot</span>() <span class="sc">+</span></span>
+<span id="cb110-6"><a href="#cb110-6"></a>  <span class="fu">coord_cartesian</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column">
 <div class="cell-output-display">
 <p><img data-src="slides_files/figure-revealjs/coord-cartesian-1.png" width="1000"></p>
@@ -2909,14 +2967,14 @@ Explanation
 <h2>Cartesian Coordinate System</h2>
 <div class="cell columns column-output-location" data-hash="slides_cache/revealjs/coord-cartesian-zoom_79e3e54c9099a8918768a2a30f96525f">
 <div class="column">
-<div class="sourceCode cell-code" id="cb108" data-code-line-numbers="6,7,8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb108-1"><a href="#cb108-1"></a><span class="fu">ggplot</span>(</span>
-<span id="cb108-2"><a href="#cb108-2"></a>    bikes,</span>
-<span id="cb108-3"><a href="#cb108-3"></a>    <span class="fu">aes</span>(<span class="at">x =</span> season, <span class="at">y =</span> count)</span>
-<span id="cb108-4"><a href="#cb108-4"></a>  ) <span class="sc">+</span></span>
-<span id="cb108-5"><a href="#cb108-5"></a>  <span class="fu">geom_boxplot</span>() <span class="sc">+</span></span>
-<span id="cb108-6"><a href="#cb108-6"></a>  <span class="fu">coord_cartesian</span>(</span>
-<span id="cb108-7"><a href="#cb108-7"></a>    <span class="at">ylim =</span> <span class="fu">c</span>(<span class="cn">NA</span>, <span class="dv">15000</span>)</span>
-<span id="cb108-8"><a href="#cb108-8"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb111" data-code-line-numbers="6,7,8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb111-1"><a href="#cb111-1"></a><span class="fu">ggplot</span>(</span>
+<span id="cb111-2"><a href="#cb111-2"></a>    bikes,</span>
+<span id="cb111-3"><a href="#cb111-3"></a>    <span class="fu">aes</span>(<span class="at">x =</span> season, <span class="at">y =</span> count)</span>
+<span id="cb111-4"><a href="#cb111-4"></a>  ) <span class="sc">+</span></span>
+<span id="cb111-5"><a href="#cb111-5"></a>  <span class="fu">geom_boxplot</span>() <span class="sc">+</span></span>
+<span id="cb111-6"><a href="#cb111-6"></a>  <span class="fu">coord_cartesian</span>(</span>
+<span id="cb111-7"><a href="#cb111-7"></a>    <span class="at">ylim =</span> <span class="fu">c</span>(<span class="cn">NA</span>, <span class="dv">15000</span>)</span>
+<span id="cb111-8"><a href="#cb111-8"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column">
 <div class="cell-output-display">
 <p><img data-src="slides_files/figure-revealjs/coord-cartesian-zoom-1.png" width="1000"></p>
@@ -2929,27 +2987,27 @@ Explanation
 <div class="quarto-layout-panel">
 <div class="quarto-layout-row quarto-layout-valign-top">
 <div class="cell quarto-layout-cell" data-hash="slides_cache/revealjs/coord-cartesian-ylim_835bd7bcc3370eb1a77824f3dde6d049" style="flex-basis: 50.0%;justify-content: center;">
-<div class="sourceCode cell-code" id="cb109" data-code-line-numbers="6,7,8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb109-1"><a href="#cb109-1"></a><span class="fu">ggplot</span>(</span>
-<span id="cb109-2"><a href="#cb109-2"></a>    bikes,</span>
-<span id="cb109-3"><a href="#cb109-3"></a>    <span class="fu">aes</span>(<span class="at">x =</span> season, <span class="at">y =</span> count)</span>
-<span id="cb109-4"><a href="#cb109-4"></a>  ) <span class="sc">+</span></span>
-<span id="cb109-5"><a href="#cb109-5"></a>  <span class="fu">geom_boxplot</span>() <span class="sc">+</span></span>
-<span id="cb109-6"><a href="#cb109-6"></a>  <span class="fu">coord_cartesian</span>(</span>
-<span id="cb109-7"><a href="#cb109-7"></a>    <span class="at">ylim =</span> <span class="fu">c</span>(<span class="cn">NA</span>, <span class="dv">15000</span>)</span>
-<span id="cb109-8"><a href="#cb109-8"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb112" data-code-line-numbers="6,7,8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb112-1"><a href="#cb112-1"></a><span class="fu">ggplot</span>(</span>
+<span id="cb112-2"><a href="#cb112-2"></a>    bikes,</span>
+<span id="cb112-3"><a href="#cb112-3"></a>    <span class="fu">aes</span>(<span class="at">x =</span> season, <span class="at">y =</span> count)</span>
+<span id="cb112-4"><a href="#cb112-4"></a>  ) <span class="sc">+</span></span>
+<span id="cb112-5"><a href="#cb112-5"></a>  <span class="fu">geom_boxplot</span>() <span class="sc">+</span></span>
+<span id="cb112-6"><a href="#cb112-6"></a>  <span class="fu">coord_cartesian</span>(</span>
+<span id="cb112-7"><a href="#cb112-7"></a>    <span class="at">ylim =</span> <span class="fu">c</span>(<span class="cn">NA</span>, <span class="dv">15000</span>)</span>
+<span id="cb112-8"><a href="#cb112-8"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <p><img data-src="slides_files/figure-revealjs/coord-cartesian-ylim-1.png" width="1000"></p>
 </div>
 </div>
 <div class="cell quarto-layout-cell" data-hash="slides_cache/revealjs/scale-y-limits_8f4cd8fbb15ac4832e6d6acf7f4b16cd" style="flex-basis: 50.0%;justify-content: center;">
-<div class="sourceCode cell-code" id="cb110" data-code-line-numbers="6,7,8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb110-1"><a href="#cb110-1"></a><span class="fu">ggplot</span>(</span>
-<span id="cb110-2"><a href="#cb110-2"></a>    bikes,</span>
-<span id="cb110-3"><a href="#cb110-3"></a>    <span class="fu">aes</span>(<span class="at">x =</span> season, <span class="at">y =</span> count)</span>
-<span id="cb110-4"><a href="#cb110-4"></a>  ) <span class="sc">+</span></span>
-<span id="cb110-5"><a href="#cb110-5"></a>  <span class="fu">geom_boxplot</span>() <span class="sc">+</span></span>
-<span id="cb110-6"><a href="#cb110-6"></a>  <span class="fu">scale_y_continuous</span>(</span>
-<span id="cb110-7"><a href="#cb110-7"></a>    <span class="at">limits =</span> <span class="fu">c</span>(<span class="cn">NA</span>, <span class="dv">15000</span>)</span>
-<span id="cb110-8"><a href="#cb110-8"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb113" data-code-line-numbers="6,7,8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb113-1"><a href="#cb113-1"></a><span class="fu">ggplot</span>(</span>
+<span id="cb113-2"><a href="#cb113-2"></a>    bikes,</span>
+<span id="cb113-3"><a href="#cb113-3"></a>    <span class="fu">aes</span>(<span class="at">x =</span> season, <span class="at">y =</span> count)</span>
+<span id="cb113-4"><a href="#cb113-4"></a>  ) <span class="sc">+</span></span>
+<span id="cb113-5"><a href="#cb113-5"></a>  <span class="fu">geom_boxplot</span>() <span class="sc">+</span></span>
+<span id="cb113-6"><a href="#cb113-6"></a>  <span class="fu">scale_y_continuous</span>(</span>
+<span id="cb113-7"><a href="#cb113-7"></a>    <span class="at">limits =</span> <span class="fu">c</span>(<span class="cn">NA</span>, <span class="dv">15000</span>)</span>
+<span id="cb113-8"><a href="#cb113-8"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <p><img data-src="slides_files/figure-revealjs/scale-y-limits-1.png" width="1000"></p>
 </div>
@@ -2961,16 +3019,16 @@ Explanation
 <h2>Clipping</h2>
 <div class="cell columns column-output-location" data-hash="slides_cache/revealjs/coord-clip_e551a36cb9da161e40ee07ff47593486">
 <div class="column">
-<div class="sourceCode cell-code" id="cb111" data-code-line-numbers="8|10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb111-1"><a href="#cb111-1"></a><span class="fu">ggplot</span>(</span>
-<span id="cb111-2"><a href="#cb111-2"></a>    bikes,</span>
-<span id="cb111-3"><a href="#cb111-3"></a>    <span class="fu">aes</span>(<span class="at">x =</span> season, <span class="at">y =</span> count)</span>
-<span id="cb111-4"><a href="#cb111-4"></a>  ) <span class="sc">+</span></span>
-<span id="cb111-5"><a href="#cb111-5"></a>  <span class="fu">geom_boxplot</span>() <span class="sc">+</span></span>
-<span id="cb111-6"><a href="#cb111-6"></a>  <span class="fu">coord_cartesian</span>(</span>
-<span id="cb111-7"><a href="#cb111-7"></a>    <span class="at">ylim =</span> <span class="fu">c</span>(<span class="cn">NA</span>, <span class="dv">15000</span>),</span>
-<span id="cb111-8"><a href="#cb111-8"></a>    <span class="at">clip =</span> <span class="st">"off"</span></span>
-<span id="cb111-9"><a href="#cb111-9"></a>  ) <span class="sc">+</span></span>
-<span id="cb111-10"><a href="#cb111-10"></a>  <span class="fu">theme</span>(<span class="at">plot.margin =</span> <span class="fu">margin</span>(<span class="dv">300</span>, <span class="dv">5</span>, <span class="dv">5</span>, <span class="dv">5</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb114" data-code-line-numbers="8|10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb114-1"><a href="#cb114-1"></a><span class="fu">ggplot</span>(</span>
+<span id="cb114-2"><a href="#cb114-2"></a>    bikes,</span>
+<span id="cb114-3"><a href="#cb114-3"></a>    <span class="fu">aes</span>(<span class="at">x =</span> season, <span class="at">y =</span> count)</span>
+<span id="cb114-4"><a href="#cb114-4"></a>  ) <span class="sc">+</span></span>
+<span id="cb114-5"><a href="#cb114-5"></a>  <span class="fu">geom_boxplot</span>() <span class="sc">+</span></span>
+<span id="cb114-6"><a href="#cb114-6"></a>  <span class="fu">coord_cartesian</span>(</span>
+<span id="cb114-7"><a href="#cb114-7"></a>    <span class="at">ylim =</span> <span class="fu">c</span>(<span class="cn">NA</span>, <span class="dv">15000</span>),</span>
+<span id="cb114-8"><a href="#cb114-8"></a>    <span class="at">clip =</span> <span class="st">"off"</span></span>
+<span id="cb114-9"><a href="#cb114-9"></a>  ) <span class="sc">+</span></span>
+<span id="cb114-10"><a href="#cb114-10"></a>  <span class="fu">theme</span>(<span class="at">plot.margin =</span> <span class="fu">margin</span>(<span class="dv">300</span>, <span class="dv">5</span>, <span class="dv">5</span>, <span class="dv">5</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column">
 <div class="cell-output-display">
 <p><img data-src="slides_files/figure-revealjs/coord-clip-1.png" width="1000"></p>
@@ -2982,15 +3040,15 @@ Explanation
 <h2>Remove All Padding</h2>
 <div class="cell columns column-output-location" data-hash="slides_cache/revealjs/coord-expand-off-clip_ab548ea6e4461cdc488e5d4ce77976b1">
 <div class="column">
-<div class="sourceCode cell-code" id="cb112" data-code-line-numbers="7|8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb112-1"><a href="#cb112-1"></a><span class="fu">ggplot</span>(</span>
-<span id="cb112-2"><a href="#cb112-2"></a>    bikes,</span>
-<span id="cb112-3"><a href="#cb112-3"></a>    <span class="fu">aes</span>(<span class="at">x =</span> temp_feel, <span class="at">y =</span> count)</span>
-<span id="cb112-4"><a href="#cb112-4"></a>  ) <span class="sc">+</span></span>
-<span id="cb112-5"><a href="#cb112-5"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
-<span id="cb112-6"><a href="#cb112-6"></a>  <span class="fu">coord_cartesian</span>(</span>
-<span id="cb112-7"><a href="#cb112-7"></a>    <span class="at">expand =</span> <span class="cn">FALSE</span>,</span>
-<span id="cb112-8"><a href="#cb112-8"></a>    <span class="at">clip =</span> <span class="st">"off"</span></span>
-<span id="cb112-9"><a href="#cb112-9"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb115" data-code-line-numbers="7|8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb115-1"><a href="#cb115-1"></a><span class="fu">ggplot</span>(</span>
+<span id="cb115-2"><a href="#cb115-2"></a>    bikes,</span>
+<span id="cb115-3"><a href="#cb115-3"></a>    <span class="fu">aes</span>(<span class="at">x =</span> temp_feel, <span class="at">y =</span> count)</span>
+<span id="cb115-4"><a href="#cb115-4"></a>  ) <span class="sc">+</span></span>
+<span id="cb115-5"><a href="#cb115-5"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb115-6"><a href="#cb115-6"></a>  <span class="fu">coord_cartesian</span>(</span>
+<span id="cb115-7"><a href="#cb115-7"></a>    <span class="at">expand =</span> <span class="cn">FALSE</span>,</span>
+<span id="cb115-8"><a href="#cb115-8"></a>    <span class="at">clip =</span> <span class="st">"off"</span></span>
+<span id="cb115-9"><a href="#cb115-9"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column">
 <div class="cell-output-display">
 <p><img data-src="slides_files/figure-revealjs/coord-expand-off-clip-1.png" width="1000"></p>
@@ -3003,24 +3061,24 @@ Explanation
 <div class="quarto-layout-panel">
 <div class="quarto-layout-row quarto-layout-valign-top">
 <div class="cell quarto-layout-cell" data-hash="slides_cache/revealjs/coord-fixed_3b4378deddf645c932a67663776ce451" style="flex-basis: 50.0%;justify-content: center;">
-<div class="sourceCode cell-code" id="cb113" data-code-line-numbers="6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb113-1"><a href="#cb113-1"></a><span class="fu">ggplot</span>(</span>
-<span id="cb113-2"><a href="#cb113-2"></a>    bikes,</span>
-<span id="cb113-3"><a href="#cb113-3"></a>    <span class="fu">aes</span>(<span class="at">x =</span> temp_feel, <span class="at">y =</span> temp)</span>
-<span id="cb113-4"><a href="#cb113-4"></a>  ) <span class="sc">+</span></span>
-<span id="cb113-5"><a href="#cb113-5"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
-<span id="cb113-6"><a href="#cb113-6"></a>  <span class="fu">coord_fixed</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb116" data-code-line-numbers="6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb116-1"><a href="#cb116-1"></a><span class="fu">ggplot</span>(</span>
+<span id="cb116-2"><a href="#cb116-2"></a>    bikes,</span>
+<span id="cb116-3"><a href="#cb116-3"></a>    <span class="fu">aes</span>(<span class="at">x =</span> temp_feel, <span class="at">y =</span> temp)</span>
+<span id="cb116-4"><a href="#cb116-4"></a>  ) <span class="sc">+</span></span>
+<span id="cb116-5"><a href="#cb116-5"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb116-6"><a href="#cb116-6"></a>  <span class="fu">coord_fixed</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <p><img data-src="slides_files/figure-revealjs/coord-fixed-1.png" width="1000"></p>
 </div>
 </div>
 <div class="fragment quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
 <div class="cell" data-hash="slides_cache/revealjs/coord-fixed-custom_2927b935c38687d18e396ac039682f2b">
-<div class="sourceCode cell-code" id="cb114" data-code-line-numbers="6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb114-1"><a href="#cb114-1"></a><span class="fu">ggplot</span>(</span>
-<span id="cb114-2"><a href="#cb114-2"></a>    bikes,</span>
-<span id="cb114-3"><a href="#cb114-3"></a>    <span class="fu">aes</span>(<span class="at">x =</span> temp_feel, <span class="at">y =</span> temp)</span>
-<span id="cb114-4"><a href="#cb114-4"></a>  ) <span class="sc">+</span></span>
-<span id="cb114-5"><a href="#cb114-5"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
-<span id="cb114-6"><a href="#cb114-6"></a>  <span class="fu">coord_fixed</span>(<span class="at">ratio =</span> <span class="dv">4</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb117" data-code-line-numbers="6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb117-1"><a href="#cb117-1"></a><span class="fu">ggplot</span>(</span>
+<span id="cb117-2"><a href="#cb117-2"></a>    bikes,</span>
+<span id="cb117-3"><a href="#cb117-3"></a>    <span class="fu">aes</span>(<span class="at">x =</span> temp_feel, <span class="at">y =</span> temp)</span>
+<span id="cb117-4"><a href="#cb117-4"></a>  ) <span class="sc">+</span></span>
+<span id="cb117-5"><a href="#cb117-5"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb117-6"><a href="#cb117-6"></a>  <span class="fu">coord_fixed</span>(<span class="at">ratio =</span> <span class="dv">4</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <p><img data-src="slides_files/figure-revealjs/coord-fixed-custom-1.png" width="1000"></p>
 </div>
@@ -3034,23 +3092,23 @@ Explanation
 <div class="quarto-layout-panel">
 <div class="quarto-layout-row quarto-layout-valign-top">
 <div class="cell quarto-layout-cell" data-hash="slides_cache/revealjs/coord-cartesian-comp-flip_dcb1a4a0c95274d331bbcb4d3f990e30" style="flex-basis: 50.0%;justify-content: center;">
-<div class="sourceCode cell-code" id="cb115" data-code-line-numbers="6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb115-1"><a href="#cb115-1"></a><span class="fu">ggplot</span>(</span>
-<span id="cb115-2"><a href="#cb115-2"></a>    bikes,</span>
-<span id="cb115-3"><a href="#cb115-3"></a>    <span class="fu">aes</span>(<span class="at">x =</span> weather_type)</span>
-<span id="cb115-4"><a href="#cb115-4"></a>  ) <span class="sc">+</span></span>
-<span id="cb115-5"><a href="#cb115-5"></a>  <span class="fu">geom_bar</span>() <span class="sc">+</span></span>
-<span id="cb115-6"><a href="#cb115-6"></a>  <span class="fu">coord_cartesian</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb118" data-code-line-numbers="6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb118-1"><a href="#cb118-1"></a><span class="fu">ggplot</span>(</span>
+<span id="cb118-2"><a href="#cb118-2"></a>    bikes,</span>
+<span id="cb118-3"><a href="#cb118-3"></a>    <span class="fu">aes</span>(<span class="at">x =</span> weather_type)</span>
+<span id="cb118-4"><a href="#cb118-4"></a>  ) <span class="sc">+</span></span>
+<span id="cb118-5"><a href="#cb118-5"></a>  <span class="fu">geom_bar</span>() <span class="sc">+</span></span>
+<span id="cb118-6"><a href="#cb118-6"></a>  <span class="fu">coord_cartesian</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <p><img data-src="slides_files/figure-revealjs/coord-cartesian-comp-flip-1.png" width="1000"></p>
 </div>
 </div>
 <div class="cell quarto-layout-cell" data-hash="slides_cache/revealjs/coord-flip_e4f99b658c5bcacec86b16507b7cfb9e" style="flex-basis: 50.0%;justify-content: center;">
-<div class="sourceCode cell-code" id="cb116" data-code-line-numbers="6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb116-1"><a href="#cb116-1"></a><span class="fu">ggplot</span>(</span>
-<span id="cb116-2"><a href="#cb116-2"></a>    bikes,</span>
-<span id="cb116-3"><a href="#cb116-3"></a>    <span class="fu">aes</span>(<span class="at">x =</span> weather_type)</span>
-<span id="cb116-4"><a href="#cb116-4"></a>  ) <span class="sc">+</span></span>
-<span id="cb116-5"><a href="#cb116-5"></a>  <span class="fu">geom_bar</span>() <span class="sc">+</span></span>
-<span id="cb116-6"><a href="#cb116-6"></a>  <span class="fu">coord_flip</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb119" data-code-line-numbers="6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb119-1"><a href="#cb119-1"></a><span class="fu">ggplot</span>(</span>
+<span id="cb119-2"><a href="#cb119-2"></a>    bikes,</span>
+<span id="cb119-3"><a href="#cb119-3"></a>    <span class="fu">aes</span>(<span class="at">x =</span> weather_type)</span>
+<span id="cb119-4"><a href="#cb119-4"></a>  ) <span class="sc">+</span></span>
+<span id="cb119-5"><a href="#cb119-5"></a>  <span class="fu">geom_bar</span>() <span class="sc">+</span></span>
+<span id="cb119-6"><a href="#cb119-6"></a>  <span class="fu">coord_flip</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <p><img data-src="slides_files/figure-revealjs/coord-flip-1.png" width="1000"></p>
 </div>
@@ -3063,23 +3121,23 @@ Explanation
 <div class="quarto-layout-panel">
 <div class="quarto-layout-row quarto-layout-valign-top">
 <div class="cell quarto-layout-cell" data-hash="slides_cache/revealjs/coord-cartesian-switch-x-y_2d73ba43f3a85c897e896ae9490f90a0" style="flex-basis: 50.0%;justify-content: center;">
-<div class="sourceCode cell-code" id="cb117" data-code-line-numbers="3,6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb117-1"><a href="#cb117-1"></a><span class="fu">ggplot</span>(</span>
-<span id="cb117-2"><a href="#cb117-2"></a>    bikes,</span>
-<span id="cb117-3"><a href="#cb117-3"></a>    <span class="fu">aes</span>(<span class="at">y =</span> weather_type)</span>
-<span id="cb117-4"><a href="#cb117-4"></a>  ) <span class="sc">+</span></span>
-<span id="cb117-5"><a href="#cb117-5"></a>  <span class="fu">geom_bar</span>() <span class="sc">+</span></span>
-<span id="cb117-6"><a href="#cb117-6"></a>  <span class="fu">coord_cartesian</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb120" data-code-line-numbers="3,6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb120-1"><a href="#cb120-1"></a><span class="fu">ggplot</span>(</span>
+<span id="cb120-2"><a href="#cb120-2"></a>    bikes,</span>
+<span id="cb120-3"><a href="#cb120-3"></a>    <span class="fu">aes</span>(<span class="at">y =</span> weather_type)</span>
+<span id="cb120-4"><a href="#cb120-4"></a>  ) <span class="sc">+</span></span>
+<span id="cb120-5"><a href="#cb120-5"></a>  <span class="fu">geom_bar</span>() <span class="sc">+</span></span>
+<span id="cb120-6"><a href="#cb120-6"></a>  <span class="fu">coord_cartesian</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <p><img data-src="slides_files/figure-revealjs/coord-cartesian-switch-x-y-1.png" width="1000"></p>
 </div>
 </div>
 <div class="cell quarto-layout-cell" data-hash="slides_cache/revealjs/coord-flip-again_a80e62880fa28f7c80db6a0f749c8041" style="flex-basis: 50.0%;justify-content: center;">
-<div class="sourceCode cell-code" id="cb118" data-code-line-numbers="3,6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb118-1"><a href="#cb118-1"></a><span class="fu">ggplot</span>(</span>
-<span id="cb118-2"><a href="#cb118-2"></a>    bikes,</span>
-<span id="cb118-3"><a href="#cb118-3"></a>    <span class="fu">aes</span>(<span class="at">x =</span> weather_type)</span>
-<span id="cb118-4"><a href="#cb118-4"></a>  ) <span class="sc">+</span></span>
-<span id="cb118-5"><a href="#cb118-5"></a>  <span class="fu">geom_bar</span>() <span class="sc">+</span></span>
-<span id="cb118-6"><a href="#cb118-6"></a>  <span class="fu">coord_flip</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb121" data-code-line-numbers="3,6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb121-1"><a href="#cb121-1"></a><span class="fu">ggplot</span>(</span>
+<span id="cb121-2"><a href="#cb121-2"></a>    bikes,</span>
+<span id="cb121-3"><a href="#cb121-3"></a>    <span class="fu">aes</span>(<span class="at">x =</span> weather_type)</span>
+<span id="cb121-4"><a href="#cb121-4"></a>  ) <span class="sc">+</span></span>
+<span id="cb121-5"><a href="#cb121-5"></a>  <span class="fu">geom_bar</span>() <span class="sc">+</span></span>
+<span id="cb121-6"><a href="#cb121-6"></a>  <span class="fu">coord_flip</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <p><img data-src="slides_files/figure-revealjs/coord-flip-again-1.png" width="1000"></p>
 </div>
@@ -3091,13 +3149,13 @@ Explanation
 <h2>Reminder: Sort Your Bars!</h2>
 <div class="cell columns column-output-location" data-hash="slides_cache/revealjs/forcats-sort-infreq_fb4ffa34bea29ed279f5404394a3a846">
 <div class="column">
-<div class="sourceCode cell-code" id="cb119" data-code-line-numbers="1|5|4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb119-1"><a href="#cb119-1"></a><span class="fu">library</span>(forcats)</span>
-<span id="cb119-2"><a href="#cb119-2"></a></span>
-<span id="cb119-3"><a href="#cb119-3"></a><span class="fu">ggplot</span>(</span>
-<span id="cb119-4"><a href="#cb119-4"></a>    <span class="fu">filter</span>(bikes, <span class="sc">!</span><span class="fu">is.na</span>(weather_type)),</span>
-<span id="cb119-5"><a href="#cb119-5"></a>    <span class="fu">aes</span>(<span class="at">y =</span> <span class="fu">fct_infreq</span>(weather_type))</span>
-<span id="cb119-6"><a href="#cb119-6"></a>  ) <span class="sc">+</span></span>
-<span id="cb119-7"><a href="#cb119-7"></a>  <span class="fu">geom_bar</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb122" data-code-line-numbers="1|5|4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb122-1"><a href="#cb122-1"></a><span class="fu">library</span>(forcats)</span>
+<span id="cb122-2"><a href="#cb122-2"></a></span>
+<span id="cb122-3"><a href="#cb122-3"></a><span class="fu">ggplot</span>(</span>
+<span id="cb122-4"><a href="#cb122-4"></a>    <span class="fu">filter</span>(bikes, <span class="sc">!</span><span class="fu">is.na</span>(weather_type)),</span>
+<span id="cb122-5"><a href="#cb122-5"></a>    <span class="fu">aes</span>(<span class="at">y =</span> <span class="fu">fct_infreq</span>(weather_type))</span>
+<span id="cb122-6"><a href="#cb122-6"></a>  ) <span class="sc">+</span></span>
+<span id="cb122-7"><a href="#cb122-7"></a>  <span class="fu">geom_bar</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column">
 <div class="cell-output-display">
 <p><img data-src="slides_files/figure-revealjs/forcats-sort-infreq-1.png" width="1000"></p>
@@ -3109,15 +3167,15 @@ Explanation
 <h2>Reminder: Sort Your Bars!</h2>
 <div class="cell columns column-output-location" data-hash="slides_cache/revealjs/forcats-sort-infreq-rev_584b4d37596dd7912374ca27135e29e6">
 <div class="column">
-<div class="sourceCode cell-code" id="cb120" data-code-line-numbers="5,6,7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb120-1"><a href="#cb120-1"></a><span class="fu">library</span>(forcats)</span>
-<span id="cb120-2"><a href="#cb120-2"></a></span>
-<span id="cb120-3"><a href="#cb120-3"></a><span class="fu">ggplot</span>(</span>
-<span id="cb120-4"><a href="#cb120-4"></a>    <span class="fu">filter</span>(bikes, <span class="sc">!</span><span class="fu">is.na</span>(weather_type)),</span>
-<span id="cb120-5"><a href="#cb120-5"></a>    <span class="fu">aes</span>(<span class="at">y =</span> <span class="fu">fct_rev</span>(</span>
-<span id="cb120-6"><a href="#cb120-6"></a>      <span class="fu">fct_infreq</span>(weather_type)</span>
-<span id="cb120-7"><a href="#cb120-7"></a>    ))</span>
-<span id="cb120-8"><a href="#cb120-8"></a>  ) <span class="sc">+</span></span>
-<span id="cb120-9"><a href="#cb120-9"></a>  <span class="fu">geom_bar</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb123" data-code-line-numbers="5,6,7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb123-1"><a href="#cb123-1"></a><span class="fu">library</span>(forcats)</span>
+<span id="cb123-2"><a href="#cb123-2"></a></span>
+<span id="cb123-3"><a href="#cb123-3"></a><span class="fu">ggplot</span>(</span>
+<span id="cb123-4"><a href="#cb123-4"></a>    <span class="fu">filter</span>(bikes, <span class="sc">!</span><span class="fu">is.na</span>(weather_type)),</span>
+<span id="cb123-5"><a href="#cb123-5"></a>    <span class="fu">aes</span>(<span class="at">y =</span> <span class="fu">fct_rev</span>(</span>
+<span id="cb123-6"><a href="#cb123-6"></a>      <span class="fu">fct_infreq</span>(weather_type)</span>
+<span id="cb123-7"><a href="#cb123-7"></a>    ))</span>
+<span id="cb123-8"><a href="#cb123-8"></a>  ) <span class="sc">+</span></span>
+<span id="cb123-9"><a href="#cb123-9"></a>  <span class="fu">geom_bar</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column">
 <div class="cell-output-display">
 <p><img data-src="slides_files/figure-revealjs/forcats-sort-infreq-rev-1.png" width="1000"></p>
@@ -3133,15 +3191,15 @@ Explanation
 <section class="slide level2">
 
 <div class="cell" data-hash="slides_cache/revealjs/example-motivation-basic-season_06a86c50a4769a6a114b8f287c515a97">
-<div class="sourceCode cell-code" id="cb121"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb121-1"><a href="#cb121-1"></a>g1 <span class="ot">&lt;-</span> </span>
-<span id="cb121-2"><a href="#cb121-2"></a>  <span class="do">## create scatter plot, encoded based on season</span></span>
-<span id="cb121-3"><a href="#cb121-3"></a>  <span class="fu">ggplot</span>(bikes, <span class="fu">aes</span>(temp_feel, count)) <span class="sc">+</span></span>
-<span id="cb121-4"><a href="#cb121-4"></a>  <span class="fu">geom_point</span>(</span>
-<span id="cb121-5"><a href="#cb121-5"></a>    <span class="fu">aes</span>(<span class="at">color =</span> season),</span>
-<span id="cb121-6"><a href="#cb121-6"></a>    <span class="at">size =</span> <span class="fl">2.2</span>, <span class="at">alpha =</span> .<span class="dv">55</span></span>
-<span id="cb121-7"><a href="#cb121-7"></a>  ) </span>
-<span id="cb121-8"><a href="#cb121-8"></a></span>
-<span id="cb121-9"><a href="#cb121-9"></a>g1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb124"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb124-1"><a href="#cb124-1"></a>g1 <span class="ot">&lt;-</span> </span>
+<span id="cb124-2"><a href="#cb124-2"></a>  <span class="do">## create scatter plot, encoded based on season</span></span>
+<span id="cb124-3"><a href="#cb124-3"></a>  <span class="fu">ggplot</span>(bikes, <span class="fu">aes</span>(temp_feel, count)) <span class="sc">+</span></span>
+<span id="cb124-4"><a href="#cb124-4"></a>  <span class="fu">geom_point</span>(</span>
+<span id="cb124-5"><a href="#cb124-5"></a>    <span class="fu">aes</span>(<span class="at">color =</span> season),</span>
+<span id="cb124-6"><a href="#cb124-6"></a>    <span class="at">size =</span> <span class="fl">2.2</span>, <span class="at">alpha =</span> .<span class="dv">55</span></span>
+<span id="cb124-7"><a href="#cb124-7"></a>  ) </span>
+<span id="cb124-8"><a href="#cb124-8"></a></span>
+<span id="cb124-9"><a href="#cb124-9"></a>g1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section class="slide level2">
@@ -3151,14 +3209,14 @@ Explanation
 <section class="slide level2">
 
 <div class="cell" data-hash="slides_cache/revealjs/example-motivation-basic-smooth_9bc0365c1de8adddba38d6e481f9b462">
-<div class="sourceCode cell-code" id="cb122"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb122-1"><a href="#cb122-1"></a>g2 <span class="ot">&lt;-</span> g1 <span class="sc">+</span></span>
-<span id="cb122-2"><a href="#cb122-2"></a>  <span class="do">## add a linear fitting for each time of the day</span></span>
-<span id="cb122-3"><a href="#cb122-3"></a>  <span class="fu">geom_smooth</span>(</span>
-<span id="cb122-4"><a href="#cb122-4"></a>    <span class="fu">aes</span>(<span class="at">group =</span> day_night),</span>
-<span id="cb122-5"><a href="#cb122-5"></a>    <span class="at">method =</span> <span class="st">"lm"</span>, <span class="at">color =</span> <span class="st">"black"</span></span>
-<span id="cb122-6"><a href="#cb122-6"></a>  )</span>
-<span id="cb122-7"><a href="#cb122-7"></a></span>
-<span id="cb122-8"><a href="#cb122-8"></a>g2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb125"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb125-1"><a href="#cb125-1"></a>g2 <span class="ot">&lt;-</span> g1 <span class="sc">+</span></span>
+<span id="cb125-2"><a href="#cb125-2"></a>  <span class="do">## add a linear fitting for each time of the day</span></span>
+<span id="cb125-3"><a href="#cb125-3"></a>  <span class="fu">geom_smooth</span>(</span>
+<span id="cb125-4"><a href="#cb125-4"></a>    <span class="fu">aes</span>(<span class="at">group =</span> day_night),</span>
+<span id="cb125-5"><a href="#cb125-5"></a>    <span class="at">method =</span> <span class="st">"lm"</span>, <span class="at">color =</span> <span class="st">"black"</span></span>
+<span id="cb125-6"><a href="#cb125-6"></a>  )</span>
+<span id="cb125-7"><a href="#cb125-7"></a></span>
+<span id="cb125-8"><a href="#cb125-8"></a>g2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section class="slide level2">
@@ -3168,15 +3226,15 @@ Explanation
 <section class="slide level2">
 
 <div class="cell" data-hash="slides_cache/revealjs/example-motivation-basic-labs_28d4d51ce3add21a4aef5ed8221060fe">
-<div class="sourceCode cell-code" id="cb123"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb123-1"><a href="#cb123-1"></a>g3 <span class="ot">&lt;-</span> g2 <span class="sc">+</span></span>
-<span id="cb123-2"><a href="#cb123-2"></a>  <span class="do">## add titles + labels</span></span>
-<span id="cb123-3"><a href="#cb123-3"></a>  <span class="fu">labs</span>(</span>
-<span id="cb123-4"><a href="#cb123-4"></a>    <span class="at">x =</span> <span class="st">"Feels-Like Temperature"</span>, <span class="at">y =</span> <span class="cn">NULL</span>,</span>
-<span id="cb123-5"><a href="#cb123-5"></a>    <span class="at">caption =</span> <span class="st">"Data: Transport for London (TfL), Jan 2015—Dec 2016"</span>,</span>
-<span id="cb123-6"><a href="#cb123-6"></a>    <span class="at">title =</span> <span class="st">"Reported TfL bike rents versus feels-like temperature in London, 2015–2016"</span></span>
-<span id="cb123-7"><a href="#cb123-7"></a>  )</span>
-<span id="cb123-8"><a href="#cb123-8"></a></span>
-<span id="cb123-9"><a href="#cb123-9"></a>g3</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb126"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb126-1"><a href="#cb126-1"></a>g3 <span class="ot">&lt;-</span> g2 <span class="sc">+</span></span>
+<span id="cb126-2"><a href="#cb126-2"></a>  <span class="do">## add titles + labels</span></span>
+<span id="cb126-3"><a href="#cb126-3"></a>  <span class="fu">labs</span>(</span>
+<span id="cb126-4"><a href="#cb126-4"></a>    <span class="at">x =</span> <span class="st">"Feels-Like Temperature"</span>, <span class="at">y =</span> <span class="cn">NULL</span>,</span>
+<span id="cb126-5"><a href="#cb126-5"></a>    <span class="at">caption =</span> <span class="st">"Data: Transport for London (TfL), Jan 2015—Dec 2016"</span>,</span>
+<span id="cb126-6"><a href="#cb126-6"></a>    <span class="at">title =</span> <span class="st">"Reported TfL bike rents versus feels-like temperature in London, 2015–2016"</span></span>
+<span id="cb126-7"><a href="#cb126-7"></a>  )</span>
+<span id="cb126-8"><a href="#cb126-8"></a></span>
+<span id="cb126-9"><a href="#cb126-9"></a>g3</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section class="slide level2">
@@ -3186,10 +3244,10 @@ Explanation
 <section class="slide level2">
 
 <div class="cell" data-hash="slides_cache/revealjs/example-motivation-theme-complete_2615d53f803030b753b838bba1f50b3e">
-<div class="sourceCode cell-code" id="cb124"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb124-1"><a href="#cb124-1"></a>g4 <span class="ot">&lt;-</span> g3 <span class="sc">+</span> </span>
-<span id="cb124-2"><a href="#cb124-2"></a>  <span class="fu">theme_light</span>(<span class="at">base_size =</span> <span class="dv">18</span>, <span class="at">base_family =</span> <span class="st">"Spline Sans"</span>)</span>
-<span id="cb124-3"><a href="#cb124-3"></a></span>
-<span id="cb124-4"><a href="#cb124-4"></a>g4</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb127"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb127-1"><a href="#cb127-1"></a>g4 <span class="ot">&lt;-</span> g3 <span class="sc">+</span> </span>
+<span id="cb127-2"><a href="#cb127-2"></a>  <span class="fu">theme_light</span>(<span class="at">base_size =</span> <span class="dv">18</span>, <span class="at">base_family =</span> <span class="st">"Spline Sans"</span>)</span>
+<span id="cb127-3"><a href="#cb127-3"></a></span>
+<span id="cb127-4"><a href="#cb127-4"></a>g4</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section class="slide level2">
@@ -3198,23 +3256,23 @@ Explanation
 <img data-src="slides_files/figure-revealjs/example-motivation-theme-complete-1.png" width="2800" class="r-stretch"></section>
 <section class="slide level2">
 
-<div class="cell" data-hash="slides_cache/revealjs/example-motivation-facet-space_b14d0ad3038045cd6c11f72cb3637b9c">
-<div class="sourceCode cell-code" id="cb125"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb125-1"><a href="#cb125-1"></a>codes <span class="ot">&lt;-</span> <span class="fu">c</span>(</span>
-<span id="cb125-2"><a href="#cb125-2"></a>  <span class="at">workday =</span> <span class="st">"Workday"</span>,</span>
-<span id="cb125-3"><a href="#cb125-3"></a>  <span class="at">weekend_or_holiday =</span> <span class="st">"Weekend or Holiday"</span></span>
-<span id="cb125-4"><a href="#cb125-4"></a>)</span>
-<span id="cb125-5"><a href="#cb125-5"></a></span>
-<span id="cb125-6"><a href="#cb125-6"></a>g5 <span class="ot">&lt;-</span> g4 <span class="sc">+</span></span>
-<span id="cb125-7"><a href="#cb125-7"></a>  <span class="fu">facet_grid</span>(</span>
-<span id="cb125-8"><a href="#cb125-8"></a>    day_night <span class="sc">~</span> is_workday,</span>
-<span id="cb125-9"><a href="#cb125-9"></a>    <span class="at">scales =</span> <span class="st">"free_y"</span>, <span class="at">space =</span> <span class="st">"free_y"</span>,</span>
-<span id="cb125-10"><a href="#cb125-10"></a>    <span class="at">labeller =</span> <span class="fu">labeller</span>(</span>
-<span id="cb125-11"><a href="#cb125-11"></a>      <span class="at">day_night =</span> stringr<span class="sc">::</span>str_to_title,</span>
-<span id="cb125-12"><a href="#cb125-12"></a>      <span class="at">is_workday =</span> codes</span>
-<span id="cb125-13"><a href="#cb125-13"></a>    )</span>
-<span id="cb125-14"><a href="#cb125-14"></a>  )</span>
-<span id="cb125-15"><a href="#cb125-15"></a></span>
-<span id="cb125-16"><a href="#cb125-16"></a>g5</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell" data-hash="slides_cache/revealjs/example-motivation-facet-space_52b8fcf2d39d6b131a0f79f149a334ea">
+<div class="sourceCode cell-code" id="cb128"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb128-1"><a href="#cb128-1"></a>codes <span class="ot">&lt;-</span> <span class="fu">c</span>(</span>
+<span id="cb128-2"><a href="#cb128-2"></a>  <span class="st">`</span><span class="at">TRUE</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Workday"</span>,</span>
+<span id="cb128-3"><a href="#cb128-3"></a>  <span class="st">`</span><span class="at">FALSE</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Weekend or Holiday"</span></span>
+<span id="cb128-4"><a href="#cb128-4"></a>)</span>
+<span id="cb128-5"><a href="#cb128-5"></a></span>
+<span id="cb128-6"><a href="#cb128-6"></a>g5 <span class="ot">&lt;-</span> g4 <span class="sc">+</span></span>
+<span id="cb128-7"><a href="#cb128-7"></a>  <span class="fu">facet_grid</span>(</span>
+<span id="cb128-8"><a href="#cb128-8"></a>    day_night <span class="sc">~</span> is_workday,</span>
+<span id="cb128-9"><a href="#cb128-9"></a>    <span class="at">scales =</span> <span class="st">"free_y"</span>, <span class="at">space =</span> <span class="st">"free_y"</span>,</span>
+<span id="cb128-10"><a href="#cb128-10"></a>    <span class="at">labeller =</span> <span class="fu">labeller</span>(</span>
+<span id="cb128-11"><a href="#cb128-11"></a>      <span class="at">day_night =</span> stringr<span class="sc">::</span>str_to_title,</span>
+<span id="cb128-12"><a href="#cb128-12"></a>      <span class="at">is_workday =</span> codes</span>
+<span id="cb128-13"><a href="#cb128-13"></a>    )</span>
+<span id="cb128-14"><a href="#cb128-14"></a>  )</span>
+<span id="cb128-15"><a href="#cb128-15"></a></span>
+<span id="cb128-16"><a href="#cb128-16"></a>g5</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section class="slide level2">
@@ -3223,26 +3281,25 @@ Explanation
 <img data-src="slides_files/figure-revealjs/example-motivation-facet-space-1.png" width="2800" class="r-stretch"></section>
 <section class="slide level2">
 
-<div class="cell" data-hash="slides_cache/revealjs/example-motivation-scales_17d48b70e1e80daff500538f21182df5">
-<div class="sourceCode cell-code" id="cb126"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb126-1"><a href="#cb126-1"></a>g6 <span class="ot">&lt;-</span> g5  <span class="sc">+</span></span>
-<span id="cb126-2"><a href="#cb126-2"></a>  <span class="do">## adjust labels x-axis</span></span>
-<span id="cb126-3"><a href="#cb126-3"></a>  <span class="fu">scale_x_continuous</span>(</span>
-<span id="cb126-4"><a href="#cb126-4"></a>    <span class="at">expand =</span> <span class="fu">c</span>(<span class="at">mult =</span> <span class="dv">0</span>, <span class="at">add =</span> <span class="dv">1</span>),</span>
-<span id="cb126-5"><a href="#cb126-5"></a>    <span class="at">breaks =</span> <span class="dv">0</span><span class="sc">:</span><span class="dv">6</span><span class="sc">*</span><span class="dv">5</span>, <span class="at">labels =</span> <span class="cf">function</span>(x) <span class="fu">paste0</span>(x, <span class="st">"°C"</span>)</span>
-<span id="cb126-6"><a href="#cb126-6"></a>  ) <span class="sc">+</span></span>
-<span id="cb126-7"><a href="#cb126-7"></a>  <span class="do">## adjust labels y-axis</span></span>
-<span id="cb126-8"><a href="#cb126-8"></a>  <span class="fu">scale_y_continuous</span>(</span>
-<span id="cb126-9"><a href="#cb126-9"></a>    <span class="at">expand =</span> <span class="fu">c</span>(<span class="at">mult =</span> .<span class="dv">05</span>, <span class="at">add =</span> <span class="dv">0</span>),<span class="at">limits =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="cn">NA</span>),</span>
-<span id="cb126-10"><a href="#cb126-10"></a>    <span class="at">breaks =</span> <span class="dv">0</span><span class="sc">:</span><span class="dv">5</span><span class="sc">*</span><span class="dv">10000</span>, <span class="at">labels =</span> scales<span class="sc">::</span><span class="fu">label_comma</span>()</span>
-<span id="cb126-11"><a href="#cb126-11"></a>  ) <span class="sc">+</span></span>
-<span id="cb126-12"><a href="#cb126-12"></a>  <span class="do">## modify colors + legend</span></span>
-<span id="cb126-13"><a href="#cb126-13"></a>  <span class="fu">scale_color_manual</span>(</span>
-<span id="cb126-14"><a href="#cb126-14"></a>    <span class="at">values =</span> <span class="fu">c</span>(<span class="st">"#3c89d9"</span>, <span class="st">"#1ec99b"</span>, <span class="st">"#F7B01B"</span>, <span class="st">"#a26e7c"</span>), <span class="at">name =</span> <span class="cn">NULL</span>,</span>
-<span id="cb126-15"><a href="#cb126-15"></a>    <span class="at">breaks =</span> stringr<span class="sc">::</span>str_to_title,</span>
-<span id="cb126-16"><a href="#cb126-16"></a>    <span class="at">guide =</span> <span class="fu">guide_legend</span>(<span class="at">override.aes =</span> <span class="fu">list</span>(<span class="at">size =</span> <span class="dv">5</span>))</span>
-<span id="cb126-17"><a href="#cb126-17"></a>  ) </span>
-<span id="cb126-18"><a href="#cb126-18"></a></span>
-<span id="cb126-19"><a href="#cb126-19"></a>g6</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell" data-hash="slides_cache/revealjs/example-motivation-scales_019cd36837a5852b9baedc754e8b2bc9">
+<div class="sourceCode cell-code" id="cb129"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb129-1"><a href="#cb129-1"></a>g6 <span class="ot">&lt;-</span> g5  <span class="sc">+</span></span>
+<span id="cb129-2"><a href="#cb129-2"></a>  <span class="do">## adjust labels x-axis</span></span>
+<span id="cb129-3"><a href="#cb129-3"></a>  <span class="fu">scale_x_continuous</span>(</span>
+<span id="cb129-4"><a href="#cb129-4"></a>    <span class="at">expand =</span> <span class="fu">c</span>(<span class="at">mult =</span> <span class="dv">0</span>, <span class="at">add =</span> <span class="dv">1</span>),</span>
+<span id="cb129-5"><a href="#cb129-5"></a>    <span class="at">breaks =</span> <span class="dv">0</span><span class="sc">:</span><span class="dv">6</span><span class="sc">*</span><span class="dv">5</span>, <span class="at">labels =</span> <span class="cf">function</span>(x) <span class="fu">paste0</span>(x, <span class="st">"°C"</span>)</span>
+<span id="cb129-6"><a href="#cb129-6"></a>  ) <span class="sc">+</span></span>
+<span id="cb129-7"><a href="#cb129-7"></a>  <span class="do">## adjust labels y-axis</span></span>
+<span id="cb129-8"><a href="#cb129-8"></a>  <span class="fu">scale_y_continuous</span>(</span>
+<span id="cb129-9"><a href="#cb129-9"></a>    <span class="at">expand =</span> <span class="fu">c</span>(<span class="at">mult =</span> .<span class="dv">05</span>, <span class="at">add =</span> <span class="dv">0</span>), <span class="at">limits =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="cn">NA</span>),</span>
+<span id="cb129-10"><a href="#cb129-10"></a>    <span class="at">breaks =</span> <span class="dv">0</span><span class="sc">:</span><span class="dv">5</span><span class="sc">*</span><span class="dv">10000</span>, <span class="at">labels =</span> scales<span class="sc">::</span><span class="fu">label_comma</span>()</span>
+<span id="cb129-11"><a href="#cb129-11"></a>  ) <span class="sc">+</span></span>
+<span id="cb129-12"><a href="#cb129-12"></a>  <span class="do">## modify colors + legend</span></span>
+<span id="cb129-13"><a href="#cb129-13"></a>  <span class="fu">scale_color_manual</span>(</span>
+<span id="cb129-14"><a href="#cb129-14"></a>    <span class="at">values =</span> <span class="fu">c</span>(<span class="st">"#3c89d9"</span>, <span class="st">"#1ec99b"</span>, <span class="st">"#F7B01B"</span>, <span class="st">"#a26e7c"</span>), </span>
+<span id="cb129-15"><a href="#cb129-15"></a>    <span class="at">name =</span> <span class="cn">NULL</span>, <span class="at">labels =</span> stringr<span class="sc">::</span>str_to_title</span>
+<span id="cb129-16"><a href="#cb129-16"></a>  ) </span>
+<span id="cb129-17"><a href="#cb129-17"></a></span>
+<span id="cb129-18"><a href="#cb129-18"></a>g6</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section class="slide level2">
@@ -3251,20 +3308,22 @@ Explanation
 <img data-src="slides_files/figure-revealjs/example-motivation-scales-1.png" width="2800" class="r-stretch"></section>
 <section class="slide level2">
 
-<div class="cell" data-hash="slides_cache/revealjs/example-motivation-theme-modifications_1217191a25856d33525ab99729c43e9d">
-<div class="sourceCode cell-code" id="cb127"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb127-1"><a href="#cb127-1"></a>g6 <span class="sc">+</span> </span>
-<span id="cb127-2"><a href="#cb127-2"></a>  <span class="do">## theme modifications</span></span>
-<span id="cb127-3"><a href="#cb127-3"></a>  <span class="fu">theme</span>(</span>
-<span id="cb127-4"><a href="#cb127-4"></a>    <span class="at">plot.title.position =</span> <span class="st">"plot"</span>,</span>
-<span id="cb127-5"><a href="#cb127-5"></a>    <span class="at">plot.caption.position =</span> <span class="st">"plot"</span>,</span>
-<span id="cb127-6"><a href="#cb127-6"></a>    <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">face =</span> <span class="st">"bold"</span>, <span class="at">size =</span> <span class="fu">rel</span>(<span class="fl">1.5</span>)),</span>
-<span id="cb127-7"><a href="#cb127-7"></a>    <span class="at">axis.text =</span> <span class="fu">element_text</span>(<span class="at">family =</span> <span class="st">"Spline Sans Mono"</span>, <span class="at">color =</span> <span class="st">"grey45"</span>),</span>
-<span id="cb127-8"><a href="#cb127-8"></a>    <span class="at">axis.title.x =</span> <span class="fu">element_text</span>(<span class="at">hjust =</span> <span class="dv">0</span>, <span class="at">margin =</span> <span class="fu">margin</span>(<span class="at">t =</span> <span class="dv">12</span>), <span class="at">color =</span> <span class="st">"grey25"</span>),</span>
-<span id="cb127-9"><a href="#cb127-9"></a>    <span class="at">strip.text =</span> <span class="fu">element_text</span>(<span class="at">face =</span> <span class="st">"bold"</span>, <span class="at">size =</span> <span class="fu">rel</span>(<span class="fl">1.1</span>)),</span>
-<span id="cb127-10"><a href="#cb127-10"></a>    <span class="at">panel.grid.major.x =</span> <span class="fu">element_blank</span>(),</span>
-<span id="cb127-11"><a href="#cb127-11"></a>    <span class="at">panel.grid.minor =</span> <span class="fu">element_blank</span>(),</span>
-<span id="cb127-12"><a href="#cb127-12"></a>    <span class="at">legend.position =</span> <span class="st">"top"</span></span>
-<span id="cb127-13"><a href="#cb127-13"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell" data-hash="slides_cache/revealjs/example-motivation-theme-modifications_b767b2d79f620e25ea47b6b183944f7c">
+<div class="sourceCode cell-code" id="cb130"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb130-1"><a href="#cb130-1"></a>g6 <span class="sc">+</span> </span>
+<span id="cb130-2"><a href="#cb130-2"></a>  <span class="do">## theme modifications</span></span>
+<span id="cb130-3"><a href="#cb130-3"></a>  <span class="fu">theme</span>(</span>
+<span id="cb130-4"><a href="#cb130-4"></a>    <span class="at">plot.title.position =</span> <span class="st">"plot"</span>,</span>
+<span id="cb130-5"><a href="#cb130-5"></a>    <span class="at">plot.caption.position =</span> <span class="st">"plot"</span>,</span>
+<span id="cb130-6"><a href="#cb130-6"></a>    <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">face =</span> <span class="st">"bold"</span>, <span class="at">size =</span> <span class="fu">rel</span>(<span class="fl">1.5</span>)),</span>
+<span id="cb130-7"><a href="#cb130-7"></a>    <span class="at">axis.text =</span> <span class="fu">element_text</span>(<span class="at">family =</span> <span class="st">"Spline Sans Mono"</span>, <span class="at">color =</span> <span class="st">"grey45"</span>),</span>
+<span id="cb130-8"><a href="#cb130-8"></a>    <span class="at">axis.title.x =</span> <span class="fu">element_text</span>(<span class="at">hjust =</span> <span class="dv">0</span>, <span class="at">margin =</span> <span class="fu">margin</span>(<span class="at">t =</span> <span class="dv">12</span>), <span class="at">color =</span> <span class="st">"grey25"</span>),</span>
+<span id="cb130-9"><a href="#cb130-9"></a>    <span class="at">strip.text =</span> <span class="fu">element_text</span>(<span class="at">face =</span> <span class="st">"bold"</span>, <span class="at">size =</span> <span class="fu">rel</span>(<span class="fl">1.1</span>)),</span>
+<span id="cb130-10"><a href="#cb130-10"></a>    <span class="at">panel.grid.major.x =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb130-11"><a href="#cb130-11"></a>    <span class="at">panel.grid.minor =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb130-12"><a href="#cb130-12"></a>    <span class="at">legend.text =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="fu">rel</span>(.<span class="dv">9</span>)),</span>
+<span id="cb130-13"><a href="#cb130-13"></a>    <span class="at">legend.position =</span> <span class="st">"top"</span>,</span>
+<span id="cb130-14"><a href="#cb130-14"></a>    <span class="at">legend.justification =</span> <span class="st">"left"</span></span>
+<span id="cb130-15"><a href="#cb130-15"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section class="slide level2">
@@ -3291,15 +3350,15 @@ Explanation
 <div class="quarto-layout-panel">
 <div class="quarto-layout-row quarto-layout-valign-top">
 <div class="cell quarto-layout-cell" data-hash="slides_cache/revealjs/geom-stat_77a2bf6a96b1f204176a0b1c58c362d3" style="flex-basis: 50.0%;justify-content: center;">
-<div class="sourceCode cell-code" id="cb128" data-code-line-numbers="2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb128-1"><a href="#cb128-1"></a><span class="fu">ggplot</span>(bikes, <span class="fu">aes</span>(<span class="at">x =</span> temp_feel, <span class="at">y =</span> count)) <span class="sc">+</span></span>
-<span id="cb128-2"><a href="#cb128-2"></a>  <span class="fu">geom_smooth</span>(<span class="at">stat =</span> <span class="st">"smooth"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb131" data-code-line-numbers="2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb131-1"><a href="#cb131-1"></a><span class="fu">ggplot</span>(bikes, <span class="fu">aes</span>(<span class="at">x =</span> temp_feel, <span class="at">y =</span> count)) <span class="sc">+</span></span>
+<span id="cb131-2"><a href="#cb131-2"></a>  <span class="fu">geom_smooth</span>(<span class="at">stat =</span> <span class="st">"smooth"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <p><img data-src="slides_files/figure-revealjs/geom-stat-1.png" width="1000"></p>
 </div>
 </div>
 <div class="cell quarto-layout-cell" data-hash="slides_cache/revealjs/stat-geom_8dcbfb90ffdcd6b68aade0952b9253ec" style="flex-basis: 50.0%;justify-content: center;">
-<div class="sourceCode cell-code" id="cb129" data-code-line-numbers="2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb129-1"><a href="#cb129-1"></a><span class="fu">ggplot</span>(bikes, <span class="fu">aes</span>(<span class="at">x =</span> temp_feel, <span class="at">y =</span> count)) <span class="sc">+</span></span>
-<span id="cb129-2"><a href="#cb129-2"></a>  <span class="fu">stat_smooth</span>(<span class="at">geom =</span> <span class="st">"smooth"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb132" data-code-line-numbers="2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb132-1"><a href="#cb132-1"></a><span class="fu">ggplot</span>(bikes, <span class="fu">aes</span>(<span class="at">x =</span> temp_feel, <span class="at">y =</span> count)) <span class="sc">+</span></span>
+<span id="cb132-2"><a href="#cb132-2"></a>  <span class="fu">stat_smooth</span>(<span class="at">geom =</span> <span class="st">"smooth"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <p><img data-src="slides_files/figure-revealjs/stat-geom-1.png" width="1000"></p>
 </div>
@@ -3312,15 +3371,15 @@ Explanation
 <div class="quarto-layout-panel">
 <div class="quarto-layout-row quarto-layout-valign-top">
 <div class="cell quarto-layout-cell" data-hash="slides_cache/revealjs/geom-stat-3_6ee1ffde629d615d7a1eb192962300fc" style="flex-basis: 50.0%;justify-content: center;">
-<div class="sourceCode cell-code" id="cb130" data-code-line-numbers="2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb130-1"><a href="#cb130-1"></a><span class="fu">ggplot</span>(bikes, <span class="fu">aes</span>(<span class="at">x =</span> date, <span class="at">y =</span> temp_feel)) <span class="sc">+</span></span>
-<span id="cb130-2"><a href="#cb130-2"></a>  <span class="fu">geom_point</span>(<span class="at">stat =</span> <span class="st">"identity"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb133" data-code-line-numbers="2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb133-1"><a href="#cb133-1"></a><span class="fu">ggplot</span>(bikes, <span class="fu">aes</span>(<span class="at">x =</span> date, <span class="at">y =</span> temp_feel)) <span class="sc">+</span></span>
+<span id="cb133-2"><a href="#cb133-2"></a>  <span class="fu">geom_point</span>(<span class="at">stat =</span> <span class="st">"identity"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <p><img data-src="slides_files/figure-revealjs/geom-stat-3-1.png" width="1000"></p>
 </div>
 </div>
 <div class="cell quarto-layout-cell" data-hash="slides_cache/revealjs/stat-geom-3_f65d0ab02c4e504455883809bce86f80" style="flex-basis: 50.0%;justify-content: center;">
-<div class="sourceCode cell-code" id="cb131" data-code-line-numbers="2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb131-1"><a href="#cb131-1"></a><span class="fu">ggplot</span>(bikes, <span class="fu">aes</span>(<span class="at">x =</span> date, <span class="at">y =</span> temp_feel)) <span class="sc">+</span></span>
-<span id="cb131-2"><a href="#cb131-2"></a>  <span class="fu">stat_identity</span>(<span class="at">geom =</span> <span class="st">"point"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb134" data-code-line-numbers="2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb134-1"><a href="#cb134-1"></a><span class="fu">ggplot</span>(bikes, <span class="fu">aes</span>(<span class="at">x =</span> date, <span class="at">y =</span> temp_feel)) <span class="sc">+</span></span>
+<span id="cb134-2"><a href="#cb134-2"></a>  <span class="fu">stat_identity</span>(<span class="at">geom =</span> <span class="st">"point"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <p><img data-src="slides_files/figure-revealjs/stat-geom-3-1.png" width="1000"></p>
 </div>
@@ -3333,15 +3392,15 @@ Explanation
 <div class="quarto-layout-panel">
 <div class="quarto-layout-row quarto-layout-valign-top">
 <div class="cell quarto-layout-cell" data-hash="slides_cache/revealjs/geom-stat-2_b5f33930ddded3dae9e2f01c77aa2072" style="flex-basis: 50.0%;justify-content: center;">
-<div class="sourceCode cell-code" id="cb132" data-code-line-numbers="2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb132-1"><a href="#cb132-1"></a><span class="fu">ggplot</span>(bikes, <span class="fu">aes</span>(<span class="at">x =</span> is_weekend)) <span class="sc">+</span></span>
-<span id="cb132-2"><a href="#cb132-2"></a>  <span class="fu">geom_bar</span>(<span class="at">stat =</span> <span class="st">"count"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb135" data-code-line-numbers="2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb135-1"><a href="#cb135-1"></a><span class="fu">ggplot</span>(bikes, <span class="fu">aes</span>(<span class="at">x =</span> is_weekend)) <span class="sc">+</span></span>
+<span id="cb135-2"><a href="#cb135-2"></a>  <span class="fu">geom_bar</span>(<span class="at">stat =</span> <span class="st">"count"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <p><img data-src="slides_files/figure-revealjs/geom-stat-2-1.png" width="1000"></p>
 </div>
 </div>
 <div class="cell quarto-layout-cell" data-hash="slides_cache/revealjs/stat-geom-2_138a10379c7d178ff2e53724b17248de" style="flex-basis: 50.0%;justify-content: center;">
-<div class="sourceCode cell-code" id="cb133" data-code-line-numbers="2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb133-1"><a href="#cb133-1"></a><span class="fu">ggplot</span>(bikes, <span class="fu">aes</span>(<span class="at">x =</span> is_weekend)) <span class="sc">+</span></span>
-<span id="cb133-2"><a href="#cb133-2"></a>  <span class="fu">stat_count</span>(<span class="at">geom =</span> <span class="st">"bar"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb136" data-code-line-numbers="2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb136-1"><a href="#cb136-1"></a><span class="fu">ggplot</span>(bikes, <span class="fu">aes</span>(<span class="at">x =</span> is_weekend)) <span class="sc">+</span></span>
+<span id="cb136-2"><a href="#cb136-2"></a>  <span class="fu">stat_count</span>(<span class="at">geom =</span> <span class="st">"bar"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <p><img data-src="slides_files/figure-revealjs/stat-geom-2-1.png" width="1000"></p>
 </div>
@@ -3353,11 +3412,11 @@ Explanation
 <h2>Statistical Summaries</h2>
 <div class="cell columns column-output-location" data-hash="slides_cache/revealjs/stat-summary_e086a9fd345d4045f6c9bc0b41679134">
 <div class="column">
-<div class="sourceCode cell-code" id="cb134" data-code-line-numbers="5|3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb134-1"><a href="#cb134-1"></a><span class="fu">ggplot</span>(</span>
-<span id="cb134-2"><a href="#cb134-2"></a>    bikes, </span>
-<span id="cb134-3"><a href="#cb134-3"></a>    <span class="fu">aes</span>(<span class="at">x =</span> season, <span class="at">y =</span> temp_feel)</span>
-<span id="cb134-4"><a href="#cb134-4"></a>  ) <span class="sc">+</span></span>
-<span id="cb134-5"><a href="#cb134-5"></a>  <span class="fu">stat_summary</span>() </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb137" data-code-line-numbers="5|3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb137-1"><a href="#cb137-1"></a><span class="fu">ggplot</span>(</span>
+<span id="cb137-2"><a href="#cb137-2"></a>    bikes, </span>
+<span id="cb137-3"><a href="#cb137-3"></a>    <span class="fu">aes</span>(<span class="at">x =</span> season, <span class="at">y =</span> temp_feel)</span>
+<span id="cb137-4"><a href="#cb137-4"></a>  ) <span class="sc">+</span></span>
+<span id="cb137-5"><a href="#cb137-5"></a>  <span class="fu">stat_summary</span>() </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column">
 <div class="cell-output-display">
 <p><img data-src="slides_files/figure-revealjs/stat-summary-1.png" width="1000"></p>
@@ -3369,14 +3428,14 @@ Explanation
 <h2>Statistical Summaries</h2>
 <div class="cell columns column-output-location" data-hash="slides_cache/revealjs/stat-summary-defaults_7d2c63c27e70a66d24e4a4aec321f7cd">
 <div class="column">
-<div class="sourceCode cell-code" id="cb135" data-code-line-numbers="6,7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb135-1"><a href="#cb135-1"></a><span class="fu">ggplot</span>(</span>
-<span id="cb135-2"><a href="#cb135-2"></a>    bikes, </span>
-<span id="cb135-3"><a href="#cb135-3"></a>    <span class="fu">aes</span>(<span class="at">x =</span> season, <span class="at">y =</span> temp_feel)</span>
-<span id="cb135-4"><a href="#cb135-4"></a>  ) <span class="sc">+</span></span>
-<span id="cb135-5"><a href="#cb135-5"></a>  <span class="fu">stat_summary</span>(</span>
-<span id="cb135-6"><a href="#cb135-6"></a>    <span class="at">fun.data =</span> mean_se, <span class="do">## the default</span></span>
-<span id="cb135-7"><a href="#cb135-7"></a>    <span class="at">geom =</span> <span class="st">"pointrange"</span>  <span class="do">## the default</span></span>
-<span id="cb135-8"><a href="#cb135-8"></a>  ) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb138" data-code-line-numbers="6,7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb138-1"><a href="#cb138-1"></a><span class="fu">ggplot</span>(</span>
+<span id="cb138-2"><a href="#cb138-2"></a>    bikes, </span>
+<span id="cb138-3"><a href="#cb138-3"></a>    <span class="fu">aes</span>(<span class="at">x =</span> season, <span class="at">y =</span> temp_feel)</span>
+<span id="cb138-4"><a href="#cb138-4"></a>  ) <span class="sc">+</span></span>
+<span id="cb138-5"><a href="#cb138-5"></a>  <span class="fu">stat_summary</span>(</span>
+<span id="cb138-6"><a href="#cb138-6"></a>    <span class="at">fun.data =</span> mean_se, <span class="do">## the default</span></span>
+<span id="cb138-7"><a href="#cb138-7"></a>    <span class="at">geom =</span> <span class="st">"pointrange"</span>  <span class="do">## the default</span></span>
+<span id="cb138-8"><a href="#cb138-8"></a>  ) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column">
 <div class="cell-output-display">
 <p><img data-src="slides_files/figure-revealjs/stat-summary-defaults-1.png" width="1000"></p>
@@ -3388,17 +3447,17 @@ Explanation
 <h2>Statistical Summaries</h2>
 <div class="cell columns column-output-location" data-hash="slides_cache/revealjs/stat-summary-median_868c060482dc07bfe8422293236e88a6">
 <div class="column">
-<div class="sourceCode cell-code" id="cb136" data-code-line-numbers="5|5,6,11|6,7,8,9,10,11|7,8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb136-1"><a href="#cb136-1"></a><span class="fu">ggplot</span>(</span>
-<span id="cb136-2"><a href="#cb136-2"></a>    bikes, </span>
-<span id="cb136-3"><a href="#cb136-3"></a>    <span class="fu">aes</span>(<span class="at">x =</span> season, <span class="at">y =</span> temp_feel)</span>
-<span id="cb136-4"><a href="#cb136-4"></a>  ) <span class="sc">+</span></span>
-<span id="cb136-5"><a href="#cb136-5"></a>  <span class="fu">geom_boxplot</span>() <span class="sc">+</span></span>
-<span id="cb136-6"><a href="#cb136-6"></a>  <span class="fu">stat_summary</span>(</span>
-<span id="cb136-7"><a href="#cb136-7"></a>    <span class="at">fun =</span> mean,</span>
-<span id="cb136-8"><a href="#cb136-8"></a>    <span class="at">geom =</span> <span class="st">"point"</span>,</span>
-<span id="cb136-9"><a href="#cb136-9"></a>    <span class="at">color =</span> <span class="st">"#28a87d"</span>,</span>
-<span id="cb136-10"><a href="#cb136-10"></a>    <span class="at">size =</span> <span class="dv">3</span></span>
-<span id="cb136-11"><a href="#cb136-11"></a>  ) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb139" data-code-line-numbers="5|5,6,11|6,7,8,9,10,11|7,8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb139-1"><a href="#cb139-1"></a><span class="fu">ggplot</span>(</span>
+<span id="cb139-2"><a href="#cb139-2"></a>    bikes, </span>
+<span id="cb139-3"><a href="#cb139-3"></a>    <span class="fu">aes</span>(<span class="at">x =</span> season, <span class="at">y =</span> temp_feel)</span>
+<span id="cb139-4"><a href="#cb139-4"></a>  ) <span class="sc">+</span></span>
+<span id="cb139-5"><a href="#cb139-5"></a>  <span class="fu">geom_boxplot</span>() <span class="sc">+</span></span>
+<span id="cb139-6"><a href="#cb139-6"></a>  <span class="fu">stat_summary</span>(</span>
+<span id="cb139-7"><a href="#cb139-7"></a>    <span class="at">fun =</span> mean,</span>
+<span id="cb139-8"><a href="#cb139-8"></a>    <span class="at">geom =</span> <span class="st">"point"</span>,</span>
+<span id="cb139-9"><a href="#cb139-9"></a>    <span class="at">color =</span> <span class="st">"#28a87d"</span>,</span>
+<span id="cb139-10"><a href="#cb139-10"></a>    <span class="at">size =</span> <span class="dv">3</span></span>
+<span id="cb139-11"><a href="#cb139-11"></a>  ) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column">
 <div class="cell-output-display">
 <p><img data-src="slides_files/figure-revealjs/stat-summary-median-1.png" width="1000"></p>
@@ -3410,16 +3469,16 @@ Explanation
 <h2>Statistical Summaries</h2>
 <div class="cell columns column-output-location" data-hash="slides_cache/revealjs/stat-summary-text_11bef8945dc6f5ccab3e244c4203eaaf">
 <div class="column">
-<div class="sourceCode cell-code" id="cb137" data-code-line-numbers="6,7,8,9,10|7,8|9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb137-1"><a href="#cb137-1"></a><span class="fu">ggplot</span>(</span>
-<span id="cb137-2"><a href="#cb137-2"></a>    bikes, </span>
-<span id="cb137-3"><a href="#cb137-3"></a>    <span class="fu">aes</span>(<span class="at">x =</span> season, <span class="at">y =</span> temp_feel)</span>
-<span id="cb137-4"><a href="#cb137-4"></a>  ) <span class="sc">+</span></span>
-<span id="cb137-5"><a href="#cb137-5"></a>  <span class="fu">stat_summary</span>() <span class="sc">+</span></span>
-<span id="cb137-6"><a href="#cb137-6"></a>  <span class="fu">stat_summary</span>(</span>
-<span id="cb137-7"><a href="#cb137-7"></a>    <span class="at">fun =</span> mean,</span>
-<span id="cb137-8"><a href="#cb137-8"></a>    <span class="at">geom =</span> <span class="st">"text"</span>,</span>
-<span id="cb137-9"><a href="#cb137-9"></a>    <span class="fu">aes</span>(<span class="at">label =</span> <span class="fu">after_stat</span>(y))</span>
-<span id="cb137-10"><a href="#cb137-10"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb140" data-code-line-numbers="6,7,8,9,10|7,8|9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb140-1"><a href="#cb140-1"></a><span class="fu">ggplot</span>(</span>
+<span id="cb140-2"><a href="#cb140-2"></a>    bikes, </span>
+<span id="cb140-3"><a href="#cb140-3"></a>    <span class="fu">aes</span>(<span class="at">x =</span> season, <span class="at">y =</span> temp_feel)</span>
+<span id="cb140-4"><a href="#cb140-4"></a>  ) <span class="sc">+</span></span>
+<span id="cb140-5"><a href="#cb140-5"></a>  <span class="fu">stat_summary</span>() <span class="sc">+</span></span>
+<span id="cb140-6"><a href="#cb140-6"></a>  <span class="fu">stat_summary</span>(</span>
+<span id="cb140-7"><a href="#cb140-7"></a>    <span class="at">fun =</span> mean,</span>
+<span id="cb140-8"><a href="#cb140-8"></a>    <span class="at">geom =</span> <span class="st">"text"</span>,</span>
+<span id="cb140-9"><a href="#cb140-9"></a>    <span class="fu">aes</span>(<span class="at">label =</span> <span class="fu">after_stat</span>(y))</span>
+<span id="cb140-10"><a href="#cb140-10"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column">
 <div class="cell-output-display">
 <p><img data-src="slides_files/figure-revealjs/stat-summary-text-1.png" width="1000"></p>
@@ -3431,20 +3490,20 @@ Explanation
 <h2>Statistical Summaries</h2>
 <div class="cell columns column-output-location" data-hash="slides_cache/revealjs/stat-summary-text-custom_9de185e435c4f91ce6782f3569875a85">
 <div class="column">
-<div class="sourceCode cell-code" id="cb138" data-code-line-numbers="9,10,11|10|12,13"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb138-1"><a href="#cb138-1"></a><span class="fu">ggplot</span>(</span>
-<span id="cb138-2"><a href="#cb138-2"></a>    bikes, </span>
-<span id="cb138-3"><a href="#cb138-3"></a>    <span class="fu">aes</span>(<span class="at">x =</span> season, <span class="at">y =</span> temp_feel)</span>
-<span id="cb138-4"><a href="#cb138-4"></a>  ) <span class="sc">+</span></span>
-<span id="cb138-5"><a href="#cb138-5"></a>  <span class="fu">stat_summary</span>() <span class="sc">+</span></span>
-<span id="cb138-6"><a href="#cb138-6"></a>  <span class="fu">stat_summary</span>(</span>
-<span id="cb138-7"><a href="#cb138-7"></a>    <span class="at">fun =</span> mean,</span>
-<span id="cb138-8"><a href="#cb138-8"></a>    <span class="at">geom =</span> <span class="st">"text"</span>,</span>
-<span id="cb138-9"><a href="#cb138-9"></a>    <span class="fu">aes</span>(<span class="at">label =</span> <span class="fu">after_stat</span>(</span>
-<span id="cb138-10"><a href="#cb138-10"></a>      <span class="fu">paste0</span>(<span class="fu">round</span>(y, <span class="dv">2</span>), <span class="st">"°C"</span>))</span>
-<span id="cb138-11"><a href="#cb138-11"></a>    ),</span>
-<span id="cb138-12"><a href="#cb138-12"></a>    <span class="at">hjust =</span> <span class="sc">-</span>.<span class="dv">2</span>,</span>
-<span id="cb138-13"><a href="#cb138-13"></a>    <span class="at">size =</span> <span class="fl">3.5</span></span>
-<span id="cb138-14"><a href="#cb138-14"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb141" data-code-line-numbers="9,10,11|10|12,13"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb141-1"><a href="#cb141-1"></a><span class="fu">ggplot</span>(</span>
+<span id="cb141-2"><a href="#cb141-2"></a>    bikes, </span>
+<span id="cb141-3"><a href="#cb141-3"></a>    <span class="fu">aes</span>(<span class="at">x =</span> season, <span class="at">y =</span> temp_feel)</span>
+<span id="cb141-4"><a href="#cb141-4"></a>  ) <span class="sc">+</span></span>
+<span id="cb141-5"><a href="#cb141-5"></a>  <span class="fu">stat_summary</span>() <span class="sc">+</span></span>
+<span id="cb141-6"><a href="#cb141-6"></a>  <span class="fu">stat_summary</span>(</span>
+<span id="cb141-7"><a href="#cb141-7"></a>    <span class="at">fun =</span> mean,</span>
+<span id="cb141-8"><a href="#cb141-8"></a>    <span class="at">geom =</span> <span class="st">"text"</span>,</span>
+<span id="cb141-9"><a href="#cb141-9"></a>    <span class="fu">aes</span>(<span class="at">label =</span> <span class="fu">after_stat</span>(</span>
+<span id="cb141-10"><a href="#cb141-10"></a>      <span class="fu">paste0</span>(<span class="fu">round</span>(y, <span class="dv">2</span>), <span class="st">"°C"</span>))</span>
+<span id="cb141-11"><a href="#cb141-11"></a>    ),</span>
+<span id="cb141-12"><a href="#cb141-12"></a>    <span class="at">hjust =</span> <span class="sc">-</span>.<span class="dv">2</span>,</span>
+<span id="cb141-13"><a href="#cb141-13"></a>    <span class="at">size =</span> <span class="fl">3.5</span></span>
+<span id="cb141-14"><a href="#cb141-14"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column">
 <div class="cell-output-display">
 <p><img data-src="slides_files/figure-revealjs/stat-summary-text-custom-1.png" width="1000"></p>

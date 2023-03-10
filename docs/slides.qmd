@@ -155,9 +155,7 @@ bikes <-
     col_types = "Dcfffilllddddc"
   ) %>%
   dplyr::mutate(
-    season = factor(season, levels = c("spring", "summer", "autumn", "winter")),
-    is_workday = factor(is_workday, level = c(TRUE, FALSE),
-                        labels = c("workday", "weekend_or_holiday"))
+    season = forcats::fct_inorder(season)
   )
 
 theme_set(theme_grey(base_size = 15, base_line_size = .5))
@@ -256,8 +254,8 @@ g4
 #| echo: false
 #| purl: false
 codes <- c(
-  workday = "Workday",
-  weekend_or_holiday = "Weekend or Holiday"
+  `TRUE` = "Workday",
+  `FALSE` = "Weekend or Holiday"
 )
 
 g5 <- g4 +
@@ -289,14 +287,13 @@ g6 <- g5  +
   ) +
   ## adjust labels y-axis
   scale_y_continuous(
-    expand = c(mult = .05, add = 0),limits = c(0, NA),
+    expand = c(mult = .05, add = 0), limits = c(0, NA),
     breaks = 0:5*10000, labels = scales::label_comma()
   ) +
   ## modify colors + legend
   scale_color_manual(
-    values = c("#3c89d9", "#1ec99b", "#F7B01B", "#a26e7c"), name = NULL,
-    breaks = stringr::str_to_title,
-    guide = guide_legend(override.aes = list(size = 5))
+    values = c("#3c89d9", "#1ec99b", "#F7B01B", "#a26e7c"), 
+    name = NULL, labels = stringr::str_to_title
   ) 
 
 g6
@@ -321,7 +318,9 @@ g6 +
     strip.text = element_text(face = "bold", size = rel(1.1)),
     panel.grid.major.x = element_blank(),
     panel.grid.minor = element_blank(),
-    legend.position = "top"
+    legend.text = element_text(size = rel(.9)),
+    legend.position = "top",
+    legend.justification = "left"
   )
 ```
 
@@ -726,8 +725,8 @@ ggplot(
 ::: exercise
 -   **Create a chart showing a time series of reported bike shares**
     -   What is the difference between `geom_line()` and `geom_path()`?
-    -   Map the color of the lines to `day_night`.
-    -   Add points for each observation, colored by the same variable.
+    -   Map the variable `day_night` to the color of the lines.
+    -   Add points for each observation, encoded by the same variable.
     -   Turn the points into diamonds.
 :::
 
@@ -1668,7 +1667,7 @@ g +
     name = "Feels-like temperature"
   ) +
   scale_y_continuous(
-    limits = c(0, NA)
+    limits = c(-20000, NA)
   ) +
   scale_color_discrete()
 ```
@@ -2370,6 +2369,58 @@ g +
     day_night ~ is_workday,
     scales = "free_y",
     space = "free_y"
+  )
+```
+
+
+## Facet Labellers
+
+```{r}
+#| label: facet-wrap-labels-1
+#| output-location: column
+#| code-line-numbers: "2,3,5|4"
+g +
+  facet_wrap(
+    ~ day_night,
+    labeller = label_both
+  )
+```
+
+
+## Facet Labellers
+
+```{r}
+#| label: facet-wrap-labels-3
+#| output-location: column
+#| code-line-numbers: "4,6|4,5,6"
+g +
+  facet_wrap(
+    ~ is_workday + day_night,
+    labeller = labeller(
+      day_night = stringr::str_to_title
+    )
+  )
+```
+
+
+## Facet Labellers
+
+```{r}
+#| label: facet-wrap-labels-4
+#| output-location: column
+#| code-line-numbers: "1,2,3,4|10,11"
+codes <- c(
+  `TRUE` = "Workday",
+  `FALSE` = "Weekend or Holiday"
+)
+
+g +
+  facet_wrap(
+    ~ is_workday + day_night,
+    labeller = labeller(
+      day_night = stringr::str_to_title,
+      is_workday = codes
+    )
   )
 ```
 
